@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://ckb1jbgdpheyy"]
+
+[ext_resource type="Script" path="res://bola.gd" id="1_36py3"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_x03cx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vtwxv"]
+albedo_color = Color(1, 0, 1, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_rii78"]
+material = SubResource("StandardMaterial3D_vtwxv")
+
+[node name="bola" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.537522, 0)
+script = ExtResource("1_36py3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_x03cx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_rii78")
+skeleton = NodePath("")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 0, 1, 2)
+current = true
