@@ -35,5 +35,5 @@ func _physics_process(delta):
 		
 		if Input.is_action_just_pressed("pular") and estaNoChao:
 			apply_central_impulse(Vector3.UP*IMPULSO_PULO)
-			print("apertou espaço e estaNoChao = true")
+			#print("apertou espaço e estaNoChao = true")
 			

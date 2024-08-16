@@ -4,9 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://58m7f7dpa73" path="res://icon.svg" id="2_nka0i"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dmtwg"]
-friction = 4.0
 rough = true
-bounce = 0.5
+bounce = 0.1
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_x03cx"]
 

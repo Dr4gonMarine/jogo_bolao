@@ -5,17 +5,17 @@
 [node name="Mapa" type="Node3D"]
 
 [node name="bola" parent="." instance=ExtResource("1_tcxl8")]
-transform = Transform3D(0.999975, -0.000289913, 0.00711009, 0.000226108, 0.99996, 0.00897007, -0.00711241, -0.00896823, 0.999934, 0, 2.51388, 0)
+transform = Transform3D(1, -1.42124e-07, -3.49061e-05, 1.4212e-07, 1, -1.10633e-07, 3.49061e-05, 1.10628e-07, 1, 0.0163007, 40.7995, -93.7794)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.949557, 0.313595, 0, -0.313595, 0.949557, 0, 9, 13.3913)
+transform = Transform3D(-0.974753, 0.0700208, -0.212021, 2.4569e-08, 0.949557, 0.313595, 0.223284, 0.305678, -0.925584, -49.026, 59.0091, -194.282)
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
-transform = Transform3D(1, -0.000214965, 9.94341e-05, 0.000214866, 0.999999, 0.00102007, -9.96485e-05, -0.00102005, 0.999999, 0, 0, 0)
+transform = Transform3D(-1, 0.000214934, -9.95158e-05, 0.000236314, 0.933752, -0.357921, 1.59884e-05, -0.357921, -0.933752, -4.77323, 20.1086, -141.032)
 use_collision = true
-size = Vector3(11.96, 0.06, 16.055)
+size = Vector3(103.267, 0.06, 109.958)
 
 [node name="CSGPolygon3D" type="CSGPolygon3D" parent="."]
-transform = Transform3D(0.109775, 0, 8.63991, 0, 2.52, 0, -2.69561, 0, 0.351848, 4.76556, 0, -6.2143)
+transform = Transform3D(7.33916, 4.14095, 0.0262093, -1.96817, 2.36942, -1.12825, -4.91982, 5.22939, 0.490454, -6.73689, 10.0622, -165.784)
 use_collision = true
-polygon = PackedVector2Array(-1.09, 0, 0, 1, 1, 1, 1, 0)
+polygon = PackedVector2Array(0, 0, -1.28652, 2.16471, 1, 1, 0.485673, 0.524958)
