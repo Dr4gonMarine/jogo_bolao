@@ -1,13 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://13t3ppfjw2j7"]
+[gd_scene load_steps=2 format=3 uid="uid://13t3ppfjw2j7"]
 
-[ext_resource type="Script" path="res://mapa.gd" id="1_2oui6"]
 [ext_resource type="PackedScene" uid="uid://ckb1jbgdpheyy" path="res://bola.tscn" id="1_tcxl8"]
 
 [node name="Mapa" type="Node3D"]
-script = ExtResource("1_2oui6")
 
 [node name="bola" parent="." instance=ExtResource("1_tcxl8")]
-transform = Transform3D(0.999975, -0.000289913, 0.00711009, 0.000226108, 0.99996, 0.00897007, -0.00711241, -0.00896823, 0.999934, 0, 0.513878, 0)
+transform = Transform3D(0.999975, -0.000289913, 0.00711009, 0.000226108, 0.99996, 0.00897007, -0.00711241, -0.00896823, 0.999934, 0, 2.51388, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.949557, 0.313595, 0, -0.313595, 0.949557, 0, 9, 13.3913)
