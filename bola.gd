@@ -1,28 +1,26 @@
-extends CharacterBody3D
+extends RigidBody3D
 
+@export var SPEED = 20.0
+@export var JUMP_VELOCITY = 5
+@export var PORCENTAGEM_APROXIMACAO_CAMERA = 0.1
 
-const SPEED = 15.0
-const JUMP_VELOCITY = 4.5
+@onready var cameraRig = $CameraRig
 
-
-func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var input_dir := Input.get_vector("esquerda", "direita", "frente", "tras")
-	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	if direction:
-		velocity.x = direction.x * SPEED
-		velocity.z = direction.z * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-		velocity.z = move_toward(velocity.z, 0, SPEED)
-
-	move_and_slide()
+func _ready() -> void:
+	cameraRig.set_as_top_level(true)
+	
+func _physics_process(delta):
+		var antigaPosicaoCamera = cameraRig.global_transform.origin
+		var posicaoBola = global_transform.origin
+		var novaPosicaoBola = lerp(antigaPosicaoCamera, posicaoBola, PORCENTAGEM_APROXIMACAO_CAMERA)
+		cameraRig.global_transform.origin = novaPosicaoBola
+		
+		if Input.is_action_pressed("frente"):
+			angular_velocity.x -= SPEED*delta
+		elif Input.is_action_pressed("tras"):
+			angular_velocity.x += SPEED*delta
+		if Input.is_action_pressed("esquerda"):
+			angular_velocity.z += SPEED*delta
+		elif Input.is_action_pressed("direita"):
+			angular_velocity.z -= SPEED*delta
+			
