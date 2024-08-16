@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://13t3ppfjw2j7"]
+[gd_scene load_steps=2 format=3 uid="uid://5klvqfu84ve2"]
 
-[ext_resource type="PackedScene" uid="uid://ckb1jbgdpheyy" path="res://bola.tscn" id="1_tcxl8"]
+[ext_resource type="PackedScene" uid="uid://0x8brelfw3vi" path="res://bola.tscn" id="1_tcxl8"]
 
 [node name="Mapa" type="Node3D"]
 
