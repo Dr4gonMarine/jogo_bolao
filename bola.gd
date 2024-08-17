@@ -8,11 +8,12 @@ extends RigidBody3D
 @onready var rayCastVerificaChao = $VerificaChao
 @onready var bola: RigidBody3D = $"."
 @onready var collision_shape = bola.get_node("CollisionShape3D")
+@onready var mesh = bola.get_node("MeshInstance3D")  # Assumindo que o mesh está em um nó chamado "MeshInstance3D"
 
 var estaNoChao: bool
 var tamanho_inicial = 1.0
-var porcentagem_reducao_maxima = 0.6
-var fator_reducao = 0.01
+var porcentagem_reducao_maxima = 0.9
+var fator_reducao = 0.1
 
 func _ready():
 	cameraRig.set_as_top_level(true)
@@ -49,5 +50,6 @@ func _physics_process(delta):
 		var reducao = velocidade_atual * fator_reducao * delta
 		sphere_shape.radius -= reducao
 		sphere_shape.radius = max(sphere_shape.radius, 0)
+		mesh.scale = Vector3(sphere_shape.radius, sphere_shape.radius, sphere_shape.radius)
 		print("---------------")
 		print(sphere_shape.radius)
