@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://0x8brelfw3vi"]
+[gd_scene load_steps=8 format=3 uid="uid://0x8brelfw3vi"]
 
 [ext_resource type="Script" path="res://bola.gd" id="1_36py3"]
 [ext_resource type="Texture2D" uid="uid://58m7f7dpa73" path="res://icon.svg" id="2_nka0i"]
+[ext_resource type="AudioStream" uid="uid://8r0xk0y7vg6k" path="res://assets/Audio/rockHit23.wav" id="3_ukf7f"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dmtwg"]
 friction = 4.0
@@ -37,4 +38,7 @@ current = true
 
 [node name="VerificaChao" type="RayCast3D" parent="."]
 transform = Transform3D(1, -3.76045e-15, 0, -3.93349e-15, 1, 0, 0, 0, 1, 0, 0, 0)
-target_position = Vector3(0, -0.7, 0)
+target_position = Vector3(0, 0, 0)
+
+[node name="HitOnGround" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("3_ukf7f")

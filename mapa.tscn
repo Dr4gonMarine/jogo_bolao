@@ -7,12 +7,12 @@
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -0.624162, 0.781295, 0, -0.781295, -0.624162, -0.624071, 9.69604, -13.0754)
 
-[node name="Area3D2" type="CSGBox3D" parent="."]
+[node name="final" type="CSGBox3D" parent="."]
 transform = Transform3D(0.999999, 0.000514804, -0.00135403, -0.000511799, 0.999997, 0.00222284, 0.00135516, -0.00222214, 0.999997, 4.30534, -46.9883, 66.9153)
 use_collision = true
 size = Vector3(1, 1.04138, 1)
 
-[node name="Area3D3" type="CSGCylinder3D" parent="Area3D2"]
+[node name="Area3D3" type="CSGCylinder3D" parent="final"]
 transform = Transform3D(1.12778, -0.000392995, 0.0015146, 0.000580592, 0.743435, 0.0114596, -0.00152704, -0.00758621, 1.12294, 0.00484753, 0.185387, 0.0143204)
 operation = 2
 radius = 0.426509
