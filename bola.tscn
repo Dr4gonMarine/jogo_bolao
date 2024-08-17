@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://0x8brelfw3vi"]
+
+[ext_resource type="Script" path="res://bola.gd" id="1_36py3"]
+[ext_resource type="Texture2D" uid="uid://58m7f7dpa73" path="res://icon.svg" id="2_nka0i"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dmtwg"]
+friction = 4.0
+rough = true
+bounce = 0.5
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_x03cx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_saukf"]
+albedo_texture = ExtResource("2_nka0i")
+
+[sub_resource type="SphereMesh" id="SphereMesh_rii78"]
+material = SubResource("StandardMaterial3D_saukf")
+
+[node name="bola" type="RigidBody3D"]
+transform = Transform3D(1, -1.4212e-07, -3.49061e-05, 1.4212e-07, 1, -1.10628e-07, 3.49061e-05, 1.10628e-07, 1, 0, 0.537522, 0)
+mass = 100.0
+physics_material_override = SubResource("PhysicsMaterial_dmtwg")
+script = ExtResource("1_36py3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_x03cx")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_rii78")
+skeleton = NodePath("")
+
+[node name="CameraRig" type="Marker3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig"]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 2.5, 3)
+current = true
+
+[node name="VerificaChao" type="RayCast3D" parent="."]
+target_position = Vector3(0, -0.7, 0)
