@@ -17,7 +17,7 @@ albedo_texture = ExtResource("2_nka0i")
 [sub_resource type="SphereMesh" id="SphereMesh_rii78"]
 material = SubResource("StandardMaterial3D_saukf")
 
-[node name="bola" type="RigidBody3D"]
+[node name="bola" type="RigidBody3D" groups=["ball"]]
 transform = Transform3D(1, -1.4212e-07, -3.49061e-05, 1.4212e-07, 1, -1.10628e-07, 3.49061e-05, 1.10628e-07, 1, 0, 0.537522, 0)
 mass = 100.0
 physics_material_override = SubResource("PhysicsMaterial_dmtwg")
@@ -42,3 +42,5 @@ target_position = Vector3(0, 0, 0)
 
 [node name="HitOnGround" type="AudioStreamPlayer3D" parent="."]
 stream = ExtResource("3_ukf7f")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

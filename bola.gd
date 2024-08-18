@@ -60,3 +60,4 @@ func _physics_process(delta):
 		mesh.scale = Vector3(sphere_shape.radius, sphere_shape.radius, sphere_shape.radius)
 		print("---------------")
 		print(sphere_shape.radius)
+		

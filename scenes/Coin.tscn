@@ -1,0 +1,102 @@
+[gd_scene load_steps=9 format=3 uid="uid://dwsv25osl1hq"]
+
+[ext_resource type="Script" path="res://scenes/coin.gd" id="1_kar62"]
+[ext_resource type="PackedScene" uid="uid://d2xhwp4oidio1" path="res://assets/misc/Coinaaa.gltf" id="1_mpjam"]
+[ext_resource type="AudioStream" uid="uid://bue05hc4ppj54" path="res://assets/Audio/pickupCoin.wav" id="3_ifm0w"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_0rp2i"]
+height = 0.0629177
+radius = 0.103893
+
+[sub_resource type="Animation" id="Animation_8aeek"]
+resource_name = "idle"
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 3.14159, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_otc8n"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_13pvi"]
+resource_name = "pickup"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AudioStreamPlayer3D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0333333),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [0.0],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.266667),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_b1tvk"]
+_data = {
+"RESET": SubResource("Animation_otc8n"),
+"idle": SubResource("Animation_8aeek"),
+"pickup": SubResource("Animation_13pvi")
+}
+
+[node name="Coin" type="Node3D"]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0)
+script = ExtResource("1_kar62")
+
+[node name="blockbench_export" parent="." instance=ExtResource("1_mpjam")]
+
+[node name="Area3D" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 0.025636, -0.999671, 0, 0.999671, 0.025636, 0, 0.184857, 0)
+shape = SubResource("CylinderShape3D_0rp2i")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("3_ifm0w")
+bus = &"SoundEffects"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_b1tvk")
+}
+autoplay = "idle"
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_coin_entered"]
