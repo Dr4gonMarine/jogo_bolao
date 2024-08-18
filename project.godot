@@ -11,9 +11,17 @@ config_version=5
 [application]
 
 config/name="jogo_bolao"
-run/main_scene="res://mapa.tscn"
+run/main_scene="res://mapa01.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_camera_manager.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/phantom_camera/plugin.cfg")
 
 [input]
 
