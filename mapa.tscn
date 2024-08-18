@@ -1,21 +1,69 @@
-[gd_scene load_steps=2 format=3 uid="uid://5klvqfu84ve2"]
+[gd_scene load_steps=6 format=3 uid="uid://5klvqfu84ve2"]
 
+[ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_fk488"]
 [ext_resource type="PackedScene" uid="uid://0x8brelfw3vi" path="res://bola.tscn" id="1_tcxl8"]
+[ext_resource type="PackedScene" uid="uid://dwsv25osl1hq" path="res://scenes/Coin.tscn" id="3_4lhw0"]
 
-[node name="Mapa" type="Node3D"]
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_h8u3b"]
 
-[node name="bola" parent="." instance=ExtResource("1_tcxl8")]
-transform = Transform3D(0.999975, -0.000289913, 0.00711009, 0.000226108, 0.99996, 0.00897007, -0.00711241, -0.00896823, 0.999934, 0, 2.51388, 0)
+[sub_resource type="CylinderMesh" id="CylinderMesh_a6woj"]
+
+[node name="Mapa" type="Node"]
+
+[node name="GameManager" type="Node" parent="."]
+script = ExtResource("1_fk488")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.949557, 0.313595, 0, -0.313595, 0.949557, 0, 9, 13.3913)
+transform = Transform3D(1, 0, 0, 0, -0.624162, 0.781295, 0, -0.781295, -0.624162, -0.624071, 9.69604, -13.0754)
 
-[node name="CSGBox3D" type="CSGBox3D" parent="."]
-transform = Transform3D(1, -0.000214965, 9.94341e-05, 0.000214866, 0.999999, 0.00102007, -9.96485e-05, -0.00102005, 0.999999, 0, 0, 0)
+[node name="final" type="CSGBox3D" parent="." groups=["final"]]
+transform = Transform3D(0.999999, 0.000514804, -0.00135403, -0.000511799, 0.999997, 0.00222284, 0.00135516, -0.00222214, 0.999997, 4.30534, -46.9883, 66.9153)
 use_collision = true
-size = Vector3(11.96, 0.06, 16.055)
+size = Vector3(1, 1.04138, 1)
 
-[node name="CSGPolygon3D" type="CSGPolygon3D" parent="."]
-transform = Transform3D(0.109775, 0, 8.63991, 0, 2.52, 0, -2.69561, 0, 0.351848, 4.76556, 0, -6.2143)
+[node name="Area3D3" type="CSGCylinder3D" parent="final"]
+transform = Transform3D(1.12778, -0.000392995, 0.0015146, 0.000580592, 0.743435, 0.0114596, -0.00152704, -0.00758621, 1.12294, 0.00484753, 0.185387, 0.0143204)
+operation = 2
+radius = 0.426509
+height = 0.992842
+sides = 10
+
+[node name="Area3D3" type="CSGBox3D" parent="."]
+transform = Transform3D(0.999999, 0.000514804, -0.00135403, -0.000511799, 0.999997, 0.00222284, 0.00135516, -0.00222214, 0.999997, -0.939559, -9.4694, 13.8127)
 use_collision = true
-polygon = PackedVector2Array(-1.09, 0, 0, 1, 1, 1, 1, 0)
+size = Vector3(1, 1.04138, 1)
+
+[node name="Area3D3" type="CSGCylinder3D" parent="Area3D3"]
+transform = Transform3D(1.12778, -0.000392995, 0.0015146, 0.000580592, 0.743435, 0.0114596, -0.00152704, -0.00758621, 1.12294, 0.00464773, 0.383045, -0.0579529)
+operation = 2
+radius = 0.426509
+height = 0.457535
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." groups=["floor"]]
+transform = Transform3D(5.1866, -0.0203809, -0.0280897, 0.0805512, 0.651734, -1.68152, 0.116865, 0.455312, 2.40568, 0.460773, -33.6893, 47.3686)
+use_collision = true
+size = Vector3(13.8065, 1, 40.6064)
+
+[node name="bola" parent="." instance=ExtResource("1_tcxl8")]
+transform = Transform3D(-0.999993, 1.42538e-07, 0.00382233, 1.4212e-07, 1, -1.10628e-07, -0.00382233, -1.10089e-07, -0.999993, -0.520557, -0.186771, 0.833157)
+
+[node name="StaticBody3D" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.30231, -46.6076, 66.984)
+collision_layer = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("CylinderShape3D_h8u3b")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("CylinderMesh_a6woj")
+
+[node name="Coin" parent="." instance=ExtResource("3_4lhw0")]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 16.0467, -39.3806, 56.389)
+
+[node name="Coin3" parent="." instance=ExtResource("3_4lhw0")]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -5.4395, -32.1922, 46.7617)
+
+[node name="Coin2" parent="." instance=ExtResource("3_4lhw0")]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -6.76519, -39.3506, 56.3775)
+
+[connection signal="body_entered" from="StaticBody3D" to="GameManager" method="_finish_collision"]
