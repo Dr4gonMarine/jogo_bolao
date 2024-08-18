@@ -1,14 +1,17 @@
-[gd_scene load_steps=6 format=3 uid="uid://5klvqfu84ve2"]
+[gd_scene load_steps=8 format=3 uid="uid://5klvqfu84ve2"]
 
 [ext_resource type="Script" path="res://scripts/game_manager.gd" id="1_fk488"]
+[ext_resource type="Script" path="res://mapa.gd" id="1_oes7g"]
 [ext_resource type="PackedScene" uid="uid://0x8brelfw3vi" path="res://bola.tscn" id="1_tcxl8"]
 [ext_resource type="PackedScene" uid="uid://dwsv25osl1hq" path="res://scenes/Coin.tscn" id="3_4lhw0"]
+[ext_resource type="PackedScene" uid="uid://b85r5pcep3yrx" path="res://assets/Transictions/fade.tscn" id="4_ss0bu"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_h8u3b"]
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_a6woj"]
 
 [node name="Mapa" type="Node"]
+script = ExtResource("1_oes7g")
 
 [node name="GameManager" type="Node" parent="."]
 script = ExtResource("1_fk488")
@@ -65,5 +68,7 @@ transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -5.4395, -32.1922, 46.7617)
 
 [node name="Coin2" parent="." instance=ExtResource("3_4lhw0")]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -6.76519, -39.3506, 56.3775)
+
+[node name="FadeAnimation" parent="." instance=ExtResource("4_ss0bu")]
 
 [connection signal="body_entered" from="StaticBody3D" to="GameManager" method="_finish_collision"]
