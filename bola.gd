@@ -11,6 +11,7 @@ extends RigidBody3D
 @onready var collision_shape: CollisionShape3D = $CollisionShape3D
 @onready var hit_on_ground: AudioStreamPlayer3D = $HitOnGround
 @onready var check_ground: CollisionShape3D = $CheckGround
+@onready var camera_3d: Camera3D = %Camera3D
 
 var estaNoChao: bool
 var estavaNoChao: bool
@@ -51,8 +52,9 @@ func _physics_process(delta):
 		apply_central_impulse(Vector3.UP*IMPULSO_PULO)
 		print("apertou espaço e estaNoChao = true")
 
-	var velocidade_atual = linear_velocity.length()
-	sphere_shape = collision_shape.shape as SphereShape3D
+	var velocidade_atual = linear_velocity.length()	
+	_camera_juice(velocidade_atual)
+	
 	if velocidade_atual > 0 and sphere_shape.radius > tamanho_inicial * (1 - porcentagem_reducao_maxima) and estaNoChao:
 		var reducao = velocidade_atual * fator_reducao * delta
 		sphere_shape.radius -= reducao
@@ -61,3 +63,9 @@ func _physics_process(delta):
 		print("---------------")
 		print(sphere_shape.radius)
 		
+
+func _camera_juice(velocity : float) -> void:	
+	if(velocity > 10 and camera_3d.fov < 110):
+		camera_3d.fov += 0.1
+	elif(velocity < 10 and camera_3d.fov > 75):
+		camera_3d.fov -= 0.1
