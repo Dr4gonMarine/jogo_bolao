@@ -1,9 +1,9 @@
 extends RigidBody3D
 
-@export var VELOCIDADE := 80.0
+@export var VELOCIDADE := 20.0
 @export var IMPULSO_PULO := 500
 @export var PORCENTAGEM_APROXIMACAO_CAMERA = 0.1
-@export var fator_reducao: float = 0.01
+@export var fator_reducao: float = 0.0001
 
 @onready var cameraRig = $CameraRig
 @onready var rayCastVerificaChao = $VerificaChao
