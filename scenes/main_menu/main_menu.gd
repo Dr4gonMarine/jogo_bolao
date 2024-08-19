@@ -24,7 +24,7 @@ func _on_quit_pressed() -> void:
 
 func _on_fade_timer_timeout():
 	if button_type == "start":
-		get_tree().change_scene_to_file("res://mapa.tscn")
+		get_tree().change_scene_to_file("res://mapa01.tscn")
 		print("Play pressed")
 	elif button_type == "options":
 		#get_tree().change_scene_to_file("res://mapa.tscn")
