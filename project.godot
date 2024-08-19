@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 PhantomCameraManager="*res://addons/phantom_camera/scripts/managers/phantom_camera_manager.gd"
+BackGroundMusic="*res://scenes/back_ground_music.tscn"
 
 [editor_plugins]
 
