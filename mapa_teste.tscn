@@ -1,9 +1,9 @@
 [gd_scene load_steps=3 format=3 uid="uid://bu0a2ehrb6oc2"]
 
 [ext_resource type="MeshLibrary" uid="uid://cif3e2cpw6jea" path="res://Minigolf.tres" id="1_0cevj"]
-[ext_resource type="PackedScene" uid="uid://0x8brelfw3vi" path="res://bola.tscn" id="2_7o81w"]
+[ext_resource type="PackedScene" uid="uid://0x8brelfw3vi" path="res://scenes/ball/bola.tscn" id="2_7o81w"]
 
-[node name="Node3D" type="Node3D"]
+[node name="Node3D2" type="Node3D"]
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
 transform = Transform3D(1, -1.4212e-07, -3.49061e-05, 1.4212e-07, 1, -1.10628e-07, 3.49061e-05, 1.10628e-07, 1, -4.52005, 1.44515, 8.32826)

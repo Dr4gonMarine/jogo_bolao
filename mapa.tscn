@@ -5,6 +5,8 @@
 [ext_resource type="PackedScene" uid="uid://0x8brelfw3vi" path="res://bola.tscn" id="1_tcxl8"]
 [ext_resource type="PackedScene" uid="uid://dwsv25osl1hq" path="res://scenes/Coin.tscn" id="3_4lhw0"]
 [ext_resource type="PackedScene" uid="uid://b85r5pcep3yrx" path="res://assets/Transictions/fade.tscn" id="4_ss0bu"]
+[ext_resource type="PackedScene" uid="uid://0x8brelfw3vi" path="res://scenes/ball/bola.tscn" id="1_tcxl8"]
+[ext_resource type="PackedScene" uid="uid://dwsv25osl1hq" path="res://scenes/coin/Coin.tscn" id="3_4lhw0"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_h8u3b"]
 
