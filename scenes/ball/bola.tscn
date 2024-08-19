@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://0x8brelfw3vi"]
+[gd_scene load_steps=14 format=3 uid="uid://0x8brelfw3vi"]
 
 [ext_resource type="Script" path="res://scenes/ball/bola.gd" id="1_36py3"]
 [ext_resource type="Texture2D" uid="uid://58m7f7dpa73" path="res://icon.svg" id="2_nka0i"]
@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="3_tfgah"]
 [ext_resource type="AudioStream" uid="uid://8r0xk0y7vg6k" path="res://assets/Audio/rockHit23.wav" id="3_ukf7f"]
 [ext_resource type="Script" path="res://addons/phantom_camera/scripts/resources/tween_resource.gd" id="4_0ei4m"]
+[ext_resource type="Script" path="res://addons/phantom_camera/scripts/resources/camera_3d_resource.gd" id="5_7lrs6"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dmtwg"]
 friction = 4.0
@@ -26,6 +27,18 @@ duration = 1.0
 transition = 0
 ease = 2
 
+[sub_resource type="Resource" id="Resource_t0632"]
+script = ExtResource("5_7lrs6")
+cull_mask = 1048575
+h_offset = 0.0
+v_offset = 0.0
+projection = 0
+fov = 75.0
+size = 1.0
+frustum_offset = Vector2(0, 0)
+near = 0.05
+far = 4000.0
+
 [node name="bola" type="RigidBody3D" groups=["ball"]]
 transform = Transform3D(1, -1.4212e-07, -3.49061e-05, 1.4212e-07, 1, -1.10628e-07, 3.49061e-05, 1.10628e-07, 1, 0, 0.537522, 0)
 mass = 100.0
@@ -41,15 +54,15 @@ skeleton = NodePath("")
 
 [node name="CameraRig" type="Marker3D" parent="."]
 
-[node name="PhantomCamera3D" type="Node3D" parent="CameraRig" node_paths=PackedStringArray("follow_target", "follow_path", "look_at_target")]
+[node name="PhantomCamera3D" type="Node3D" parent="CameraRig" node_paths=PackedStringArray("follow_target", "look_at_target")]
 transform = Transform3D(0.999951, 1.56493e-12, -2.07124e-12, -1.08415e-19, 0.797839, 0.602902, 2.59574e-12, -0.602856, 0.797901, 9.81393e-05, 2.1179, 2.8029)
 script = ExtResource("3_slmmf")
 follow_mode = 5
 follow_target = NodePath("../../MeshInstance3D")
-follow_path = NodePath("")
 look_at_mode = 2
 look_at_target = NodePath("../../MeshInstance3D")
 tween_resource = SubResource("Resource_jhc7a")
+camera_3d_resource = SubResource("Resource_t0632")
 follow_offset = Vector3(0, 1.515, 2.005)
 follow_damping = true
 dead_zone_width = 0.49
