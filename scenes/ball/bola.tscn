@@ -1,7 +1,7 @@
 [gd_scene load_steps=19 format=3 uid="uid://0x8brelfw3vi"]
 
 [ext_resource type="Script" path="res://scenes/ball/bola.gd" id="1_36py3"]
-[ext_resource type="Texture2D" uid="uid://58m7f7dpa73" path="res://icon.svg" id="2_nka0i"]
+[ext_resource type="Texture2D" uid="uid://dfoseeqifi4i1" path="res://scenes/ball/coast_sand_rocks_02_diff_4k.jpg" id="2_yle5u"]
 [ext_resource type="Script" path="res://addons/phantom_camera/scripts/phantom_camera/phantom_camera_3d.gd" id="3_slmmf"]
 [ext_resource type="Script" path="res://addons/phantom_camera/scripts/phantom_camera_host/phantom_camera_host.gd" id="3_tfgah"]
 [ext_resource type="AudioStream" uid="uid://8r0xk0y7vg6k" path="res://assets/Audio/rockHit23.wav" id="3_ukf7f"]
@@ -20,11 +20,11 @@ bounce = 0.5
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_x03cx"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_saukf"]
-albedo_texture = ExtResource("2_nka0i")
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_423sr"]
+albedo_texture = ExtResource("2_yle5u")
 
 [sub_resource type="SphereMesh" id="SphereMesh_rii78"]
-material = SubResource("StandardMaterial3D_saukf")
+material = SubResource("StandardMaterial3D_423sr")
 
 [sub_resource type="Resource" id="Resource_jhc7a"]
 script = ExtResource("4_0ei4m")
@@ -48,6 +48,7 @@ far = 4000.0
 transform = Transform3D(1, -1.4212e-07, -3.49061e-05, 1.4212e-07, 1, -1.10628e-07, 3.49061e-05, 1.10628e-07, 1, 0, 0.537522, 0)
 mass = 100.0
 physics_material_override = SubResource("PhysicsMaterial_dmtwg")
+angular_damp = 1.0
 script = ExtResource("1_36py3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -60,7 +61,7 @@ skeleton = NodePath("")
 [node name="CameraRig" type="Marker3D" parent="."]
 
 [node name="PhantomCamera3D" type="Node3D" parent="CameraRig" node_paths=PackedStringArray("follow_target", "look_at_target")]
-transform = Transform3D(0.999951, 0, 0, 0, 0.797839, 0.602902, 0, -0.602856, 0.797901, 9.81393e-05, 2.1179, 2.8029)
+transform = Transform3D(0.999946, 0, 0, 0, 0.888843, 0.458128, 0, -0.458094, 0.888911, 0.000160095, 3.07813, 4.57391)
 script = ExtResource("3_slmmf")
 follow_mode = 5
 follow_target = NodePath("../../MeshInstance3D")
@@ -68,14 +69,16 @@ look_at_mode = 2
 look_at_target = NodePath("../../MeshInstance3D")
 tween_resource = SubResource("Resource_jhc7a")
 camera_3d_resource = SubResource("Resource_t0632")
-follow_offset = Vector3(0, 1.515, 2.005)
+follow_offset = Vector3(0, 2.62, 3.685)
 follow_damping = true
-dead_zone_width = 0.49
-dead_zone_height = 0.113
+dead_zone_width = 0.385
+dead_zone_height = 0.093
+show_viewfinder_in_play = true
+look_at_offset = Vector3(0, -4.5, -10.13)
 
 [node name="Camera3D" type="Camera3D" parent="CameraRig"]
 unique_name_in_owner = true
-transform = Transform3D(0.999951, 0, -1.81899e-12, -4.12257e-15, 0.797839, 0.602902, 0, -0.602856, 0.797901, 9.81393e-05, 2.1179, 2.8029)
+transform = Transform3D(0.999946, 0, 0, -4.14122e-15, 0.888843, 0.458128, 0, -0.458094, 0.888911, 0.000160095, 3.07813, 4.57391)
 
 [node name="PhantomCameraHost" type="Node" parent="CameraRig/Camera3D"]
 script = ExtResource("3_tfgah")

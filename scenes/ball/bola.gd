@@ -1,8 +1,8 @@
 extends RigidBody3D
 
-@export var VELOCIDADE := 20.0
 @export var IMPULSO_PULO := 500
 @export var PORCENTAGEM_APROXIMACAO_CAMERA = 0.1
+@export var velocidade := 5.0
 @export var fator_reducao: float = 0.0001
 @export var tamanho_inicial = 1.0
 @export var fov_increment = 0.1
@@ -15,6 +15,9 @@ extends RigidBody3D
 @onready var bola: RigidBody3D = $"."
 @onready var hit_on_something: AudioStreamPlayer3D = $HitOnSomething
 
+var max_jumps := 2
+var jump_count := 0
+var velocidade_atual : float
 var estaNoChao: bool
 var porcentagem_reducao_maxima = 0.9
 var sphere_shape : SphereShape3D
@@ -40,30 +43,41 @@ func _physics_process(delta):
 	move_direction.z = Input.get_action_strength("esquerda") - Input.get_action_strength("direita")
 	move_direction = move_direction.rotated(Vector3.UP,cameraRig.rotation.y).normalized()
 	
-	#cameraRig.rotation.y += 
-	angular_velocity += move_direction * VELOCIDADE * delta	
+	
+	angular_velocity += move_direction * velocidade * delta	
 
 	estaNoChao = rayCastVerificaChao.is_colliding()
 
-	if Input.is_action_just_pressed("pular") and estaNoChao:
-		apply_central_impulse(Vector3.UP*IMPULSO_PULO)
-		print("apertou espaço e estaNoChao = true")
-
-	var velocidade_atual = linear_velocity.length()	
-	_camera_juice(velocidade_atual)
+	if Input.is_action_just_pressed("pular") and jump_count < max_jumps:
+		jump_count += 1
+		match jump_count:
+			0:
+				apply_central_impulse(Vector3.UP*IMPULSO_PULO)
+			1:
+				apply_central_impulse(Vector3.UP*IMPULSO_PULO)
+				apply_central_impulse(move_direction*IMPULSO_PULO)
+			_:
+				pass
 	
+	if(estaNoChao):
+		jump_count= 0
+	
+	velocidade_atual = linear_velocity.length()	
+	_camera_juice(velocidade_atual)
+	_apply_gimmick(delta)
+	
+
+func _apply_gimmick(delta : float) -> void:
 	if velocidade_atual > 0 and sphere_shape.radius > tamanho_inicial * (1 - porcentagem_reducao_maxima) and estaNoChao:
 		var reducao = velocidade_atual * fator_reducao * delta
 		sphere_shape.radius -= reducao
 		sphere_shape.radius = max(sphere_shape.radius, 0)
 		_reduce_mass(reducao)
 		mesh.scale = Vector3(sphere_shape.radius, sphere_shape.radius, sphere_shape.radius)
-		#print("---------------")
-		#print(sphere_shape.radius)
-		
-		
+
 func _reduce_mass(reduction : float) -> void:
 	bola.mass -= reduction
+	velocidade += reduction
 
 func _camera_juice(velocity : float) -> void:	
 	if(velocity > 10 and camera_3d.fov < 110):

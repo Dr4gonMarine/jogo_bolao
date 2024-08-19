@@ -10,10 +10,9 @@ func _on_play_pressed() -> void:
 
 
 func _on_options_pressed() -> void:
-	button_type = "options"
-	$FadeAnimation.show()
-	$FadeAnimation/fadeTimer.start()
-	$FadeAnimation/AnimationPlayer.play("Fade_in")
+	button_type = "options"	
+	get_tree().change_scene_to_file("res://scenes/ui/ui_menu.tscn")
+	print("Options pressed")
 
 
 func _on_quit_pressed() -> void:
@@ -25,10 +24,7 @@ func _on_quit_pressed() -> void:
 func _on_fade_timer_timeout():
 	if button_type == "start":
 		get_tree().change_scene_to_file("res://mapa01.tscn")
-		print("Play pressed")
-	elif button_type == "options":
-		#get_tree().change_scene_to_file("res://mapa.tscn")
-		print("Options pressed")
+		print("Play pressed")	
 	elif button_type == "quit":
 		get_tree().quit()
 		print("Quit pressed")
