@@ -55,7 +55,7 @@ func _physics_process(delta):
 				apply_central_impulse(Vector3.UP*IMPULSO_PULO)
 			1:
 				apply_central_impulse(Vector3.UP*IMPULSO_PULO)
-				apply_central_impulse(move_direction*IMPULSO_PULO)
+				apply_central_impulse(Vector3(-move_direction.z,0,move_direction.x)*IMPULSO_PULO)
 			_:
 				pass
 	
@@ -86,8 +86,7 @@ func _camera_juice(velocity : float) -> void:
 		camera_3d.fov -= fov_increment
 
 func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:	
-	for i in range(state.get_contact_count()):
-		var forca_colisao = state.get_contact_impulse(i).length()		
+	for i in range(state.get_contact_count()):		
 		if(!hit_on_something.playing and !estaNoChao):
 			hit_on_something.pitch_scale += (1.0 - pow(sphere_shape.radius / tamanho_inicial,0.3))		
 			hit_on_something.tocar_som_aleatorio()

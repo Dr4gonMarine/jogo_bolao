@@ -70,7 +70,7 @@ max_value = 1.0
 step = 0.05
 value = 1.0
 
-[node name="Button" type="Button" parent="Options"]
+[node name="BackButton" type="Button" parent="Options"]
 layout_mode = 1
 offset_left = 35.0
 offset_top = 14.0
@@ -82,4 +82,4 @@ text = "<-
 
 [connection signal="value_changed" from="Options/MarginContainer/VBoxContainer/GridContainer/MusicSlider" to="." method="_on_music_slider_value_changed"]
 [connection signal="value_changed" from="Options/MarginContainer/VBoxContainer/GridContainer/SfxSlider" to="." method="_on_sfx_slider_value_changed"]
-[connection signal="pressed" from="Options/Button" to="." method="_on_button_back_pressed"]
+[connection signal="pressed" from="Options/BackButton" to="." method="_on_button_back_pressed"]

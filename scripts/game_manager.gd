@@ -1,12 +1,17 @@
 extends Node
 
 @onready var ui_menu: CanvasLayer = %UiMenu
+@onready var bola: RigidBody3D = %bola
+@onready var hud: CanvasLayer = %Hud
 
 func _ready() -> void:	
 	ui_menu.visible = false
 	ui_menu.background_image_visible = false
 	var bgMusic = get_node("/root/BackGroundMusic")
 	bgMusic._start_music()
+
+func _process(delta: float) -> void:
+	hud.speedValue = bola.velocidade_atual
 
 func _finish_collision(body: Node3D) -> void:
 	if(body.is_in_group("ball")):
