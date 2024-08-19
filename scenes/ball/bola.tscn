@@ -73,7 +73,6 @@ follow_offset = Vector3(0, 2.62, 3.685)
 follow_damping = true
 dead_zone_width = 0.385
 dead_zone_height = 0.093
-show_viewfinder_in_play = true
 look_at_offset = Vector3(0, -4.5, -10.13)
 
 [node name="Camera3D" type="Camera3D" parent="CameraRig"]
