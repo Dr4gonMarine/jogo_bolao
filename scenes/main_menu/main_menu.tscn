@@ -31,7 +31,6 @@ scale = Vector2(0.6, 0.6)
 texture = ExtResource("9_3cfwb")
 
 [node name="Buttons" type="VBoxContainer" parent="."]
-layout_mode = 0
 offset_left = 459.0
 offset_top = 176.0
 offset_right = 695.0
