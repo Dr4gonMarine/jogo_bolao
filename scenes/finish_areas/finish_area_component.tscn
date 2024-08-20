@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwajn0cw4un72"]
+
+[ext_resource type="Script" path="res://finish_area_component.gd" id="1_8qs6w"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qwv6k"]
+
+[node name="FinishAreaComponent" type="Area3D"]
+script = ExtResource("1_8qs6w")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("BoxShape3D_qwv6k")

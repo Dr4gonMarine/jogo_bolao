@@ -77,7 +77,7 @@ look_at_offset = Vector3(0, -4.5, -10.13)
 
 [node name="Camera3D" type="Camera3D" parent="CameraRig"]
 unique_name_in_owner = true
-transform = Transform3D(0.999946, 0, 0, -4.14122e-15, 0.888843, 0.458128, 0, -0.458094, 0.888911, 0.000160095, 3.07813, 4.57391)
+transform = Transform3D(0.999946, 0, 0, -4.14209e-15, 0.888843, 0.458128, 0, -0.458094, 0.888911, 0.000160095, 3.07813, 4.57391)
 
 [node name="PhantomCameraHost" type="Node" parent="CameraRig/Camera3D"]
 script = ExtResource("3_tfgah")
@@ -91,3 +91,8 @@ stream = ExtResource("3_ukf7f")
 bus = &"SoundEffects"
 script = ExtResource("8_l0r3g")
 sons = Array[AudioStream]([ExtResource("9_dnpqu"), ExtResource("10_71w3n"), ExtResource("11_n2m0m"), ExtResource("12_ojek2")])
+
+[node name="HitTimer" type="Timer" parent="."]
+wait_time = 10.0
+
+[connection signal="timeout" from="HitTimer" to="." method="_on_hit_timer_timeout"]

@@ -14,13 +14,16 @@ extends RigidBody3D
 @onready var camera_3d: Camera3D = %Camera3D
 @onready var bola: RigidBody3D = $"."
 @onready var hit_on_something: AudioStreamPlayer3D = $HitOnSomething
+@onready var hit_timer: Timer = $HitTimer
 
 var max_jumps := 2
 var jump_count := 0
 var velocidade_atual : float
 var estaNoChao: bool
+
 var porcentagem_reducao_maxima = 0.9
 var sphere_shape : SphereShape3D
+var show_restart := false
 
 func _ready():
 	cameraRig.set_as_top_level(true)
@@ -88,6 +91,13 @@ func _camera_juice(velocity : float) -> void:
 func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:	
 	for i in range(state.get_contact_count()):		
 		if(!hit_on_something.playing and !estaNoChao):
+			hit_timer.stop()
+			show_restart = false
 			hit_on_something.pitch_scale += (1.0 - pow(sphere_shape.radius / tamanho_inicial,0.3))		
 			hit_on_something.tocar_som_aleatorio()
+			jump_count -= 1		
+			hit_timer.start()
 			break
+
+func _on_hit_timer_timeout() -> void:
+	show_restart = true

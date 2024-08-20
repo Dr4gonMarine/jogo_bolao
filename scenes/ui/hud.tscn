@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://o2nr8lctt84x"]
 
 [ext_resource type="Script" path="res://scenes/ui/hud.gd" id="1_c7qan"]
-[ext_resource type="LabelSettings" uid="uid://chw7mb7i1iprb" path="res://scenes/ui/default_label.tres" id="2_xh3ib"]
+[ext_resource type="LabelSettings" path="res://scenes/ui/default_label.tres" id="2_xh3ib"]
 
 [node name="Hud" type="CanvasLayer"]
 script = ExtResource("1_c7qan")
@@ -61,3 +61,30 @@ grow_vertical = 2
 text = "Size: 1.0 m"
 label_settings = ExtResource("2_xh3ib")
 vertical_alignment = 1
+
+[node name="restart" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -59.0
+offset_top = -144.0
+offset_right = 85.0
+offset_bottom = -121.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Press [R] to restart"
+
+[node name="Timer" type="Label" parent="Control"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 25.0
+offset_right = 20.0
+offset_bottom = 48.0
+grow_horizontal = 2
+text = "timer"
