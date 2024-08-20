@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6qe80uupdbv7"]
+
+[ext_resource type="ArrayMesh" uid="uid://cjawb73ptvowk" path="res://Assets/Meshes/City_SM_Prop_Hydrant_12.res" id="1_fi7te"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5a0pd"]
+size = Vector3(0.3, 0.925, 0.3)
+
+[node name="SM_Prop_Hydrant_12" type="MeshInstance3D"]
+mesh = ExtResource("1_fi7te")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.473724, 0)
+shape = SubResource("BoxShape3D_5a0pd")

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dc1xrgqden8mg"]
+
+[ext_resource type="ArrayMesh" uid="uid://cwsq6eib1eblo" path="res://Assets/Meshes/City_SM_Prop_ShopInterior_Desk_04.res" id="1_8afrn"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_uv1ef"]
+
+[node name="SM_Prop_ShopInterior_Desk_04" type="MeshInstance3D"]
+mesh = ExtResource("1_8afrn")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_uv1ef")

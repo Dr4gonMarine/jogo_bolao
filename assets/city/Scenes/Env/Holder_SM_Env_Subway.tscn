@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://c50dxqloqra0e"]
+
+[ext_resource type="PackedScene" uid="uid://bjqfa7yplh373" path="res://PreFabScenes/Env/City_SM_Env_SubwayEntrance_09.tscn" id="2_ddle8"]
+[ext_resource type="PackedScene" uid="uid://dn0lbbb472dtj" path="res://PreFabScenes/Env/City_SM_Env_SubwayEntrance_07.tscn" id="4_v8cxk"]
+
+[node name="Holder_SM_Env_Subway" type="Node3D"]
+
+[node name="SM_Env_SubwayEntrance_04" parent="." instance=ExtResource("2_ddle8")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, 10, 0, 30)
+
+[node name="SM_Env_SubwayEntrance_02" parent="." instance=ExtResource("4_v8cxk")]
+transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, -80, 0, 10)
+
+[node name="SM_Env_SubwayEntrance_03" parent="." instance=ExtResource("4_v8cxk")]
+transform = Transform3D(-2.30869e-06, 0, 1, 0, 1, 0, -1, 0, -2.30869e-06, -115, 0, 95)
+
+[node name="SM_Env_SubwayEntrance_05" parent="." instance=ExtResource("2_ddle8")]
+transform = Transform3D(1, 0, -1.84774e-06, 0, 1, 0, 1.84774e-06, 0, 1, 45, 0, -125)
+
+[node name="SM_Env_SubwayEntrance_06" parent="." instance=ExtResource("2_ddle8")]
+transform = Transform3D(-1, 0, -2.53518e-06, 0, 1, 0, 2.53518e-06, 0, -1, -60, 0, 110)
+
+[node name="SM_Env_SubwayEntrance_07" parent="." instance=ExtResource("2_ddle8")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, -55, 0, -40)
+
+[node name="SM_Env_SubwayEntrance_08" parent="." instance=ExtResource("4_v8cxk")]
+transform = Transform3D(1, 0, 4.64916e-06, 0, 1, 0, -4.64916e-06, 0, 1, -85, 0, 95)
+
+[node name="SM_Env_SubwayEntrance_09" parent="." instance=ExtResource("4_v8cxk")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 30, 0, 5)

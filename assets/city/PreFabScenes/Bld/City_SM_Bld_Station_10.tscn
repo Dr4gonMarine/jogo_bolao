@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://cyaoxj188lhh0"]
+
+[ext_resource type="ArrayMesh" uid="uid://c2smhyti1bpr" path="res://Assets/Meshes/City_SM_Bld_Station_10.res" id="1_l6527"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_l60d5"]
+points = PackedVector3Array(3.8082, 7.25415, 3.8083, -4.1555, 7.69058, -4.1554, -4.0025, 7.39435, -4.0024, -4.17807, 8.5845, 4.17817, 4.17807, 8.5845, -4.17797, 4.17807, 8.5845, 4.17817, 3.8083, 7.25414, -3.8082, -3.8082, 7.25415, 3.8083, -4.17807, 8.5845, -4.17797, 4.1554, 7.69059, 4.1555, -3.8083, 7.25414, -3.8082, 4.1555, 7.69058, -4.1554, -4.1554, 7.69059, 4.1555, 4.0025, 7.39435, 4.0026, 4.0026, 7.39434, -4.0025, -4.0025, 7.39435, 4.0026)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ua318"]
+points = PackedVector3Array(3.8082, 7.13841, 3.8083, -4.0025, 3.92271, -4.0024, -4.0025, 3.92271, 4.0026, 4.0026, 3.92267, -4.0025, -3.8083, 7.13845, -3.8082, 4.00198, 3.92292, 4.00208, 3.8083, 7.13845, -3.8082, -3.8082, 7.13841, 3.8083, -3.96871, 6.531, 3.96881, 3.96871, 6.531, -3.96861, 3.0416, 7.13613, 3.95542, -3.95444, 7.13578, -3.0416, -3.0416, 7.13573, -3.95421, 3.95418, 7.13567, 3.0416, 3.0416, 7.13613, -3.95522, 3.95444, 7.13578, -3.0416, -3.0416, 7.13573, 3.95441, -3.95418, 7.13567, 3.0416, 3.87904, 6.50858, 3.87914, -3.86546, 6.50519, -3.86536)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_n22uq"]
+points = PackedVector3Array(5.06334, 3.71899, 1.73976, -1.73966, 3.24446, -5.06324, -3.84838, 3.09675, -4.0026, -4.0025, 3.86653, 4.0026, 4.0025, 3.09677, 4.0026, -4.0025, 3.86653, -4.0024, 4.0026, 3.86654, -4.0025, 4.0026, 3.09676, -4.0025, -4.0025, 3.09677, 4.0026, 4.0025, 3.86653, 4.0026, -5.06334, 3.24446, -1.73956, -1.73966, 3.71899, 5.06344, -5.06334, 3.71899, 1.73976, 1.73966, 3.24446, 5.06344, 1.73966, 3.71899, -5.06324, 5.06334, 3.24446, -1.73956, 5.06334, 3.24446, 1.73976, -1.73966, 3.71899, -5.06324, -1.73966, 3.24446, 5.06344, -5.06334, 3.24446, 1.73976, 1.73966, 3.71899, 5.06344, -5.06334, 3.71899, -1.73956, 1.73966, 3.24446, -5.06324, 5.06334, 3.71899, -1.73956, -3.97633, 3.09929, -3.82293)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_jx3f0"]
+points = PackedVector3Array(4.0025, 3.04294, 4.0026, -4.20972, -2.22045e-16, -4.20962, -4.20972, 2.22045e-16, 4.20982, 4.20972, 0, -4.20962, -3.84826, 3.04302, -4.0026, 4.20972, 0, 4.20982, -4.00166, 3.04294, 4.0026, 4.0026, 3.04298, -4.0025, -3.98612, 3.03697, -3.83303)
+
+[node name="SM_Bld_Station_10" type="MeshInstance3D"]
+mesh = ExtResource("1_l6527")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="@CollisionShape3D@707320" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_l60d5")
+
+[node name="@CollisionShape3D@707319" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_ua318")
+
+[node name="@CollisionShape3D@707318" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_n22uq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_jx3f0")

@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://bckj2ce8r0mqp"]
+
+[ext_resource type="ArrayMesh" uid="uid://640vuxmso4v4" path="res://Assets/Meshes/City_SM_Bld_OfficeSquare_Base_08.res" id="1_sv1e0"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_eotiv"]
+[ext_resource type="PackedScene" uid="uid://bbyjot3y52qup" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeSquare_Base_01_Glass.tscn" id="2_w3se0"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_vdjqt"]
+points = PackedVector3Array(15.2592, 3.75838, 0.259238, 0.227185, 4.44089e-16, -14.7743, 0.227185, 0, -0.225714, -0.257719, 3.75838, 0.259238, -0.257719, 3.75838, -15.2592, 14.7743, 2.22045e-16, -14.7743, 15.2592, 3.75838, -15.2592, 14.7743, 2.22045e-16, -0.225714)
+
+[node name="SM_Bld_OfficeSquare_Base_08" type="MeshInstance3D"]
+mesh = ExtResource("1_sv1e0")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_eotiv")
+
+[node name="SM_Bld_OfficeSquare_Base_01_Glass" parent="." instance=ExtResource("2_w3se0")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_vdjqt")

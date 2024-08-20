@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cs5y0yh0h8nca"]
+
+[ext_resource type="ArrayMesh" uid="uid://bj76ft536kklj" path="res://Assets/Meshes/City_SM_Bld_Shop_Cover_02.res" id="1_8e1dm"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_qunxi"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_2xypt"]
+points = PackedVector3Array(2.39045, -0.0406724, 1.63182, -2.0857, -0.171529, -1.4919, -2.25028, -0.601, -1.41785, -2.39045, -0.0406724, 1.63182, 2.2045, 0.601, -1.57622, 2.25028, -0.601, -1.41785, -2.25028, -0.601, 1.53545, -2.31557, 0.631452, -1.28151, 2.25028, -0.601, 1.53545, 2.31557, 0.631452, -1.28151, -2.2045, 0.601, -1.57622, 2.2972, -0.0392179, -1.44717, 2.0857, -0.171529, -1.4919, -2.2897, -0.0391009, -1.44248)
+
+[node name="SM_Bld_Shop_Cover_02" type="MeshInstance3D"]
+mesh = ExtResource("1_8e1dm")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_qunxi")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_2xypt")

@@ -1,0 +1,17 @@
+[gd_resource type="NoiseTexture2D" load_steps=3 format=3 uid="uid://8bswm6ivoof4"]
+
+[sub_resource type="Gradient" id="Gradient_awdeo"]
+offsets = PackedFloat32Array(0, 0.630372)
+colors = PackedColorArray(0, 0, 0, 0, 0.0156863, 0.764706, 1, 0.431373)
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_miivu"]
+noise_type = 2
+
+[resource]
+width = 64
+height = 64
+seamless = true
+as_normal_map = true
+normalize = false
+color_ramp = SubResource("Gradient_awdeo")
+noise = SubResource("FastNoiseLite_miivu")

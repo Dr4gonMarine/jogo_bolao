@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://bm1g6w5k30oqo"]
+
+[ext_resource type="PackedScene" uid="uid://dlotrl8b1hspc" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeRound_Base_01.tscn" id="1_ftgw4"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_r4tsp"]
+[ext_resource type="PackedScene" uid="uid://de3ni6g5da1d3" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeRound_022.tscn" id="3_fgwqq"]
+[ext_resource type="ArrayMesh" uid="uid://nylei3uvhtbw" path="res://Assets/Meshes/City_SM_Bld_OfficeRound_Base_01_Glass.res" id="4_s2vol"]
+[ext_resource type="Material" uid="uid://dwg4vkkdhhakb" path="res://Materials/City_Mat_Glass.tres" id="4_u0p4w"]
+[ext_resource type="PackedScene" uid="uid://81cqc6s1sy1b" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeRound_Roof_03.tscn" id="5_rmyt6"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ryb1d"]
+data = PackedVector3Array(0.0965, -0.0557, -0.0426, 0.1114, 0, -0.0426, 0.0965, 0.0557, -0.0426, 0.0965, 0.0557, -0.0426, 0.0557, -0.0965, -0.0426, 0.0965, -0.0557, -0.0426, -0.0557, 0.0965, -0.0426, -0.0965, 0.0557, -0.0426, 0.0557, 0.0965, -0.0426, 0.0557, 0.0965, -0.0426, 0, 0.1114, -0.0426, -0.0557, 0.0965, -0.0426, 0.0557, -0.0965, -0.0426, -0.0965, 0.0557, -0.0426, -0.0557, -0.0965, -0.0426, 0.0557, -0.0965, -0.0426, 0.0965, 0.0557, -0.0426, 0.0557, 0.0965, -0.0426, -0.0557, -0.0965, -0.0426, 0, -0.1114, -0.0426, 0.0557, -0.0965, -0.0426, -0.0965, 0.0557, -0.0426, -0.1114, 0, -0.0426, -0.0965, -0.0557, -0.0426, -0.0965, 0.0557, -0.0426, -0.0965, -0.0557, -0.0426, -0.0557, -0.0965, -0.0426, -0.0965, 0.0557, -0.0426, 0.0557, -0.0965, -0.0426, 0.0557, 0.0965, -0.0426, -0.0557, 0.0965, -0.0426, 0, 0.1114, -0.0426, 0, 0.1114, 0.0483, 0, 0.1114, 0.0483, -0.0557, 0.0965, 0.0483, -0.0557, 0.0965, -0.0426, -0.0965, 0.0557, -0.0426, -0.0557, 0.0965, -0.0426, -0.0557, 0.0965, 0.0483, -0.0557, 0.0965, 0.0483, -0.0965, 0.0557, 0.0483, -0.0965, 0.0557, -0.0426, -0.0557, -0.0965, 0.0483, -0.0965, -0.0557, 0.0483, 0.0557, 0.0965, 0.0483, 0.0557, -0.0965, 0.0483, 0, -0.1114, 0.0483, -0.0557, -0.0965, 0.0483, 0.0557, -0.0965, 0.0483, -0.0557, -0.0965, 0.0483, 0.0557, 0.0965, 0.0483, 0.0965, 0.0557, 0.0483, 0.1114, 0, 0.0483, 0.0965, -0.0557, 0.0483, 0.0965, -0.0557, 0.0483, 0.0557, 0.0965, 0.0483, 0.0965, 0.0557, 0.0483, 0.0965, -0.0557, 0.0483, 0.0557, -0.0965, 0.0483, 0.0557, 0.0965, 0.0483, 0.0557, 0.0965, 0.0483, -0.0965, -0.0557, 0.0483, -0.0557, 0.0965, 0.0483, -0.0557, 0.0965, 0.0483, 0, 0.1114, 0.0483, 0.0557, 0.0965, 0.0483, -0.0965, -0.0557, 0.0483, -0.0965, 0.0557, 0.0483, -0.0557, 0.0965, 0.0483, -0.0965, -0.0557, 0.0483, -0.1114, 0, 0.0483, -0.0965, 0.0557, 0.0483, -0.1114, 0, -0.0426, -0.0965, 0.0557, -0.0426, -0.0965, 0.0557, 0.0483, -0.0965, 0.0557, 0.0483, -0.1114, 0, 0.0483, -0.1114, 0, -0.0426, -0.0965, -0.0557, -0.0426, -0.1114, 0, -0.0426, -0.1114, 0, 0.0483, -0.1114, 0, 0.0483, -0.0965, -0.0557, 0.0483, -0.0965, -0.0557, -0.0426, -0.0557, -0.0965, -0.0426, -0.0965, -0.0557, -0.0426, -0.0965, -0.0557, 0.0483, -0.0965, -0.0557, 0.0483, -0.0557, -0.0965, 0.0483, -0.0557, -0.0965, -0.0426, 0, -0.1114, -0.0426, -0.0557, -0.0965, -0.0426, -0.0557, -0.0965, 0.0483, -0.0557, -0.0965, 0.0483, 0, -0.1114, 0.0483, 0, -0.1114, -0.0426, 0.0557, -0.0965, -0.0426, 0, -0.1114, -0.0426, 0, -0.1114, 0.0483, 0, -0.1114, 0.0483, 0.0557, -0.0965, 0.0483, 0.0557, -0.0965, -0.0426, 0.0965, -0.0557, -0.0426, 0.0557, -0.0965, -0.0426, 0.0557, -0.0965, 0.0483, 0.0557, -0.0965, 0.0483, 0.0965, -0.0557, 0.0483, 0.0965, -0.0557, -0.0426, 0.1114, 0, -0.0426, 0.0965, -0.0557, -0.0426, 0.0965, -0.0557, 0.0483, 0.0965, -0.0557, 0.0483, 0.1114, 0, 0.0483, 0.1114, 0, -0.0426, 0.0965, 0.0557, -0.0426, 0.1114, 0, -0.0426, 0.1114, 0, 0.0483, 0.1114, 0, 0.0483, 0.0965, 0.0557, 0.0483, 0.0965, 0.0557, -0.0426, 0.0557, 0.0965, -0.0426, 0.0965, 0.0557, -0.0426, 0.0965, 0.0557, 0.0483, 0.0965, 0.0557, 0.0483, 0.0557, 0.0965, 0.0483, 0.0557, 0.0965, -0.0426, 0, 0.1114, -0.0426, 0.0557, 0.0965, -0.0426, 0.0557, 0.0965, 0.0483, 0.0557, 0.0965, 0.0483, 0, 0.1114, 0.0483, 0, 0.1114, -0.0426)
+
+[node name="PreFab_OfficeRound" type="Node3D"]
+
+[node name="SM_Bld_OfficeRound_Base_01" parent="." instance=ExtResource("1_ftgw4")]
+surface_material_override/0 = ExtResource("2_r4tsp")
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="SM_Bld_OfficeRound_Base_01"]
+transform = Transform3D(100, 0, 0, 0, -4.37114e-06, -100, 0, 100, -4.37114e-06, 0, 5, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SM_Bld_OfficeRound_Base_01/StaticBody3D2"]
+shape = SubResource("ConcavePolygonShape3D_ryb1d")
+
+[node name="Glass" type="MeshInstance3D" parent="SM_Bld_OfficeRound_Base_01"]
+mesh = ExtResource("4_s2vol")
+surface_material_override/0 = ExtResource("4_u0p4w")
+
+[node name="SM_Bld_OfficeRound_022" parent="." instance=ExtResource("3_fgwqq")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, 0, 6, 0)
+
+[node name="SM_Bld_OfficeRound_023" parent="." instance=ExtResource("3_fgwqq")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, 0, 15.5, 0)
+
+[node name="SM_Bld_OfficeRound_Roof_032" parent="." instance=ExtResource("5_rmyt6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 33.5, 0)
+surface_material_override/0 = ExtResource("2_r4tsp")
+
+[node name="SM_Bld_OfficeRound_Roof_034" parent="." instance=ExtResource("5_rmyt6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 23.5, 0)
+surface_material_override/0 = ExtResource("2_r4tsp")
+
+[node name="SM_Bld_OfficeRound_Roof_035" parent="." instance=ExtResource("5_rmyt6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 14.5, 0)
+surface_material_override/0 = ExtResource("2_r4tsp")
+
+[node name="SM_Bld_OfficeRound_024" parent="." instance=ExtResource("3_fgwqq")]
+transform = Transform3D(-1, 0, -1.50996e-07, 0, 1, 0, 1.50996e-07, 0, -1, 0, 24.5, 0)
+
+[node name="SM_Bld_OfficeRound_025" parent="." instance=ExtResource("3_fgwqq")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, 0, 34, 0)
+
+[node name="SM_Bld_OfficeRound_Roof_033" parent="." instance=ExtResource("5_rmyt6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 43, 0)
+surface_material_override/0 = ExtResource("2_r4tsp")

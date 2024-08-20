@@ -1,0 +1,77 @@
+[gd_scene load_steps=6 format=3 uid="uid://nlvoefdsi7tx"]
+
+[ext_resource type="ArrayMesh" uid="uid://c24qrkipn61sg" path="res://Assets/Meshes/City_SM_Prop_Billboard_Pole_04.res" id="1_d0jr7"]
+[ext_resource type="ArrayMesh" uid="uid://bghu1lw3vevk6" path="res://Assets/Meshes/City_SM_Prop_Billboard_01.res" id="2_liag6"]
+[ext_resource type="ArrayMesh" uid="uid://be40fvqiwhic6" path="res://Assets/Meshes/City_SM_Prop_Billboard_Sign_02.res" id="3_svy14"]
+[ext_resource type="ArrayMesh" uid="uid://dret24brwb5o5" path="res://Assets/Meshes/City_SM_Prop_Billboard_Sign_07.res" id="4_xp1ai"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2fpmr"]
+size = Vector3(0.2, 6.5, 0.2)
+
+[node name="SM_Prop_Billboard_Pole_04" type="MeshInstance3D"]
+mesh = ExtResource("1_d0jr7")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Billboard_01" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.881347, 0, 0.472469, 0, 1, 0, -0.472469, 0, 0.881347, -0.205, 5.5, 0.332)
+mesh = ExtResource("2_liag6")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Billboard_Sign_02" type="MeshInstance3D" parent="SM_Prop_Billboard_01"]
+mesh = ExtResource("3_svy14")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Billboard_02" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.971717, 0, -0.236149, 0, 1, 0, 0.236149, 0, -0.971717, -0.414, 5.5, -0.113)
+mesh = ExtResource("2_liag6")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Billboard_Sign_07" type="MeshInstance3D" parent="SM_Prop_Billboard_02"]
+mesh = ExtResource("4_xp1ai")
+skeleton = NodePath("")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="SM_Prop_Billboard_02"]
+transform = Transform3D(0.967447, 0.214717, 0.13395, -0.214717, 0.416265, 0.883527, 0.13395, -0.883527, 0.448818, -0.674578, 2.89581, 0.706531)
+spot_range = 2.5
+spot_angle = 43.65
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="SM_Prop_Billboard_02"]
+transform = Transform3D(0.967447, 0.214717, 0.13395, -0.214717, 0.416265, 0.883527, 0.13395, -0.883527, 0.448818, 0.696083, 2.89581, 0.676366)
+spot_range = 2.5
+spot_angle = 43.65
+
+[node name="SpotLight3D3" type="SpotLight3D" parent="SM_Prop_Billboard_02"]
+transform = Transform3D(0.967447, 0.214717, 0.13395, -0.214717, 0.416265, 0.883527, 0.13395, -0.883527, 0.448818, 1.58957, 2.89581, 0.643072)
+spot_range = 2.5
+spot_angle = 43.65
+
+[node name="SpotLight3D4" type="SpotLight3D" parent="SM_Prop_Billboard_02"]
+transform = Transform3D(0.967447, 0.214717, 0.13395, -0.214717, 0.416265, 0.883527, 0.13395, -0.883527, 0.448818, -1.58169, 2.89581, 0.685387)
+spot_range = 2.5
+spot_angle = 43.65
+
+[node name="SpotLight3D5" type="SpotLight3D" parent="SM_Prop_Billboard_02"]
+transform = Transform3D(-0.969834, 0.0160212, -0.24324, -0.214717, 0.416265, 0.883527, 0.115408, 0.909102, -0.400268, 0.365718, 2.82283, -1.38242)
+spot_range = 2.5
+spot_angle = 43.65
+
+[node name="SpotLight3D6" type="SpotLight3D" parent="SM_Prop_Billboard_02"]
+transform = Transform3D(-0.969834, 0.0160211, -0.24324, -0.214717, 0.416265, 0.883527, 0.115408, 0.909102, -0.400268, -0.952624, 2.82283, -1.00614)
+spot_range = 2.5
+spot_angle = 43.65
+
+[node name="SpotLight3D7" type="SpotLight3D" parent="SM_Prop_Billboard_02"]
+transform = Transform3D(-0.969834, 0.0160211, -0.24324, -0.214718, 0.416265, 0.883527, 0.115408, 0.909102, -0.400268, -1.80856, 2.82283, -0.747669)
+spot_range = 2.5
+spot_angle = 43.65
+
+[node name="SpotLight3D8" type="SpotLight3D" parent="SM_Prop_Billboard_02"]
+transform = Transform3D(-0.969833, 0.016021, -0.24324, -0.214718, 0.416266, 0.883527, 0.115408, 0.909102, -0.400268, 1.24862, 2.82283, -1.59168)
+spot_range = 2.5
+spot_angle = 43.65
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 2.98023e-08, 0, 1, 0, -2.98023e-08, 0, 1, 0, 3.24309, 0)
+shape = SubResource("BoxShape3D_2fpmr")

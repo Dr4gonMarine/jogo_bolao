@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://bxekerdrst4in"]
+
+[ext_resource type="Texture2D" uid="uid://dyuukbgegokx2" path="res://Assets/Imgs/City_PolygonCity_Texture_01_C.png" id="1_x40n7"]
+[ext_resource type="Texture2D" uid="uid://e7sfiuy5vbqi" path="res://Assets/Imgs/City_Emissive_01.png" id="2_t80n2"]
+[ext_resource type="Texture2D" uid="uid://y1apt0s2mgbt" path="res://Assets/Imgs/City_PolygonCity_Texture_Metallic.png" id="3_66ljk"]
+
+[resource]
+albedo_texture = ExtResource("1_x40n7")
+metallic = 1.0
+metallic_texture = ExtResource("3_66ljk")
+emission_enabled = true
+emission_texture = ExtResource("2_t80n2")

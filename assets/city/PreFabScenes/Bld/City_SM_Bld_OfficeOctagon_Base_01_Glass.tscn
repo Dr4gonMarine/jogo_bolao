@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ypjhtglsg8ou"]
+
+[ext_resource type="ArrayMesh" uid="uid://by3rfya0f0kfm" path="res://Assets/Meshes/City_SM_Bld_OfficeOctagon_Base_01_Glass.res" id="1_dktpt"]
+[ext_resource type="Material" uid="uid://deyrwnnsylm40" path="res://Materials/City_Mat_1A_Shiny.tres" id="2_qlr4t"]
+
+[node name="SM_Bld_OfficeOctagon_Base_01_Glass2" type="MeshInstance3D"]
+mesh = ExtResource("1_dktpt")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_qlr4t")

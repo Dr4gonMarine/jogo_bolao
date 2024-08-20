@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://yqjav8arppa7"]
+
+[ext_resource type="PackedScene" uid="uid://fkvuwl55phj0" path="res://PreFabScenes/Env/City_SM_Env_Bridge_Support_07.tscn" id="1_k66qp"]
+[ext_resource type="PackedScene" uid="uid://6s1yynnk8xs0" path="res://PreFabScenes/Env/City_SM_Env_Bridge_Edge_42.tscn" id="2_u7cji"]
+[ext_resource type="PackedScene" uid="uid://cdanck4phvwsy" path="res://PreFabScenes/Env/City_SM_Env_Bridge_Underside_35.tscn" id="3_pk6c0"]
+
+[node name="BridgeSection" type="Node3D"]
+
+[node name="SM_Env_Bridge_Support_04" parent="." instance=ExtResource("1_k66qp")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 0.007761, -3.5, -5)
+
+[node name="SM_Env_Bridge_Edge_28" parent="." instance=ExtResource("2_u7cji")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 5.00776, 0, 0)
+
+[node name="SM_Env_Bridge_Edge_29" parent="." instance=ExtResource("2_u7cji")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -9.99224, 0, -10)
+
+[node name="SM_Env_Bridge_Underside_29" parent="." instance=ExtResource("3_pk6c0")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 0.007761, 0, -5)
+
+[node name="SM_Env_Bridge_Edge_30" parent="." instance=ExtResource("2_u7cji")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 0.007761, 0, -10)
+
+[node name="SM_Env_Bridge_Edge_31" parent="." instance=ExtResource("2_u7cji")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -4.99224, 0, -10)
+
+[node name="SM_Env_Bridge_Underside_30" parent="." instance=ExtResource("3_pk6c0")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -4.99224, 0, 0)
+
+[node name="SM_Env_Bridge_Edge_32" parent="." instance=ExtResource("2_u7cji")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 0.007761, 0, 0)
+
+[node name="SM_Env_Bridge_Underside_53" parent="." instance=ExtResource("3_pk6c0")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -9.99224, 0, 0)
+
+[node name="SM_Env_Bridge_Underside_54" parent="." instance=ExtResource("3_pk6c0")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -4.99224, 0, -5)
+
+[node name="SM_Env_Bridge_Underside_56" parent="." instance=ExtResource("3_pk6c0")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -9.99224, 0, -5)
+
+[node name="SM_Env_Bridge_Edge_58" parent="." instance=ExtResource("2_u7cji")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -4.99224, 0, 0)
+
+[node name="SM_Env_Bridge_Underside_59" parent="." instance=ExtResource("3_pk6c0")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 0.007761, 0, 0)

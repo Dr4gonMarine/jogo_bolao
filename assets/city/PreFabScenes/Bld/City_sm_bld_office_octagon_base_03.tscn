@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://c4o5eqlpi5p3b"]
+
+[ext_resource type="ArrayMesh" uid="uid://d20w104p2t336" path="res://Assets/Meshes/City_SM_Bld_OfficeOctagon_Base_03.res" id="1_403m6"]
+[ext_resource type="ArrayMesh" uid="uid://by3rfya0f0kfm" path="res://Assets/Meshes/City_SM_Bld_OfficeOctagon_Base_01_Glass.res" id="2_ryuov"]
+[ext_resource type="Material" uid="uid://dwg4vkkdhhakb" path="res://Materials/City_Mat_Glass.tres" id="3_jcusy"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_saii7"]
+points = PackedVector3Array(10.3905, 3.89581, 2.84579, 10.3722, 3.89581, 5.1505, 10.3905, 3.569, 2.84579, 10.3905, 3.89581, -2.84783, 10.3722, 3.569, 5.1505, 5.1505, 3.89581, 10.3722, 10.3376, 0, 5.16474, 10.3905, 3.569, -2.84783, 10.3722, 3.89581, -5.15253, 5.1505, 3.569, 10.3722, 7.75422, 0, 7.75422, 2.84579, 3.89581, 10.3905, 10.3376, 0, -5.16677, 10.3722, 3.569, -5.15253, 5.1505, 3.89581, -10.3742, 2.84579, 3.569, 10.3905, 5.16474, 0, 10.3376, -2.84783, 3.89581, 10.3905, 7.75422, 0, -7.75626, 5.1505, 3.569, -10.3742, 2.84579, 3.89581, -10.3905, -2.84783, 3.569, 10.3905, -5.16677, 0, 10.3376, -5.15253, 3.89581, 10.3722, 5.16474, 0, -10.3396, 2.84579, 3.569, -10.3905, -2.84783, 3.89581, -10.3905, -5.15253, 3.569, 10.3722, -7.75626, 0, 7.75422, -10.3742, 3.89581, 5.1505, -5.16677, 0, -10.3396, -2.84783, 3.569, -10.3905, -5.15253, 3.89581, -10.3742, -10.3742, 3.569, 5.1505, -10.3396, 0, 5.16474, -10.3905, 3.89581, 2.84579, -5.15253, 3.569, -10.3742, -7.75626, 0, -7.75626, -10.3742, 3.89581, -5.15253, -10.3905, 3.569, 2.84579, -10.3396, 0, -5.16677, -10.3905, 3.89581, -2.84783, -10.3742, 3.569, -5.15253, -10.3905, 3.569, -2.84783)
+
+[node name="SM_Bld_OfficeOctagon_Base_03" type="Node3D"]
+
+[node name="SM_Bld_OfficeOctagon_Base_03" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_403m6")
+skeleton = NodePath("")
+
+[node name="SM_Bld_OfficeOctagon_Base_01_Glass" type="MeshInstance3D" parent="SM_Bld_OfficeOctagon_Base_03"]
+mesh = ExtResource("2_ryuov")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("3_jcusy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="SM_Bld_OfficeOctagon_Base_03"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SM_Bld_OfficeOctagon_Base_03/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_saii7")

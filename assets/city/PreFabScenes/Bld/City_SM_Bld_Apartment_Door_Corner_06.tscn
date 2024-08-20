@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbumluow7qggv"]
+
+[ext_resource type="ArrayMesh" uid="uid://bniexmsom6yde" path="res://Assets/Meshes/City_SM_Bld_Apartment_Door_Corner_06.res" id="1_4lp5g"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_02cnb"]
+points = PackedVector3Array(4.99799, 2.96605, 0, 4.68287, 2.8091, 0.167253, 0, 2.98554, -4.99867, 5, 0.00138002, -4.96752, 0.0278615, 2.22045e-16, -4.96991, 4.99751, 0.00286849, -4.44089e-16, 5, 2.96724, -4.96702, 0.0326681, 2.96605, 4.44089e-16, 0.0326681, 0.00286849, 0, 0.243023, 2.82346, 0.195104, 5, 1.76487, -2.48204)
+
+[node name="SM_Bld_Apartment_Door_Corner_06" type="MeshInstance3D"]
+mesh = ExtResource("1_4lp5g")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_02cnb")

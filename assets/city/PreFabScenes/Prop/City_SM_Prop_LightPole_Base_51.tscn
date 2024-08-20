@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbbmq27tmldp0"]
+
+[ext_resource type="ArrayMesh" uid="uid://cxqg5twbi7vxs" path="res://Assets/Meshes/City_SM_Prop_LightPole_Base_51.res" id="1_6s5yw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_a8rjt"]
+size = Vector3(0.2, 4, 0.2)
+
+[node name="SM_Prop_LightPole_Base_51" type="MeshInstance3D"]
+mesh = ExtResource("1_6s5yw")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0, 2, 0)
+shape = SubResource("BoxShape3D_a8rjt")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.61926, 0)
+light_color = Color(0.847059, 0.847059, 0.505882, 1)
+omni_range = 5.905

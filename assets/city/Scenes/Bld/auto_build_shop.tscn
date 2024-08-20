@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0pjqigc1n4w0"]
+
+[ext_resource type="PackedScene" uid="uid://bf7nkdffic5gr" path="res://PreFabScenes/Bld/City_sm_bld_shop_62.tscn" id="1_qcb6j"]
+[ext_resource type="PackedScene" uid="uid://bmkgvbn5i5v2q" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOld_Small_Floor_01.tscn" id="2_mdx6f"]
+[ext_resource type="PackedScene" uid="uid://b7hjsj8suc2hs" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOld_Small_Roof_01.tscn" id="3_uxsqm"]
+
+[node name="AutoBuild_Shop" type="Node3D"]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 80.4139, 0, -42)
+
+[node name="SM_Bld_Shop_63" parent="." instance=ExtResource("1_qcb6j")]
+
+[node name="SM_Bld_OfficeOld_Small_Floor_017" parent="." instance=ExtResource("2_mdx6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_018" parent="." instance=ExtResource("2_mdx6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_019" parent="." instance=ExtResource("2_mdx6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_020" parent="." instance=ExtResource("2_mdx6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_021" parent="." instance=ExtResource("2_mdx6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_022" parent="." instance=ExtResource("2_mdx6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 18, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Roof_017" parent="." instance=ExtResource("3_uxsqm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 21, 0)

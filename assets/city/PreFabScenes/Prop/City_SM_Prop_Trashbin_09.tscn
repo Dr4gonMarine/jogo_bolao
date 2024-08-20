@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgogbf74nsw5y"]
+
+[ext_resource type="ArrayMesh" uid="uid://jw8634irwj33" path="res://Assets/Meshes/City_SM_Prop_Trashbin_09.res" id="1_b4c1u"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o7ftv"]
+size = Vector3(0.519275, 1, 0.428174)
+
+[node name="SM_Prop_Trashbin_09" type="MeshInstance3D"]
+mesh = ExtResource("1_b4c1u")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.91789, 0)
+shape = SubResource("BoxShape3D_o7ftv")

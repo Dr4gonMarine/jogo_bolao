@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://6s1yynnk8xs0"]
+
+[ext_resource type="ArrayMesh" uid="uid://c10svg8kkblg8" path="res://Assets/Meshes/City_SM_Env_Bridge_Edge_42.res" id="1_bwka6"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_36cx3"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_lq8ol"]
+points = PackedVector3Array(-4.2421, -1.5281, -4.84542, 0.0412397, -0.814281, 0.0724802, -4.41265, -0.814281, 0.0724802, 0.0412397, -0.814281, -5.04124, -0.12931, -1.5281, -0.123336, -4.41265, -0.814281, -5.04124, -4.2421, -1.5281, -0.123336, -0.12931, -1.5281, -4.84542)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_k2w17"]
+points = PackedVector3Array(-4.57767, 1.41265, 0.0724802, -5.23744, -1.88644, -2.64856, -4.49516, -1.88644, -2.64856, -5.15493, 1.41265, -5.04124, -4.41265, -0.814055, -5.04124, -5.15493, -1.55629, 0.0724802, -5.15493, 1.41265, 0.0724802, -4.42434, -1.51538, 0, -4.49516, 1.66017, -2.64856, -5.15493, -1.55629, -5.04124, -4.57767, 1.41265, -5.04124, -5.23744, 1.66017, -2.15451, -4.4207, -1.5281, -4.9913, -4.41265, -0.814055, 0.0724802, -5.23744, -1.88644, -2.15451, -5.23744, 1.66017, -2.64856, -4.49516, -1.88644, -2.15451, -4.49516, 1.66017, -2.15451)
+
+[node name="SM_Env_Bridge_Edge_14" type="MeshInstance3D"]
+mesh = ExtResource("1_bwka6")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_36cx3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="@CollisionShape3D@171765" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_lq8ol")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_k2w17")

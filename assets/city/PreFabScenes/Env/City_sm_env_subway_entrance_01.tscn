@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvkbwaqx0864s"]
+
+[ext_resource type="ArrayMesh" uid="uid://cqvmr5iinsmpg" path="res://Assets/Meshes/City_SM_Env_SubwayEntrance_07.res" id="1_ak08h"]
+[ext_resource type="ArrayMesh" uid="uid://bhtgw65srchdp" path="res://Assets/Meshes/City_SM_Env_SubwayEntrance_01_Glass.res" id="2_swehc"]
+
+[node name="SM_Env_SubwayEntrance_02" type="MeshInstance3D"]
+transform = Transform3D(-1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, -1, -80, 0, 10)
+mesh = ExtResource("1_ak08h")
+skeleton = NodePath("")
+
+[node name="SM_Env_SubwayEntrance_01_Glass3" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_swehc")
+skeleton = NodePath("")

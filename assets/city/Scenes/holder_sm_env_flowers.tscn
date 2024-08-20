@@ -1,0 +1,360 @@
+[gd_scene load_steps=2 format=3 uid="uid://dr3d5c2eca55u"]
+
+[ext_resource type="ArrayMesh" uid="uid://cmb4vtrnr27n6" path="res://Assets/Meshes/City_SM_Env_Flower_72.res" id="1_r5cno"]
+
+[node name="Holder_SM_Env_Flowers" type="Node3D"]
+
+[node name="SM_Env_Flower_72" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -57.01, 0.1, 43.53)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_71" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -56.53, 0.1, 41.28)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_70" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -43.84, 0.1, 42.41)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_69" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -49.06, 0.1, 45.5)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_65" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -65.19, 0.1, 52.87)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_64" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -37.34, 0.1, 41.68)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_68" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -40.69, 0.1, 50.43)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_67" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -67.06, 0.1, 41.67)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_66" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -68.54, 0.1, 45.93)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_63" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -45.77, 0.1, 41.33)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_62" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -57.05, 0.1, 49.15)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_61" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -57.21, 0.1, 48.76)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_60" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -38.25, 0.1, 43.35)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_59" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -37.29, 0.1, 53.22)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_58" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -37.15, 0.1, 50.41)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_57" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -39.3, 0.1, 52.21)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_55" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -60.74, 0.1, 49.54)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_56" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -49.76, 0.1, 46.84)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_54" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -63.76, 0.1, 53.82)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_53" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -66.76, 0.1, 48.71)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_52" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -68.16, 0.1, 41.91)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_51" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -64.74, 0.1, 46.17)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_50" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -65.33, 0.1, 41.74)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_49" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -60.04, 0.1, 42.54)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_48" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -54.94, 0.1, 41.72)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_47" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -55.45, 0.1, 50.24)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_46" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -49.27, 0.1, 41.52)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_44" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -48.52, 0.1, 41.24)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_45" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -50.05, 0.1, 41.49)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_43" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -49.19, 0.1, 40.83)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_42" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -38.08, 0.1, 42.97)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_41" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -42.39, 0.1, 45.64)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_38" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 28.21, 0.14, -86.77)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_40" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -42.61, 0.1, 44.01)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_39" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -48.09, 0.0977, 43.82)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_37" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 24.34, 0.14, -86.81)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_36" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 27.16, 0.14, -89.02)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_32" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 11.75, 0.145, -99.67)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_35" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 26.88, 0.14, -87.49)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_34" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 22.93, 0.14, -87.75)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_33" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 24.75, 0.14, -89.75)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_31" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 12.85, 0.145, -104.3)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_30" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 13.01, 0.145, -101.48)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_29" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 12.72, 0.145, -101.32)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_28" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 15.05, 0.145, -100.42)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_27" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 14.09, 0.145, -103.35)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_26" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 20.4, 0.145, -101.48)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_25" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 21.36, 0.145, -98.55)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_24" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 19.03, 0.145, -99.45)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_23" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 19.32, 0.145, -99.61)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_22" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 19.16, 0.145, -102.43)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_21" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 18.06, 0.145, -97.8)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_20" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 25.84, 0.145, -95.47)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_19" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 26.94, 0.145, -100.1)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_17" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 26.81, 0.145, -97.12)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_18" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 27.1, 0.145, -97.28)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_16" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 29.14, 0.145, -96.22)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_15" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 28.18, 0.145, -99.15)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_14" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 22.07, 0.145, -89.69)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_13" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.727321, 0, 0, 0, 0.907283, 0, 0, 0, 0.727321, 23.03, 0.145, -86.76)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_12" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.632076, 0, 0, 0, 0.788472, 0, 0, 0, 0.632076, 20.7, 0.145, -87.66)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_09" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 19.73, 0.145, -86.01)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_11" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 20.99, 0.145, -87.82)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_10" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 20.83, 0.145, -90.64)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_08" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 11.11, 0.145, -86.73)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_07" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.632076, 0, 0, 0, 0.788472, 0, 0, 0, 0.632076, 12.21, 0.145, -91.36)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_06" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.770613, 0, 0, 0, 0.961287, 0, 0, 0, 0.770613, 13.77, 0.145, -93.41)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_05" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.770613, 0, 0, 0, 0.961287, 0, 0, 0, 0.770613, 11.2, 0.145, -93.96)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_04" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.632076, 0, 0, 0, 0.788472, 0, 0, 0, 0.632076, 12.37, 0.145, -88.54)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_02" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.632076, 0, 0, 0, 0.788472, 0, 0, 0, 0.632076, 14.41, 0.145, -87.48)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")
+
+[node name="SM_Env_Flower_03" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 12.08, 0.145, -88.38)
+mesh = ExtResource("1_r5cno")
+skeleton = NodePath("")

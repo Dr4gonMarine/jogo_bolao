@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Veh_Car_Van_Door_r_Glass.res" id="1_raowp"]
+
+[node name="SM_Veh_Car_Van_Door_r_Glass4" type="MeshInstance3D"]
+mesh = ExtResource("1_raowp")
+skeleton = NodePath("")

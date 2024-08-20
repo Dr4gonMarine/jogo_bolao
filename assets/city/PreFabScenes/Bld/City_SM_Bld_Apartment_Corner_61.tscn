@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnnd7b4kch0dy"]
+
+[ext_resource type="ArrayMesh" uid="uid://bhye2dt46rlra" path="res://Assets/Meshes/City_SM_Bld_Apartment_Corner_61.res" id="1_on0p8"]
+[ext_resource type="PackedScene" uid="uid://c1uw0iikyqchf" path="res://PreFabScenes/Bld/Unit_Collider.tscn" id="2_xqjvs"]
+
+[node name="SM_Bld_Apartment_Corner_61" type="MeshInstance3D"]
+mesh = ExtResource("1_on0p8")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" parent="." instance=ExtResource("2_xqjvs")]

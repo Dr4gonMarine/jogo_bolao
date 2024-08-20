@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Prop_CarboardBox_09.res" id="1_sv0s5"]
+
+[node name="SM_Prop_CardboardBox_04" type="MeshInstance3D"]
+mesh = ExtResource("1_sv0s5")
+skeleton = NodePath("")

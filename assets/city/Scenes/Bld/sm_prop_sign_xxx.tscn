@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://i4ndptoqwfx0"]
+
+[ext_resource type="ArrayMesh" uid="uid://dhymkjq0ffvjy" path="res://Assets/Meshes/City_SM_Prop_Sign_XXX_04.res" id="1_bdlt3"]
+[ext_resource type="Texture2D" uid="uid://dy0ipotoowwhl" path="res://Assets/Imgs/City_PolygonCity_Texture_01_A.png" id="2_mc80h"]
+[ext_resource type="ArrayMesh" uid="uid://dpw2aww4nnm4w" path="res://Assets/Meshes/City_SM_Prop_Sign_Attachment_02.res" id="2_pfltd"]
+[ext_resource type="Texture2D" uid="uid://e7sfiuy5vbqi" path="res://Assets/Imgs/City_Emissive_01.png" id="3_qwbt7"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sxeqs"]
+albedo_texture = ExtResource("2_mc80h")
+metallic = 1.0
+roughness = 0.1
+emission_enabled = true
+emission_texture = ExtResource("3_qwbt7")
+disable_receive_shadows = true
+
+[node name="SM_Prop_Sign_XXX" type="MeshInstance3D"]
+mesh = ExtResource("1_bdlt3")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_sxeqs")
+
+[node name="SM_Prop_Sign_Attachment_024" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.529913, 0, 0, 0, 2.04996, 0, 0.5, -0.75)
+mesh = ExtResource("2_pfltd")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Sign_Attachment_032" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.529913, 0, 0, 0, 2.04996, 0.75, 0.5, -0.75)
+mesh = ExtResource("2_pfltd")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Sign_Attachment_042" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.529913, 0, 0, 0, 2.04996, -0.75, 0.5, -0.75)
+mesh = ExtResource("2_pfltd")
+skeleton = NodePath("")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.728116, 0.429715)
+light_color = Color(1, 0.0705882, 0.054902, 1)
+light_energy = 4.0
+omni_range = 3.823

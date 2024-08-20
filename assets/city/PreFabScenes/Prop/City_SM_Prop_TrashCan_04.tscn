@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvackehl4axtd"]
+
+[ext_resource type="ArrayMesh" uid="uid://bx2vsf88iwnbt" path="res://Assets/Meshes/City_SM_Prop_TrashCan_04.res" id="1_qb7fb"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xjnm4"]
+size = Vector3(0.628595, 0.823419, 0.592155)
+
+[node name="SM_Prop_TrashCan_01" type="MeshInstance3D"]
+mesh = ExtResource("1_qb7fb")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("BoxShape3D_xjnm4")

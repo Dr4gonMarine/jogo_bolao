@@ -1,0 +1,51 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxa60yy5sn3ll"]
+
+[ext_resource type="PackedScene" uid="uid://fkvuwl55phj0" path="res://PreFabScenes/Env/City_SM_Env_Bridge_Support_07.tscn" id="2_mqdmd"]
+[ext_resource type="PackedScene" uid="uid://yqjav8arppa7" path="res://PreFabScenes/bridge_section.tscn" id="6_qcu54"]
+
+[node name="Holder_SM_Env_Bridge" type="Node3D"]
+
+[node name="BridgeSection" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -180.027, 0, 0)
+
+[node name="BridgeSection12" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -195.027, 0, 0)
+
+[node name="BridgeSection13" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -210.027, 0, 0)
+
+[node name="BridgeSection2" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -165.027, 0, 0)
+
+[node name="BridgeSection3" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.027, 0, 0)
+
+[node name="BridgeSection4" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -135.027, 0, 0)
+
+[node name="BridgeSection5" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 114.973, 0, 0)
+
+[node name="BridgeSection6" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 129.973, 0, 0)
+
+[node name="BridgeSection7" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 144.973, 0, 0)
+
+[node name="BridgeSection8" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 159.973, 0, 0)
+
+[node name="BridgeSection9" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 174.973, 0, 0)
+
+[node name="BridgeSection10" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 189.973, 0, 0)
+
+[node name="BridgeSection11" parent="." instance=ExtResource("6_qcu54")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 199.973, 0, 0)
+
+[node name="SM_Env_Bridge_Support_04" parent="." instance=ExtResource("2_mqdmd")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -130.424, -3.5, -5)
+
+[node name="SM_Env_Bridge_Support_05" parent="." instance=ExtResource("2_mqdmd")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 106.041, -3.5, -5)

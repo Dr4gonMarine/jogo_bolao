@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://brts14tdd7dit"]
+
+[ext_resource type="ArrayMesh" uid="uid://dklqt66pcp65r" path="res://Assets/Meshes/City_SM_Prop_BusStop_01_Glass.res" id="1_3ikfb"]
+[ext_resource type="Material" uid="uid://dwg4vkkdhhakb" path="res://Materials/City_Mat_Glass.tres" id="2_f5svc"]
+
+[node name="SM_Prop_BusStop_01_Glass" type="MeshInstance3D"]
+mesh = ExtResource("1_3ikfb")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_f5svc")

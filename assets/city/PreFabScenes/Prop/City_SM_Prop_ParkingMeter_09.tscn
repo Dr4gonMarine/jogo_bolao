@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8wjj4ch6knfu"]
+
+[ext_resource type="ArrayMesh" uid="uid://mxw6kl17ctap" path="res://Assets/Meshes/City_SM_Prop_ParkingMeter_09.res" id="1_f3f82"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_57pti"]
+points = PackedVector3Array(0.35177, 1.77911, -0.0663727, -0.40073, 1.70524, 0.22646, -0.40073, 1.70524, 0.256138, 0.340757, -0.0148301, 0.256138, -0.3334, 0.00740211, -0.213165, 0.3334, 0.00564409, -0.213577, -0.335063, 1.63046, -0.2236, -0.341389, -0.0148301, 0.256138, 0.400098, 1.82378, 0.285816, 0.334432, 1.63046, -0.2236, -0.40073, 1.82378, 0.285816, -0.147589, 1.14852, -0.250342, -0.213944, 1.78874, -0.124139, 0.400098, 1.76451, 0.078182, -0.40073, 1.79443, 0.107805, 0.35603, 1.84667, 0.189317, -0.355384, 1.8434, 0.16028, 0.334432, 0.505766, -0.2236, 0.400098, 1.73497, 0.285816, -0.3474, 1.76711, -0.120894, 0.3474, 1.74109, -0.148959, -0.335063, 0.505766, -0.2236, -0.40073, 1.73497, 0.285816, -0.40073, 1.73497, 0.107805, -0.271029, 1.84631, 0.16078, 0.400098, 1.79443, 0.078182, -0.353431, 1.81008, 0.0181251, 0.400098, 1.73497, 0.137482, -0.3474, 1.73962, -0.148681, 0.400098, 1.82378, 0.16716)
+
+[node name="SM_Prop_ParkingMeter_09" type="MeshInstance3D"]
+mesh = ExtResource("1_f3f82")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_57pti")

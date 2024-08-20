@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3ulrwc8lf3m8"]
+
+[ext_resource type="ArrayMesh" uid="uid://bedcy0e4ifi8k" path="res://Assets/Meshes/City_SM_Env_Fence_End_24.res" id="1_h5oul"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_lspx2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ljw4y"]
+size = Vector3(0.58, 2.305, 0.5)
+
+[node name="SM_Env_Fence_End_01" type="MeshInstance3D"]
+mesh = ExtResource("1_h5oul")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_lspx2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.16048, 0)
+shape = SubResource("BoxShape3D_ljw4y")

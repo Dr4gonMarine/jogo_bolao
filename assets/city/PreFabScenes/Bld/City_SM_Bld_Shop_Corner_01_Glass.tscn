@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0x4vojn2easf"]
+
+[ext_resource type="ArrayMesh" uid="uid://dahr37gi6m2jy" path="res://Assets/Meshes/City_SM_Bld_Shop_Corner_01_Glass.res" id="1_4aejt"]
+[ext_resource type="Material" uid="uid://dwg4vkkdhhakb" path="res://Materials/City_Mat_Glass.tres" id="2_ksmvc"]
+
+[node name="SM_Bld_Shop_Corner_01_Glass6" type="MeshInstance3D"]
+mesh = ExtResource("1_4aejt")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_ksmvc")

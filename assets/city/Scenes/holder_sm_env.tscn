@@ -1,0 +1,33 @@
+[gd_scene load_steps=11 format=3 uid="uid://bkvnsyab5eni6"]
+
+[ext_resource type="PackedScene" uid="uid://dui3nd8w5kcvt" path="res://Scenes/Env/Holder_SM_Env_Sidewalk.tscn" id="2_nplw4"]
+[ext_resource type="PackedScene" uid="uid://dg3niy8oof8uo" path="res://Scenes/Env/Holder_SM_Env_Road.tscn" id="3_ivbfe"]
+[ext_resource type="PackedScene" uid="uid://bmti07rei3sm3" path="res://Scenes/Env/Holder_SM_Env_Fence.tscn" id="4_a58pf"]
+[ext_resource type="PackedScene" uid="uid://crwda31rvycfa" path="res://Scenes/Env/Holder_SM_Env_Nature.tscn" id="5_nj25w"]
+[ext_resource type="PackedScene" uid="uid://dvgai4drdn2kq" path="res://Scenes/Env/Holder_SM_Env_Ocean_Tile.tscn" id="6_p1kop"]
+[ext_resource type="PackedScene" uid="uid://dap87mprxyal8" path="res://Scenes/Env/Holder_SM_Env_Wateredge.tscn" id="7_jdull"]
+[ext_resource type="PackedScene" uid="uid://cxa60yy5sn3ll" path="res://Scenes/Env/Holder_SM_Env_Bridge.tscn" id="8_gxurr"]
+[ext_resource type="PackedScene" uid="uid://c50dxqloqra0e" path="res://Scenes/Env/Holder_SM_Env_Subway.tscn" id="9_mu3s3"]
+[ext_resource type="PackedScene" uid="uid://c4qcvfgtt4he3" path="res://Scenes/Env/Holder_SM_Env_Cloud.tscn" id="10_4af13"]
+[ext_resource type="Script" path="res://Scripts/SpinY.gd" id="11_2w112"]
+
+[node name="Holder_SM_Env" type="Node3D"]
+
+[node name="Holder_SM_Env_Sidewalk2" parent="." instance=ExtResource("2_nplw4")]
+
+[node name="Holder_SM_Env_Road2" parent="." instance=ExtResource("3_ivbfe")]
+
+[node name="Holder_SM_Env_Fence2" parent="." instance=ExtResource("4_a58pf")]
+
+[node name="Holder_SM_Env_Nature2" parent="." instance=ExtResource("5_nj25w")]
+
+[node name="SM_Env_Ocean_Tile_01" parent="." instance=ExtResource("6_p1kop")]
+
+[node name="Holder_SM_Env_Wateredge2" parent="." instance=ExtResource("7_jdull")]
+
+[node name="Holder_SM_Env_Bridge2" parent="." instance=ExtResource("8_gxurr")]
+
+[node name="Holder_SM_Env_Subway" parent="." instance=ExtResource("9_mu3s3")]
+
+[node name="Holder_SM_Env_Cloud" parent="." instance=ExtResource("10_4af13")]
+script = ExtResource("11_2w112")

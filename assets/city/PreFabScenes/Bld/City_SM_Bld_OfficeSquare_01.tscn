@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cc1n8ev4lr0m5"]
+
+[ext_resource type="ArrayMesh" uid="uid://bouismfd347pd" path="res://Assets/Meshes/City_SM_Bld_OfficeSquare_01.res" id="1_4pgrm"]
+[ext_resource type="Material" uid="uid://deyrwnnsylm40" path="res://Materials/City_Mat_1A_Shiny.tres" id="2_5ofbx"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_eauml"]
+points = PackedVector3Array(15, 29.3146, 0, -8.88178e-16, 0.223668, -15, 15, 0.685427, -14.7619, -8.88178e-16, 29.7763, -15, 0.238094, 0.685427, 0, 15, 0.685427, 0, 15, 29.3146, -14.7619, 0.238094, 29.3146, 0)
+
+[node name="SM_Bld_OfficeSquare_01" type="MeshInstance3D"]
+mesh = ExtResource("1_4pgrm")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_5ofbx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_eauml")

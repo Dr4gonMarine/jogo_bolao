@@ -1,0 +1,19 @@
+[gd_scene load_steps=6 format=3 uid="uid://bvvhhmmb5p2wg"]
+
+[ext_resource type="ArrayMesh" uid="uid://chifuj4k72pug" path="res://Assets/Meshes/City_SM_Bld_Shop_57.res" id="1_bl5en"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_g4hx5"]
+[ext_resource type="ArrayMesh" uid="uid://bi6t4r7tjtr7x" path="res://Assets/Meshes/City_SM_Bld_Shop_04_Glass.res" id="2_mjl83"]
+[ext_resource type="Material" uid="uid://ctmhoxl6cvanw" path="res://Materials/City_Mat_GlassShiny.tres" id="3_vp6hv"]
+[ext_resource type="PackedScene" uid="uid://c1uw0iikyqchf" path="res://PreFabScenes/Bld/Unit_Collider.tscn" id="3_wcki4"]
+
+[node name="SM_Bld_Shop_57" type="MeshInstance3D"]
+mesh = ExtResource("1_bl5en")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_g4hx5")
+
+[node name="SM_Bld_Shop_04_Glass" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_mjl83")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("3_vp6hv")
+
+[node name="StaticBody3D" parent="." instance=ExtResource("3_wcki4")]

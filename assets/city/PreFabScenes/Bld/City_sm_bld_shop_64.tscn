@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://jwbg4aduj6ts"]
+
+[ext_resource type="ArrayMesh" uid="uid://c6feh1u0s8fc7" path="res://Assets/Meshes/City_SM_Bld_Shop_64.res" id="1_voi84"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_08y7a"]
+[ext_resource type="ArrayMesh" uid="uid://b5ny338hkdd6" path="res://Assets/Meshes/City_SM_Bld_Shop_01_Glass.res" id="2_mr0cn"]
+[ext_resource type="Material" uid="uid://ctmhoxl6cvanw" path="res://Materials/City_Mat_GlassShiny.tres" id="3_6ivnf"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_x3rtd"]
+points = PackedVector3Array(0.0157843, 0.133484, -0.00575373, 4.98422, 2.07428, -0.00575373, 4.98422, 0.133484, -0.00575373, 4.75126, 0.133484, 0.304743, 0.24874, 2.07428, 0.304743, 0.0157843, 2.07428, -0.00575373, 0.24874, 0.133484, 0.304743, 4.75126, 2.07428, 0.304743, 3.05832, 0.327563, -0.0446, 1.94168, 1.8802, -0.0446, 0.0157843, 0.133484, 0.0719084, 4.98422, 0.133484, 0.0719084, 3.05832, 1.8802, -0.0446, 1.94168, 0.327563, -0.0446)
+
+[node name="SM_Bld_Shop_55" type="MeshInstance3D"]
+mesh = ExtResource("1_voi84")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_08y7a")
+
+[node name="SM_Bld_Shop_01_Glass3" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_mr0cn")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("3_6ivnf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="SM_Bld_Shop_01_Glass3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SM_Bld_Shop_01_Glass3/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_x3rtd")

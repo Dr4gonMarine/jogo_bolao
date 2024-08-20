@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://chj27dqe2jejg"]
+
+[ext_resource type="ArrayMesh" uid="uid://bd1drwwhv3qha" path="res://Assets/Meshes/City_SM_Prop_LightPole_Base_61.res" id="1_34p4d"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_66h2h"]
+size = Vector3(0.1, 4.99, 0.1)
+
+[node name="SM_Prop_LightPole_Base_61" type="MeshInstance3D"]
+mesh = ExtResource("1_34p4d")
+skeleton = NodePath("")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.00783646, 0.999969, 0, -0.999969, 0.00783646, 0, 6.2718, 1.99749)
+light_color = Color(0.996078, 0.921569, 0.835294, 1)
+light_energy = 20.0
+light_volumetric_fog_energy = 1.155
+shadow_enabled = true
+spot_range = 7.391
+spot_angle = 27.79
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.54202, 0)
+shape = SubResource("BoxShape3D_66h2h")

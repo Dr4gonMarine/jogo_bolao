@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://v508smclk0os"]
+
+[ext_resource type="ArrayMesh" uid="uid://c4xsvw71vuo13" path="res://Assets/Meshes/City_SM_Bld_Shop_Corner_03.res" id="1_q78jr"]
+[ext_resource type="PackedScene" uid="uid://d0x4vojn2easf" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_Corner_01_Glass.tscn" id="2_06r1m"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_hftyp"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_cfmpl"]
+points = PackedVector3Array(0.0116046, 2.22045e-16, -4.91584, 5.1884, 2.92197, 0.260598, 5, 2.993, 0.0721917, 5.1884, 2.92197, -5.0939, -0.188225, 2.93382, -5.1162, -0.166026, 2.92203, 0.2607, 5, 0.00621091, 0.0721917, -0.0713859, 0, 0.166057, 5, 0.00621091, -4.90549, 0.0107713, 3, -4.91668, 0.0218481, 2.99335, 0.0723, 5, 2.993, -4.90549, 0.0478604, 0.021753, 0.2109)
+
+[node name="SM_Bld_Shop_Corner_03" type="MeshInstance3D"]
+mesh = ExtResource("1_q78jr")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_hftyp")
+
+[node name="SM_Bld_Shop_Corner_01_Glass6" parent="." instance=ExtResource("2_06r1m")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_cfmpl")

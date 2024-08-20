@@ -1,0 +1,54 @@
+[gd_scene load_steps=5 format=3 uid="uid://p8tvpninr46b"]
+
+[ext_resource type="PackedScene" uid="uid://1bud2v1oqihb" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeSquare_Base_09.tscn" id="1_ocsdw"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_ins0n"]
+[ext_resource type="PackedScene" uid="uid://uhsamnl6ciie" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeSquare_Roof_04.tscn" id="3_177y3"]
+[ext_resource type="PackedScene" uid="uid://b11oorhqamcot" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeSquare_02.tscn" id="4_t3xgi"]
+
+[node name="Prefab_OfficeSquareWide" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.0143, 0, -14.9789)
+
+[node name="SM_Bld_OfficeSquare_Base_09" parent="." instance=ExtResource("1_ocsdw")]
+surface_material_override/0 = ExtResource("2_ins0n")
+
+[node name="SM_Bld_OfficeSquare_Roof_04" parent="." instance=ExtResource("3_177y3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12, 0)
+surface_material_override/0 = ExtResource("2_ins0n")
+
+[node name="SM_Bld_OfficeSquare_02" parent="." instance=ExtResource("4_t3xgi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.5, 0)
+
+[node name="SM_Bld_OfficeSquare_03" parent="." instance=ExtResource("4_t3xgi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.5, 0)
+
+[node name="SM_Bld_OfficeSquare_Roof_05" parent="." instance=ExtResource("3_177y3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 21, 0)
+surface_material_override/0 = ExtResource("2_ins0n")
+
+[node name="SM_Bld_OfficeSquare_Roof_06" parent="." instance=ExtResource("3_177y3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 30, 0)
+surface_material_override/0 = ExtResource("2_ins0n")
+
+[node name="SM_Bld_OfficeSquare_04" parent="." instance=ExtResource("4_t3xgi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 21.5, 0)
+
+[node name="SM_Bld_OfficeSquare_05" parent="." instance=ExtResource("4_t3xgi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 30.5, 0)
+
+[node name="SM_Bld_OfficeSquare_Roof_07" parent="." instance=ExtResource("3_177y3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 39, 0)
+surface_material_override/0 = ExtResource("2_ins0n")
+
+[node name="SM_Bld_OfficeSquare_Roof_08" parent="." instance=ExtResource("3_177y3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 48, 0)
+surface_material_override/0 = ExtResource("2_ins0n")
+
+[node name="SM_Bld_OfficeSquare_06" parent="." instance=ExtResource("4_t3xgi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 39.5, 0)
+
+[node name="SM_Bld_OfficeSquare_07" parent="." instance=ExtResource("4_t3xgi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 48.5, 0)
+
+[node name="SM_Bld_OfficeSquare_Roof_09" parent="." instance=ExtResource("3_177y3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 57, 0)
+surface_material_override/0 = ExtResource("2_ins0n")

@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://c4qcvfgtt4he3"]
+
+[ext_resource type="PackedScene" path="res://PreFabScenes/Env/City_SM_Env_Cloud_13.tscn" id="1_3qi84"]
+[ext_resource type="PackedScene" path="res://PreFabScenes/Env/City_SM_Env_Cloud_12.tscn" id="2_5fgcy"]
+[ext_resource type="PackedScene" path="res://PreFabScenes/Env/City_SM_Env_Cloud_11.tscn" id="3_08w5a"]
+
+[node name="Holder_SM_Env_Cloud" type="Node3D"]
+
+[node name="SM_Env_Cloud_13" parent="." instance=ExtResource("1_3qi84")]
+transform = Transform3D(-2.71074, 0, -2.10395, 0, 3.43143, 0, 2.10395, 0, -2.71074, 92, 84, 148)
+
+[node name="SM_Env_Cloud_14" parent="." instance=ExtResource("1_3qi84")]
+transform = Transform3D(2.82738, 0, -1.94438, 0, 3.43143, 0, 1.94438, 0, 2.82738, 118, 87.6, -152.6)
+
+[node name="SM_Env_Cloud_12" parent="." instance=ExtResource("2_5fgcy")]
+transform = Transform3D(3.51949, 0, 0, 0, 3.5195, 0, 0, 0, 3.5195, 56, 75, -176)
+
+[node name="SM_Env_Cloud_11" parent="." instance=ExtResource("3_08w5a")]
+transform = Transform3D(0.903075, 0, -2.0243, 0, 2.21661, 0, 2.0243, 0, 0.903075, 168.9, 78.6, -99.4)
+
+[node name="SM_Env_Cloud_15" parent="." instance=ExtResource("1_3qi84")]
+transform = Transform3D(-2.65977, 0, 2.16802, 0, 3.43143, 0, -2.16802, 0, -2.65977, -144.7, 83.5, 183)
+
+[node name="SM_Env_Cloud_16" parent="." instance=ExtResource("3_08w5a")]
+transform = Transform3D(-2.17661, 0.100464, -0.406974, 0.0909783, 2.21393, 0.0599449, 0.409199, 0.0421595, -2.1781, -23.8141, 67.4057, 202.11)
+
+[node name="SM_Env_Cloud_17" parent="." instance=ExtResource("2_5fgcy")]
+transform = Transform3D(-3.42586, 0, 0.806422, 0, 3.5195, 0, -0.806422, 0, -3.42586, -99.7, 80.5, 208.6)
+
+[node name="SM_Env_Cloud_18" parent="." instance=ExtResource("3_08w5a")]
+transform = Transform3D(-0.735343, 0, 2.09108, 0, 2.21661, 0, -2.09108, 0, -0.735343, -191, 74.5, 125.8)
+
+[node name="SM_Env_Cloud_19" parent="." instance=ExtResource("3_08w5a")]
+transform = Transform3D(1.99141, 0, 0.973461, 0, 2.21661, 0, -0.973461, 0, 1.99141, -106.8, 74.5, -165.7)
+
+[node name="SM_Env_Cloud_20" parent="." instance=ExtResource("1_3qi84")]
+transform = Transform3D(1.8441, 0, 2.89379, 0, 3.43143, 0, -2.89379, 0, 1.8441, -158.3, 83.5, -113)

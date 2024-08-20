@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Prop_Washingline_13.res" id="1_p6blv"]
+
+[node name="SM_Prop_Washingline_13" type="MeshInstance3D"]
+mesh = ExtResource("1_p6blv")
+skeleton = NodePath("")

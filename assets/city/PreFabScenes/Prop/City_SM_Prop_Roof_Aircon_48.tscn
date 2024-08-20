@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Prop_Roof_Aircon_48.res" id="1_o7d4a"]
+
+[node name="SM_Prop_Roof_Aircon_48" type="MeshInstance3D"]
+mesh = ExtResource("1_o7d4a")
+skeleton = NodePath("")

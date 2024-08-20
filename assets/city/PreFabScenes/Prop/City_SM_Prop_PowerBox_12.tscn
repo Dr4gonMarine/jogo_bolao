@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bclqwyo2anw2v"]
+
+[ext_resource type="ArrayMesh" uid="uid://cgxlc60s1ppoe" path="res://Assets/Meshes/City_SM_Prop_PowerBox_12.res" id="1_jlcst"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_rr2s8"]
+points = PackedVector3Array(-0.932731, 0.0513886, -0.400656, 0.96688, 1.89128, 0.00741425, -0.966701, 1.8911, 0.00741425, -0.942308, 0.0421132, 0.360757, 1.00175, 0.141055, -0.430852, 0.937467, 0.0468017, 0.358941, -0.960638, 1.64497, -0.382751, -0.963008, 1.64667, 0.338413, 0.960369, 1.64478, -0.382724, 0.963235, 1.64684, 0.338491, 0.115928, 1.0127, 0.413481, -1.00175, 0.141055, -0.430852, 1.00175, 0.172397, 0.383047, -1.00175, 0.172397, 0.383047, 0.934849, 0.0493374, -0.401582, -0.964107, 1.88859, -0.0527009, 0.963935, 1.88842, -0.0526902, 0.115594, 0.810371, 0.41231, -0.78331, 1.41891, 0.3556)
+
+[node name="SM_Prop_PowerBox_12" type="MeshInstance3D"]
+mesh = ExtResource("1_jlcst")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_rr2s8")

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvd8c2ay63oie"]
+
+[ext_resource type="ArrayMesh" uid="uid://bqctfr54vw6o6" path="res://Assets/Meshes/City_SM_Bld_Apartment_Roof_Corner_59.res" id="1_a8h7t"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_h5on5"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_v8cie"]
+points = PackedVector3Array(4.42006, 5.55112e-17, -0.0541268, -0.3499, 0.314883, -5.0623, -0.500435, 0.580132, -5.21283, 5.21283, 0.580132, -5.21283, -0.219514, 0.7435, 0.219514, 5.03388, 0.758794, -0.124804, 5.03388, -0.0444777, -5.1228, 0.0541268, 0, -0.610623, 0.125363, 0.758794, -5.03332, -0.0535963, -0.0444777, -5.1228, 5.21283, 0.580132, 0.500435, -0.3499, 0.314883, 0.3499, 0.499656, 0.0617934, 0.259671, 4.91176, 0.0686618, 0.0346, -0.500435, 0.580132, 0.500435, -0.259671, 0.0617934, -0.500185, 4.55063, 0.0617934, 0.259671, -0.219514, 0.7435, -4.93138, 4.93191, 0.7435, 0.219514, -0.259671, 0.0617934, -4.55063, 0.610126, 0, -0.0541268, 4.73735, 0, -0.213268, -0.0346, 0.0686618, 0.0346, 5.0623, 0.314883, 0.3499, 0.213268, 0, -0.213268)
+
+[node name="SM_Bld_Apartment_Roof_Corner_59" type="MeshInstance3D"]
+mesh = ExtResource("1_a8h7t")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_h5on5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_v8cie")

@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://dm3w3ogfu46du"]
+
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_8mye4"]
+[ext_resource type="ArrayMesh" uid="uid://b113sl1os4nwf" path="res://Assets/Meshes/City_SM_Veh_Car_Muscle_01.res" id="2_ots84"]
+[ext_resource type="ArrayMesh" uid="uid://rdhyri1tq8dy" path="res://Assets/Meshes/City_SM_Veh_Car_Muscle_Wheel_fl.res" id="3_l0f2v"]
+[ext_resource type="ArrayMesh" uid="uid://begnngse1mjyn" path="res://Assets/Meshes/City_SM_Veh_Car_Muscle_Wheel_fr.res" id="4_i3y0l"]
+[ext_resource type="ArrayMesh" uid="uid://cfkc7xexk02jt" path="res://Assets/Meshes/City_SM_Veh_Car_Muscle_Glass.res" id="5_4ahnx"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_321r7"]
+points = PackedVector3Array(-1.0079, 0.433765, 2.55186, 1.24804, 1.20936, 0.756945, -0.990982, 1.03009, -2.73588, 1.06859, 0.224353, -2.01936, 1.06859, 0.224353, 2.45875, -1.08058, 0.224353, -2.01936, -1.25978, 1.20936, 0.756945, 0.0832379, 0.940593, 2.90651, 0.628407, 1.48592, -0.58301, 0.978994, 1.03009, -2.73588, -0.184826, 0.134717, 2.72752, -0.632926, 1.47848, 0.286887, 0.889394, 0.313848, -2.64611, 1.06859, 0.940593, 2.63774, -0.901382, 0.940593, 2.72752, 0.262438, 0.134717, -1.83981, 0.61418, 1.47168, 0.362442, -0.901382, 0.313848, -2.64611, -0.640367, 1.48592, -0.58301, -0.979487, 0.202119, 1.42844, -0.632827, 0.134717, -1.75004, 1.15819, 0.492978, -1.83981, 0.937498, 0.508072, 2.78953, -1.10018, 0.598764, -2.56356, 0.0832379, 1.03009, 2.63774, -1.03551, 0.508003, 2.70406, 1.06859, 1.11972, -2.01936, -1.08058, 1.11972, -2.01936, 0.172838, 0.134717, 2.72752, -0.990982, 1.03009, 2.36842, 1.09373, 0.597488, -2.57717, -0.948902, 0.508281, 2.78792)
+
+[node name="SM_Veh_Car_Muscle_05" type="MeshInstance3D"]
+mesh = ExtResource("2_ots84")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_8mye4")
+
+[node name="Wheel" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.818789, 0.271998, -1.35142)
+mesh = ExtResource("3_l0f2v")
+
+[node name="Wheel2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.818789, 0.271998, 1.9303)
+mesh = ExtResource("3_l0f2v")
+
+[node name="Wheel3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.818297, 0.275389, -1.34861)
+mesh = ExtResource("4_i3y0l")
+
+[node name="Wheel4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.818297, 0.275389, 1.93806)
+mesh = ExtResource("4_i3y0l")
+
+[node name="Glass" type="MeshInstance3D" parent="."]
+mesh = ExtResource("5_4ahnx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_321r7")

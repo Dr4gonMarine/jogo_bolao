@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://criiku41dhnbd"]
+
+[ext_resource type="ArrayMesh" uid="uid://bflrf32mqgc25" path="res://Assets/Meshes/City_SM_Prop_Skylight_12.res" id="1_ewxdh"]
+[ext_resource type="ArrayMesh" uid="uid://ckdouwknw1tdb" path="res://Assets/Meshes/City_SM_Prop_Skylight_01_Glass.res" id="2_dahav"]
+[ext_resource type="Material" uid="uid://dwg4vkkdhhakb" path="res://Materials/City_Mat_Glass.tres" id="3_x8qsb"]
+
+[node name="SM_Prop_Skylight_01" type="MeshInstance3D"]
+mesh = ExtResource("1_ewxdh")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Skylight_01_Glass10" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_dahav")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("3_x8qsb")

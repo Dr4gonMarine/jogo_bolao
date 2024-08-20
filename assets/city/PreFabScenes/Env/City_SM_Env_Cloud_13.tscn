@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Env_Cloud_13.res" id="1_awe3f"]
+
+[node name="SM_Env_Cloud_13" type="MeshInstance3D"]
+mesh = ExtResource("1_awe3f")
+skeleton = NodePath("")

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bidxx8ca6fssx"]
+
+[ext_resource type="ArrayMesh" uid="uid://cwv8hpwfh1kr3" path="res://Assets/Meshes/City_SM_Env_Sidewalk_Dip_Corner_49.res" id="1_ac5bb"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_cpjrf"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ebbuj"]
+points = PackedVector3Array(0.992996, 0.126804, -0.754838, -0.0396824, -0.0319184, -5.03968, -0.0396824, -0.269944, -0.67479, 4.56337, -0.269944, -5.03968, 5.03968, 0.0474234, 0.0396824, 4.40377, 0.126804, -5.03968, 3.61074, -0.269944, -1.23016, -0.0396824, 0.0474234, 0.0396824, -0.0396824, 0.0474234, -5.03968, 5.03968, -0.0319184, 0.0396824, 5.03968, 0.0474234, -5.03968, -0.0396824, 0.126804, -1.07155, 0.437129, -0.269944, -0.437129, 4.56337, -0.269944, -2.97582, -0.0396824, -0.111221, -0.0398691, 4.95963, -0.111221, -5.03968, 4.32521, 0.126804, -4.0075, 4.32521, -0.269944, -5.03968, 1.86508, -0.269944, -0.516681, 3.92845, 0.126804, -5.03968, -0.0396824, 0.126804, -0.595735, 4.95963, -0.111221, -2.5, 2.18329, -0.111221, -0.0398691, -0.0396824, -0.269944, -0.437129, 2.73716, -0.269944, -0.833893, 3.69029, -0.269944, -1.30971, 2.34189, -0.269944, -0.67479, 0.67479, 0.126804, -0.67479, 3.45164, -0.269944, -1.1511, 4.48332, -0.269944, -2.81671, 0.119421, 0.126804, -0.595735, 4.40377, 0.126804, -4.88058)
+
+[node name="SM_Env_Sidewalk_Dip_Corner_14" type="MeshInstance3D"]
+mesh = ExtResource("1_ac5bb")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_cpjrf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_ebbuj")
