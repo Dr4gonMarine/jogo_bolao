@@ -3,7 +3,7 @@ extends RigidBody3D
 @export var IMPULSO_PULO := 500
 @export var PORCENTAGEM_APROXIMACAO_CAMERA = 0.1
 @export var velocidade := 15.0
-@export var fator_reducao: float = 0.0001
+@export var fator_reducao: float = 0.005
 @export var tamanho_inicial = 10.0
 @export var fov_increment = 0.1
 
