@@ -7,6 +7,7 @@ extends Node
 
 var time: float
 var time_string : String
+var coin_count := 0
 
 func _ready() -> void:	
 	ui_menu.visible = false
@@ -30,16 +31,9 @@ func _process(delta: float) -> void:
 func _unhandled_input(event):
 	if event is InputEventKey:
 		if event.pressed and event.keycode == KEY_R:
+			if(get_tree().paused):	
+				get_tree().paused = !get_tree().paused
 			get_tree().reload_current_scene()
 		if event.pressed and event.keycode == KEY_ESCAPE:
 			get_tree().paused = !get_tree().paused
 			ui_menu.visible = !ui_menu.visible
-
-
-func _on_finish_area_component_body_entered(body: Node3D) -> void:
-	if(body.is_in_group("ball")):
-		final_page.visible = true
-		final_page.final_size = bola.sphere_shape.radius
-		final_page.final_time = time_string
-		#final_coin_count : String
-		get_tree().paused = true

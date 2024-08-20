@@ -1,8 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://co0ja2w8itde"]
+[gd_scene load_steps=2 format=3 uid="uid://bmp8yuo3jkob4"]
 
 [ext_resource type="Script" path="res://finish_area_component.gd" id="1_n2p64"]
 
 [node name="FinalPage" type="CanvasLayer"]
+process_mode = 3
 script = ExtResource("1_n2p64")
 
 [node name="Control" type="Control" parent="."]
