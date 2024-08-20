@@ -16,7 +16,7 @@
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dmtwg"]
 friction = 4.0
 rough = true
-bounce = 0.5
+bounce = 0.01
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_x03cx"]
 
@@ -46,8 +46,8 @@ far = 4000.0
 
 [node name="bola" type="RigidBody3D" groups=["ball"]]
 transform = Transform3D(1, -1.4212e-07, -3.49061e-05, 1.4212e-07, 1, -1.10628e-07, 3.49061e-05, 1.10628e-07, 1, 0, 0.537522, 0)
-mass = 100.0
 physics_material_override = SubResource("PhysicsMaterial_dmtwg")
+gravity_scale = 5.0
 angular_damp = 1.0
 script = ExtResource("1_36py3")
 
@@ -61,7 +61,7 @@ skeleton = NodePath("")
 [node name="CameraRig" type="Marker3D" parent="."]
 
 [node name="PhantomCamera3D" type="Node3D" parent="CameraRig" node_paths=PackedStringArray("follow_target", "look_at_target")]
-transform = Transform3D(0.999946, 0, 0, 0, 0.888843, 0.458128, 0, -0.458094, 0.888911, 0.000160095, 3.07813, 4.57391)
+transform = Transform3D(0.999946, -2.02515e-11, 3.73486e-11, -8.67315e-19, 0.879021, 0.476701, -4.24834e-11, -0.476666, 0.879086, 0.000412624, 7.38702, 11.7909)
 script = ExtResource("3_slmmf")
 follow_mode = 5
 follow_target = NodePath("../../MeshInstance3D")
@@ -69,15 +69,17 @@ look_at_mode = 2
 look_at_target = NodePath("../../MeshInstance3D")
 tween_resource = SubResource("Resource_jhc7a")
 camera_3d_resource = SubResource("Resource_t0632")
-follow_offset = Vector3(0, 2.62, 3.685)
+follow_offset = Vector3(0, 2.62, 3)
 follow_damping = true
+follow_distance = 10.0
 dead_zone_width = 0.385
 dead_zone_height = 0.093
+spring_length = 10.0
 look_at_offset = Vector3(0, -4.5, -10.13)
 
 [node name="Camera3D" type="Camera3D" parent="CameraRig"]
 unique_name_in_owner = true
-transform = Transform3D(0.999946, 0, 0, -4.14122e-15, 0.888843, 0.458128, 0, -0.458094, 0.888911, 0.000160095, 3.07813, 4.57391)
+transform = Transform3D(0.999946, -2.00089e-11, 4.00178e-11, -4.14686e-15, 0.879021, 0.476701, -4.36557e-11, -0.476666, 0.879086, 0.000412624, 7.38702, 11.7909)
 
 [node name="PhantomCameraHost" type="Node" parent="CameraRig/Camera3D"]
 script = ExtResource("3_tfgah")
