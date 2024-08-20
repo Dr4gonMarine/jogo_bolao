@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bc6wwuqhlo0ge"]
+
+[ext_resource type="ArrayMesh" uid="uid://cuhcdcwe3n7by" path="res://Assets/Meshes/City_SM_Veh_Car_Medium_Glass.res" id="1_mqh4k"]
+
+[node name="SM_Veh_Car_Medium_Glass" type="MeshInstance3D"]
+mesh = ExtResource("1_mqh4k")
+skeleton = NodePath("")

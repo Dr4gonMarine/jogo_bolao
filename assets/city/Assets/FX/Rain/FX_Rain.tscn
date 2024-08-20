@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://bt3q2cot3bjho"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_sywh8"]
+resource_local_to_scene = true
+emission_shape = 3
+emission_box_extents = Vector3(30, 1, 30)
+direction = Vector3(0, -1, 0)
+spread = 5.0
+initial_velocity_min = 15.0
+initial_velocity_max = 15.0
+
+[sub_resource type="Curve" id="Curve_qw410"]
+max_value = 0.1
+bake_resolution = 64
+_data = [Vector2(0, 0), 0.0, 1.00292, 0, 0, Vector2(0.0739437, 0.0684211), 0.199298, 0.199298, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o20ep"]
+transparency = 1
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_color = Color(0.501961, 0.501961, 0.501961, 0.501961)
+use_particle_trails = true
+
+[sub_resource type="RibbonTrailMesh" id="RibbonTrailMesh_8hdys"]
+material = SubResource("StandardMaterial3D_o20ep")
+size = 0.5
+curve = SubResource("Curve_qw410")
+
+[node name="GPUParticles3D" type="GPUParticles3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8, 0)
+emitting = false
+amount = 777
+lifetime = 2.0
+randomness = 0.5
+visibility_aabb = AABB(-23.0729, -51.1755, -32.226, 45.8148, 53.1733, 64.2215)
+trail_enabled = true
+process_material = SubResource("ParticleProcessMaterial_sywh8")
+draw_pass_1 = SubResource("RibbonTrailMesh_8hdys")
+
+[node name="GPUParticlesCollisionBox3D" type="GPUParticlesCollisionBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -28, 0)
+size = Vector3(31.9255, 2, 32.0358)

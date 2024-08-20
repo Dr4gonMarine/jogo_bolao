@@ -1,0 +1,488 @@
+[gd_scene load_steps=22 format=3 uid="uid://cpnmlnpqx0m0c"]
+
+[ext_resource type="Material" uid="uid://pwqwpdkxyjok" path="res://Materials/City_Mat_3B.tres" id="6_e45s2"]
+[ext_resource type="Material" uid="uid://cf0gq1c8cbgbt" path="res://Materials/City_Mat_2B.tres" id="7_tf3eh"]
+[ext_resource type="Material" uid="uid://d1g2wcy3k6d6m" path="res://Materials/City_Mat_2C.tres" id="8_vllak"]
+[ext_resource type="Material" uid="uid://cknovioohrswx" path="res://Materials/City_Mat_2A.tres" id="10_1kuxb"]
+[ext_resource type="PackedScene" uid="uid://b283528a4w5y1" path="res://PreFabScenes/Veh/sm_veh_car_van_01.tscn" id="10_c77oc"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="11_b7xvp"]
+[ext_resource type="Material" uid="uid://b2qfjat66w2hf" path="res://Materials/City_Mat_3C.tres" id="12_w2sl1"]
+[ext_resource type="Material" uid="uid://dwcrab3ef23al" path="res://Materials/City_Mat_4A.tres" id="13_7hiht"]
+[ext_resource type="Material" uid="uid://cn1xhvcrywn38" path="res://Materials/City_Mat_4B.tres" id="14_4d052"]
+[ext_resource type="Material" uid="uid://0qx7v364d88f" path="res://Materials/City_Mat_1B.tres" id="16_gf7qc"]
+[ext_resource type="PackedScene" uid="uid://tm4e4tnflxk5" path="res://PreFabScenes/Veh/City_sm_veh_car_police_01.tscn" id="18_sdcvo"]
+[ext_resource type="Material" uid="uid://bxekerdrst4in" path="res://Materials/City_Mat_1C.tres" id="18_ya5f7"]
+[ext_resource type="Material" uid="uid://bi0v622kockxa" path="res://Materials/City_Mat_4C.tres" id="19_r3hcv"]
+[ext_resource type="Material" uid="uid://dw116wfgfihc6" path="res://Materials/City_Mat_3A.tres" id="20_4nsbf"]
+[ext_resource type="PackedScene" uid="uid://fgeje5oo1ark" path="res://PreFabScenes/Veh/City_SM_veh_car_taxi_01.tscn" id="24_kqaql"]
+[ext_resource type="PackedScene" uid="uid://c26vfvu3tt4e2" path="res://PreFabScenes/Veh/City_SM_Veh_Car_Medium_01.tscn" id="82_ckpid"]
+[ext_resource type="PackedScene" uid="uid://cpn6xy5vb2gof" path="res://PreFabScenes/Veh/City_SM_Veh_Car_Ambo_01.tscn" id="89_2uwi3"]
+[ext_resource type="PackedScene" uid="uid://l7jbyocwf6p0" path="res://PreFabScenes/Veh/City_sm_veh_car_small_01.tscn" id="90_wkffs"]
+[ext_resource type="PackedScene" uid="uid://1tqq2xlmtehm" path="res://PreFabScenes/Veh/City_SM_veh_car_van_01.tscn" id="92_mqfah"]
+[ext_resource type="PackedScene" uid="uid://qg8qflypkqn8" path="res://PreFabScenes/Veh/City_sm_veh_car_sedan_01.tscn" id="102_85g18"]
+[ext_resource type="PackedScene" uid="uid://dm3w3ogfu46du" path="res://PreFabScenes/Veh/City_sm_veh_car_muscle_01.tscn" id="108_7vxnt"]
+
+[node name="Cars" type="Node3D"]
+
+[node name="SM_Veh_Car_Van_06" parent="." instance=ExtResource("10_c77oc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.161398)
+
+[node name="SM_Veh_Car_Taxi_01" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.93, 0, 120.28)
+
+[node name="SM_Veh_Car_Taxi_02" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(-0.0239419, 0, -0.999713, 0, 1, 0, 0.999713, 0, -0.0239419, -18.19, 0, -0.85)
+
+[node name="SM_Veh_Car_Taxi_03" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(-0.0239419, 0, -0.999713, 0, 1, 0, 0.999713, 0, -0.0239419, -36.51, 0, -0.95)
+
+[node name="SM_Veh_Car_Taxi_04" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(-0.0239419, 0, -0.999713, 0, 1, 0, 0.999713, 0, -0.0239419, -46.57, 0, -0.95)
+
+[node name="SM_Veh_Car_Van_03" parent="." instance=ExtResource("92_mqfah")]
+transform = Transform3D(-0.0017703, 0, 0.999998, 0, 1, 0, -0.999998, 0, -0.0017703, -37.75, 0, -7.44)
+
+[node name="SM_Veh_Car_Police_01" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.3, 0, 44.8)
+
+[node name="SM_Veh_Car_Police_02" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.5, 0, -18.5)
+
+[node name="SM_Veh_Car_Police_03" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.5, 0, -36.4)
+
+[node name="SM_Veh_Car_Police_04" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(3.13916e-07, 0, 1, 0, 1, 0, -1, 0, 3.13916e-07, 102, 0, -7.7)
+
+[node name="SM_Veh_Car_Police_05" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(3.13916e-07, 0, 1, 0, 1, 0, -1, 0, 3.13916e-07, 14.2, 0, -7.7)
+
+[node name="SM_Veh_Car_Police_06" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(5.52335e-07, 0, 1, 0, 1, 0, -1, 0, 5.52335e-07, -22.2, 0, -77.4)
+
+[node name="SM_Veh_Car_Police_07" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(3.13916e-07, 0, 1, 0, 1, 0, -1, 0, 3.13916e-07, 39.1, 0, -117.4)
+
+[node name="SM_Veh_Car_Police_08" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.9, 0, -147)
+
+[node name="SM_Veh_Car_Police_09" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, -135.6, 0, -7.9)
+
+[node name="SM_Veh_Car_Medium_06" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, -14, 0, -7.8)
+
+[node name="SM_Veh_Car_Medium_02" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, -77.3, 0, -7.8)
+
+[node name="SM_Veh_Car_Medium_08" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(1, 0, 9.83477e-07, 0, 1, 0, -9.83477e-07, 0, 1, 36.8, 0, -46.9)
+
+[node name="SM_Veh_Car_Medium_09" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(1, 0, 9.83477e-07, 0, 1, 0, -9.83477e-07, 0, 1, 68.1, 0, -147.3)
+
+[node name="SM_Veh_Car_Medium_07" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, 64.7, 0, -147.2)
+surface_material_override/0 = ExtResource("6_e45s2")
+
+[node name="SM_Veh_Car_Medium_10" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(9.09963e-07, 0, -1, 0, 1, 0, 1, 0, 9.09963e-07, 84.3, 0, -102.2)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Medium_12" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(1, 0, 4.76837e-07, 0, 1, 0, -4.76837e-07, 0, 1, 98.1, 0, -131.9)
+surface_material_override/0 = ExtResource("8_vllak")
+
+[node name="SM_Veh_Car_Medium_13" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(1, 0, 4.76837e-07, 0, 1, 0, -4.76837e-07, 0, 1, 2.5, 0, -95)
+
+[node name="SM_Veh_Car_Medium_14" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(0.762887, 0, -0.646532, 0, 1, 0, 0.646532, 0, 0.762887, -91, 0, -70.5)
+
+[node name="SM_Veh_Car_Medium_03" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(1, 0, 4.76837e-07, 0, 1, 0, -4.76837e-07, 0, 1, -92.2, 0, 20.5)
+
+[node name="SM_Veh_Car_Medium_11" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1, 0, 3.89414e-07, 0, 1, 0, -3.89414e-07, 0, -1, 72.5, 0, 17.1)
+
+[node name="SM_Veh_Car_Medium_04" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1, 0, 2.05834e-06, 0, 1, 0, -2.05834e-06, 0, -1, -3.2, 0, 70.18)
+
+[node name="SM_Veh_Car_Medium_15" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1, 0, 2.05834e-06, 0, 1, 0, -2.05834e-06, 0, -1, -56.7, 0, 77.6)
+
+[node name="SM_Veh_Car_Medium_16" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1, 0, 2.05834e-06, 0, 1, 0, -2.05834e-06, 0, -1, -73.2, 0, 77.4)
+
+[node name="SM_Veh_Car_Medium_17" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(1.74443e-06, 0, 1, 0, 1, 0, -1, 0, 1.74443e-06, -113.1, 0, 142)
+
+[node name="SM_Veh_Car_Medium_18" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1.71264e-06, 0, -1, 0, 1, 0, 1, 0, -1.71264e-06, -9.9, 0, 142.2)
+
+[node name="SM_Veh_Car_Medium_05" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1, 0, 2.05834e-06, 0, 1, 0, -2.05834e-06, 0, -1, -49.8, 0, 147.3)
+
+[node name="SM_Veh_Car_Medium_19" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-2.66632e-06, 0, -1, 0, 1, 0, 1, 0, -2.66632e-06, -47.7, 0, 102.2)
+
+[node name="SM_Veh_Car_Medium_24" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(0.767263, 0, -0.641333, 0, 1, 0, 0.641333, 0, 0.767263, -68.3, 0, 90.3)
+
+[node name="SM_Veh_Car_Small_02" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.9, 0, 9.8)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Small_03" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.4, 0, 80.4)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Small_08" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, 70.6)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Small_04" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, 36, 0, 67.6)
+surface_material_override/0 = ExtResource("8_vllak")
+
+[node name="SM_Veh_Car_Small_05" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, 30.4, 0, -7.2)
+surface_material_override/0 = ExtResource("11_b7xvp")
+
+[node name="SM_Veh_Car_Small_06" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, 29.8, 0, -77.7)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Small_07" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, 33.3, 0, -117.2)
+surface_material_override/0 = ExtResource("13_7hiht")
+
+[node name="SM_Veh_Car_Small_09" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, 48.3, 0, -117.3)
+surface_material_override/0 = ExtResource("12_w2sl1")
+
+[node name="SM_Veh_Car_Small_10" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-6.39758e-07, 0, 1, 0, 1, 0, -1, 0, -6.39758e-07, 17.6, 0, -142.5)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Small_11" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(1, 0, 9.83477e-07, 0, 1, 0, -9.83477e-07, 0, 1, 97.4, 0, -117.9)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Small_16" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(1, 0, 9.83477e-07, 0, 1, 0, -9.83477e-07, 0, 1, 74.9, 0, -147.6)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Small_12" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(1, 0, 9.83477e-07, 0, 1, 0, -9.83477e-07, 0, 1, 48.4, 0, -147.3)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Small_13" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(1, 0, 9.83477e-07, 0, 1, 0, -9.83477e-07, 0, 1, 2.8, 0, -27.3)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Small_17" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-1, 0, -2.05834e-06, 0, 1, 0, 2.05834e-06, 0, -1, -2.7, 0, 58.7)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Small_14" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(1.50601e-06, 0, -1, 0, 1, 0, 1, 0, 1.50601e-06, -63.3, 0, 142.6)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Ambo_02" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.8, 0, 58.8)
+
+[node name="SM_Veh_Car_Ambo_03" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.2, 0, -70.2)
+
+[node name="SM_Veh_Car_Ambo_04" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(6.71544e-07, 0, 1, 0, 1, 0, -1, 0, 6.71544e-07, 50.2, 0, 67.6)
+
+[node name="SM_Veh_Car_Ambo_05" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(-1.35501e-06, 0, -1, 0, 1, 0, 1, 0, -1.35501e-06, -78.3, 0, 142.6)
+
+[node name="SM_Veh_Car_Police_10" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.3, 0, 146.9)
+
+[node name="SM_Veh_Car_Van_04" parent="." instance=ExtResource("92_mqfah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.7, 0, 38.6)
+
+[node name="SM_Veh_Car_Van_07" parent="." instance=ExtResource("92_mqfah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6, 0, 107.7)
+
+[node name="SM_Veh_Car_Van_16" parent="." instance=ExtResource("92_mqfah")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -62.2, 0, -40.5)
+
+[node name="SM_Veh_Car_Van_05" parent="." instance=ExtResource("92_mqfah")]
+transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, -97.4, 0, 52.2)
+
+[node name="SM_Veh_Car_Van_08" parent="." instance=ExtResource("92_mqfah")]
+transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, -102.9, 0, 91.7)
+
+[node name="SM_Veh_Car_Van_12" parent="." instance=ExtResource("92_mqfah")]
+transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, -2.1, 0, -32)
+
+[node name="SM_Veh_Car_Medium_20" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, -53, 0, -72.2)
+
+[node name="SM_Veh_Car_Small_15" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, -97.2, 0, -22.9)
+surface_material_override/0 = ExtResource("13_7hiht")
+
+[node name="SM_Veh_Car_Medium_27" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-5.20549e-07, 0, 1, 0, 1, 0, -1, 0, -5.20549e-07, 22.1, 0, -47.5)
+
+[node name="SM_Veh_Car_Medium_21" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, -107.79, 0, -2.7)
+
+[node name="SM_Veh_Car_Muscle_04" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, 20.97, 0, -2.4)
+
+[node name="SM_Veh_Car_Muscle_05" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, 88.51, 0, -2.51)
+surface_material_override/0 = ExtResource("13_7hiht")
+
+[node name="SM_Veh_Car_Muscle_06" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, -13.95, 0, -3.35)
+
+[node name="SM_Veh_Car_Muscle_07" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -62.3, 0, -52.7)
+
+[node name="SM_Veh_Car_Muscle_08" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, -97.8, 0, 40)
+
+[node name="SM_Veh_Car_Muscle_09" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, -102.5, 0, 127)
+
+[node name="SM_Veh_Car_Muscle_10" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, -60, 0, 77.5)
+
+[node name="SM_Veh_Car_Muscle_11" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, -33.3, 0, 147.3)
+
+[node name="SM_Veh_Car_Muscle_12" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, 39.8, 0, -46.8)
+
+[node name="SM_Veh_Car_Muscle_13" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, 54.8, 0, -147.1)
+
+[node name="SM_Veh_Car_Muscle_14" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(1, 0, -1.54972e-06, 0, 1, 0, 1.54972e-06, 0, 1, 72.9, 0, -89.9)
+surface_material_override/0 = ExtResource("14_4d052")
+
+[node name="SM_Veh_Car_Sedan_01" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, 0, -57.5)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Sedan_05" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(3.13916e-07, 0, 1, 0, 1, 0, -1, 0, 3.13916e-07, -75, 0, -77.8)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Sedan_02" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -97.3, 0, -37.7)
+surface_material_override/0 = ExtResource("11_b7xvp")
+
+[node name="SM_Veh_Car_Sedan_03" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -97.6, 0, 24)
+surface_material_override/0 = ExtResource("16_gf7qc")
+
+[node name="SM_Veh_Car_Sedan_08" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -103, 0, 77.9)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Sedan_09" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -2.7, 0, 114.4)
+surface_material_override/0 = ExtResource("8_vllak")
+
+[node name="SM_Veh_Car_Sedan_06" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -2.41, 0, 24.59)
+surface_material_override/0 = ExtResource("13_7hiht")
+
+[node name="SM_Veh_Car_Sedan_10" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-4.93129e-06, 0, -1, 0, 1, 0, 1, 0, -4.93129e-06, 35, 0, -2.57)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Sedan_07" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-4.93129e-06, 0, -1, 0, 1, 0, 1, 0, -4.93129e-06, 62.9, 0, -2.3)
+surface_material_override/0 = ExtResource("14_4d052")
+
+[node name="SM_Veh_Car_Sedan_11" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1, 0, 8.66252e-07, 0, 1, 0, -8.66252e-07, 0, -1, 67.25, 0, -20.61)
+surface_material_override/0 = ExtResource("19_r3hcv")
+
+[node name="SM_Veh_Car_Sedan_04" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1, 0, 8.66252e-07, 0, 1, 0, -8.66252e-07, 0, -1, 67.2, 0, -51.53)
+surface_material_override/0 = ExtResource("16_gf7qc")
+
+[node name="SM_Veh_Car_Sedan_12" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1, 0, 8.66252e-07, 0, 1, 0, -8.66252e-07, 0, -1, 67.1, 0, -99.2)
+surface_material_override/0 = ExtResource("10_1kuxb")
+
+[node name="SM_Veh_Car_Sedan_16" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-3.14315e-06, 0, -1, 0, 1, 0, 1, 0, -3.14315e-06, 55.3, 0, -112.4)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Sedan_17" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-3.14315e-06, 0, -1, 0, 1, 0, 1, 0, -3.14315e-06, 22.6, 0, -112.7)
+surface_material_override/0 = ExtResource("20_4nsbf")
+
+[node name="SM_Veh_Car_Sedan_18" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(1, 0, -3.42727e-06, 0, 1, 0, 3.42727e-06, 0, 1, 37.5, 0, -87)
+surface_material_override/0 = ExtResource("18_ya5f7")
+
+[node name="SM_Veh_Car_Sedan_13" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2, 0, -110)
+surface_material_override/0 = ExtResource("11_b7xvp")
+
+[node name="SM_Veh_Car_Sedan_14" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(9.09963e-07, 0, -1, 0, 1, 0, 1, 0, 9.09963e-07, -131.68, 0, -2.3)
+surface_material_override/0 = ExtResource("18_ya5f7")
+
+[node name="SM_Veh_Car_Sedan_15" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(9.09963e-07, 0, -1, 0, 1, 0, 1, 0, 9.09963e-07, -17.9, 0, 102.6)
+surface_material_override/0 = ExtResource("20_4nsbf")
+
+[node name="SM_Veh_Car_Medium_22" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1, 0, 2.05834e-06, 0, 1, 0, -2.05834e-06, 0, -1, -2.49, 0, 14.76)
+
+[node name="SM_Veh_Car_Small_18" parent="." instance=ExtResource("90_wkffs")]
+transform = Transform3D(-1, 0, -2.05834e-06, 0, 1, 0, 2.05834e-06, 0, -1, -2.33, 0, -21.9)
+surface_material_override/0 = ExtResource("18_ya5f7")
+
+[node name="SM_Veh_Car_Muscle_15" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.47, 0, 14.1)
+
+[node name="SM_Veh_Car_Medium_23" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(-1, 0, 8.66252e-07, 0, 1, 0, -8.66252e-07, 0, -1, -2.41, 0, -54.08)
+surface_material_override/0 = ExtResource("16_gf7qc")
+
+[node name="SM_Veh_Car_Medium_25" parent="." instance=ExtResource("82_ckpid")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, 5.48, 0, -72.22)
+
+[node name="SM_Veh_Car_Muscle_16" parent="." instance=ExtResource("108_7vxnt")]
+transform = Transform3D(5.52335e-07, 0, -1, 0, 1, 0, 1, 0, 5.52335e-07, 25.82, 0, -72.7)
+
+[node name="SM_Veh_Car_Police_11" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(0.869021, 0, -0.494775, 0, 1, 0, 0.494775, 0, 0.869021, 46.09, 0, -104.7)
+
+[node name="SM_Veh_Car_Police_12" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(-0.641644, 0, -0.767002, 0, 1, 0, 0.767002, 0, -0.641644, 46.02, 0, -85.7)
+
+[node name="SM_Veh_Car_Police_13" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(-0.0204506, 0, -0.999791, 0, 1, 0, 0.999791, 0, -0.0204506, -56.05, 0, -25.21)
+
+[node name="SM_Veh_Car_Police_14" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(0.0176255, 0, -0.999845, 0, 1, 0, 0.999845, 0, 0.0176255, -55.83, 0, -27.91)
+
+[node name="SM_Veh_Car_Police_15" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(-0.0204506, 0, -0.999791, 0, 1, 0, 0.999791, 0, -0.0204506, -56.37, 0, -30.58)
+
+[node name="SM_Veh_Car_Police_16" parent="." instance=ExtResource("18_sdcvo")]
+transform = Transform3D(-0.0204506, 0, -0.999791, 0, 1, 0, 0.999791, 0, -0.0204506, -56.05, 0, -33.5)
+
+[node name="SM_Veh_Car_Sedan_19" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(1.86364e-06, 0, 1, 0, 1, 0, -1, 0, 1.86364e-06, 42.04, 0, -142.23)
+surface_material_override/0 = ExtResource("8_vllak")
+
+[node name="SM_Veh_Car_Sedan_20" parent="." instance=ExtResource("102_85g18")]
+transform = Transform3D(-1.62921e-07, 0, 1, 0, 1, 0, -1, 0, -1.62921e-07, -25, 0, 137.5)
+surface_material_override/0 = ExtResource("7_tf3eh")
+
+[node name="SM_Veh_Car_Taxi_05" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.023944, 0, 1, 0, 0.023944, 0, 0.999713, 2.5, 0, -88.5)
+
+[node name="SM_Veh_Car_Taxi_06" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.023944, 0, 1, 0, 0.023944, 0, 0.999713, 2.5, 0, -34)
+
+[node name="SM_Veh_Car_Taxi_07" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.023944, 0, 1, 0, 0.023944, 0, 0.999713, 2.5, 0, 64)
+
+[node name="SM_Veh_Car_Taxi_08" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.023944, 0, 1, 0, 0.023944, 0, 0.999713, 2.5, 0, 99.5)
+
+[node name="SM_Veh_Car_Taxi_09" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(-0.999713, 0, 0.0239415, 0, 1, 0, -0.0239415, 0, -0.999713, -2.5, 0, 51)
+
+[node name="SM_Veh_Car_Taxi_10" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(-0.999713, 0, 0.0239415, 0, 1, 0, -0.0239415, 0, -0.999713, -2.5, 0, 80.5)
+
+[node name="SM_Veh_Car_Taxi_11" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(-0.999713, 0, 0.0239415, 0, 1, 0, -0.0239415, 0, -0.999713, -2.5, 0, 38.5)
+
+[node name="SM_Veh_Car_Taxi_12" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.023944, 0, 1, 0, 0.023944, 0, 0.999713, 7.5, 0, 92.5)
+
+[node name="SM_Veh_Car_Taxi_13" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.023944, 0, 1, 0, 0.023944, 0, 0.999713, -92.5, 0, 52)
+
+[node name="SM_Veh_Car_Taxi_14" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.023944, 0, 1, 0, 0.023944, 0, 0.999713, -92.5, 0, 15)
+
+[node name="SM_Veh_Car_Taxi_15" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(-0.999713, 0, 0.0239415, 0, 1, 0, -0.0239415, 0, -0.999713, -2.5, 0, -101)
+
+[node name="SM_Veh_Car_Taxi_16" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239393, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239393, 20.5, 0, -117)
+
+[node name="SM_Veh_Car_Taxi_17" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.0239372, 0, 1, 0, 0.0239372, 0, 0.999713, 72.5, 0, -102)
+
+[node name="SM_Veh_Car_Taxi_18" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.0239372, 0, 1, 0, 0.0239372, 0, 0.999713, 72.5, 0, -45.5)
+
+[node name="SM_Veh_Car_Taxi_19" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.999713, 0, -0.0239372, 0, 1, 0, 0.0239372, 0, 0.999713, 72.5, 0, -23)
+
+[node name="SM_Veh_Car_Taxi_20" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, 24.5, 0, -7.5)
+
+[node name="SM_Veh_Car_Taxi_21" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, 94.5, 0, -7.5)
+
+[node name="SM_Veh_Car_Taxi_22" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, 111.5, 0, -7.5)
+
+[node name="SM_Veh_Car_Taxi_23" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, -30.5, 0, -7.5)
+
+[node name="SM_Veh_Car_Taxi_24" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, -69.5, 0, -7.5)
+
+[node name="SM_Veh_Car_Taxi_25" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, -143.5, 0, -7.5)
+
+[node name="SM_Veh_Car_Taxi_26" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, -41.5, 0, -77.5)
+
+[node name="SM_Veh_Car_Taxi_27" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, -81, 0, -77.5)
+
+[node name="SM_Veh_Car_Taxi_28" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, 24, 0, -77.5)
+
+[node name="SM_Veh_Car_Taxi_29" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(-0.0239354, 0, -0.999714, 0, 1, 0, 0.999714, 0, -0.0239354, 43.5, 0, -72.5)
+
+[node name="SM_Veh_Car_Taxi_30" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, 12, 0, -142.5)
+
+[node name="SM_Veh_Car_Taxi_31" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, 27.5, 0, -142.5)
+
+[node name="SM_Veh_Car_Taxi_32" parent="." instance=ExtResource("24_kqaql")]
+transform = Transform3D(0.0239394, 0, 0.999713, 0, 1, 0, -0.999713, 0, 0.0239394, 84, 0, -142.5)
+
+[node name="SM_Veh_Car_Ambo_06" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, 18.12, 0, -134.76)
+
+[node name="SM_Veh_Car_Ambo_07" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, 15.11, 0, -134.76)
+
+[node name="SM_Veh_Car_Ambo_08" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, 11.91, 0, -134.76)
+
+[node name="SM_Veh_Car_Ambo_09" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, 30.88, 0, -134.76)
+
+[node name="SM_Veh_Car_Ambo_10" parent="." instance=ExtResource("89_2uwi3")]
+transform = Transform3D(-1, 0, 1.10467e-06, 0, 1, 0, -1.10467e-06, 0, -1, 33.89, 0, -134.76)

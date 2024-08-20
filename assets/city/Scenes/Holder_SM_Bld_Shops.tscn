@@ -1,0 +1,481 @@
+[gd_scene load_steps=29 format=3 uid="uid://dijhmso2vwuf7"]
+
+[ext_resource type="PackedScene" uid="uid://cs5y0yh0h8nca" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_Cover_02.tscn" id="2_1wm7r"]
+[ext_resource type="PackedScene" uid="uid://wug7iy6cuhw5" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_Cover_01.tscn" id="3_bj1a0"]
+[ext_resource type="PackedScene" uid="uid://cyyj81g1vrfwm" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_Cover_03.tscn" id="4_ter4o"]
+[ext_resource type="PackedScene" uid="uid://oj1ap0dmrkul" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_Cover_09.tscn" id="5_e87y8"]
+[ext_resource type="PackedScene" uid="uid://3uhdgbwdu80u" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_Cover_08.tscn" id="6_xrbma"]
+[ext_resource type="PackedScene" uid="uid://cm00d2k1qmu5u" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_50.tscn" id="7_0u55w"]
+[ext_resource type="PackedScene" uid="uid://jwbg4aduj6ts" path="res://PreFabScenes/Bld/City_sm_bld_shop_64.tscn" id="8_iopcc"]
+[ext_resource type="PackedScene" uid="uid://bf7nkdffic5gr" path="res://PreFabScenes/Bld/City_sm_bld_shop_62.tscn" id="9_ln41e"]
+[ext_resource type="PackedScene" uid="uid://d6jtb737m52o" path="res://PreFabScenes/Bld/City_sm_bld_shop_corner_27.tscn" id="10_3jya7"]
+[ext_resource type="PackedScene" uid="uid://biu0fxw4rb48r" path="res://PreFabScenes/Bld/city_sm_bld_shop_corner_24.tscn" id="11_tqkma"]
+[ext_resource type="PackedScene" uid="uid://dbnlq0g8ij1b" path="res://PreFabScenes/Bld/city_sm_bld_shop_60.tscn" id="12_yj1gx"]
+[ext_resource type="PackedScene" uid="uid://bvvhhmmb5p2wg" path="res://PreFabScenes/Bld/City_sm_bld_shop_57.tscn" id="13_ny6su"]
+[ext_resource type="PackedScene" uid="uid://dppce4qrrb35q" path="res://PreFabScenes/Bld/City_sm_bld_shop_56.tscn" id="14_nr43b"]
+[ext_resource type="PackedScene" uid="uid://p0w17ywonm2q" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_52.tscn" id="15_e17dq"]
+[ext_resource type="PackedScene" uid="uid://di0jx4rkg5kl0" path="res://PreFabScenes/Bld/City_sm_bld_shop_corner_21.tscn" id="16_ywelo"]
+[ext_resource type="PackedScene" uid="uid://bmkgvbn5i5v2q" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOld_Small_Floor_01.tscn" id="18_3r76w"]
+[ext_resource type="PackedScene" uid="uid://bp5vhk3bdlhwf" path="res://PreFabScenes/Bld/City_sm_bld_shop_corner_15.tscn" id="19_wata3"]
+[ext_resource type="PackedScene" uid="uid://v508smclk0os" path="res://PreFabScenes/Bld/City_SM_Bld_Shop_Corner_03.tscn" id="20_0lclo"]
+[ext_resource type="PackedScene" uid="uid://c74t0ii7fotrh" path="res://PreFabScenes/Bld/City_SM_Bld_Apartment_Corner_79.tscn" id="23_ah0d5"]
+[ext_resource type="PackedScene" uid="uid://bvd8c2ay63oie" path="res://PreFabScenes/Bld/City_SM_Bld_Apartment_Roof_Corner_59.tscn" id="25_tnurx"]
+[ext_resource type="PackedScene" uid="uid://2lf1b3403ut" path="res://PreFabScenes/Bld/City_SM_Bld_Apartment_Corner_70.tscn" id="26_fodsr"]
+[ext_resource type="PackedScene" uid="uid://qvegk38hb6bn" path="res://PreFabScenes/Bld/City_SM_Bld_Apartment_Door_28.tscn" id="28_i0fq2"]
+[ext_resource type="PackedScene" uid="uid://b0pjqigc1n4w0" path="res://Scenes/auto_build_shop.tscn" id="28_icf4s"]
+[ext_resource type="PackedScene" uid="uid://ct0wayiqspm7" path="res://PreFabScenes/Bld/City_SM_Bld_Apartment_Corner_76.tscn" id="29_wfsb1"]
+[ext_resource type="PackedScene" uid="uid://dc4w8grj3i2e3" path="res://PreFabScenes/Bld/City_SM_Bld_Apartment_Stack_76.tscn" id="30_kyspv"]
+[ext_resource type="PackedScene" path="res://PreFabScenes/Bld/City_SM_Bld_Apartment_Roof_90.tscn" id="31_sjykd"]
+[ext_resource type="PackedScene" uid="uid://b7hjsj8suc2hs" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOld_Small_Roof_01.tscn" id="32_nds70"]
+[ext_resource type="PackedScene" uid="uid://blhhvdioqrcgl" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOld_Small_Roof_02.tscn" id="33_kwuf6"]
+
+[node name="Holder_SM_Bld_Shops" type="Node3D"]
+
+[node name="SM_Bld_Shop_Cover_02" parent="." instance=ExtResource("2_1wm7r")]
+transform = Transform3D(-1, 0, -4.44253e-06, 0, 1, 0, 4.44253e-06, 0, -1, -27.5, 3, 3.5)
+
+[node name="SM_Bld_Shop_Cover_01" parent="." instance=ExtResource("3_bj1a0")]
+transform = Transform3D(-1, 0, -1.34309e-06, 0, 1, 0, 1.34309e-06, 0, -1, -17.5, 3, 3.5)
+
+[node name="SM_Bld_Shop_Cover_03" parent="." instance=ExtResource("4_ter4o")]
+transform = Transform3D(-1, 0, -3.01202e-06, 0, 1, 0, 3.01202e-06, 0, -1, -42.5, 3.5, 3.5)
+
+[node name="SM_Bld_Shop_Cover_09" parent="." instance=ExtResource("5_e87y8")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 60, 2.9, -64.99)
+
+[node name="SM_Bld_Shop_Cover_08" parent="." instance=ExtResource("6_xrbma")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 89.92, 3, -134.984)
+
+[node name="SM_Bld_Shop_Cover_10" parent="." instance=ExtResource("5_e87y8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 3, 30)
+
+[node name="SM_Bld_Shop_Cover_11" parent="." instance=ExtResource("5_e87y8")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -10, 3, 5)
+
+[node name="SM_Bld_Shop_50" parent="." instance=ExtResource("7_0u55w")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, 100, 0, -47.5)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_029" parent="SM_Bld_Shop_50" instance=ExtResource("18_3r76w")]
+transform = Transform3D(-1, 0, -4.68094e-06, 0, 1, 0, 4.68094e-06, 0, -1, 9.96477, 6, -9.77409)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_031" parent="SM_Bld_Shop_50" instance=ExtResource("18_3r76w")]
+transform = Transform3D(-1, 0, -4.68094e-06, 0, 1, 0, 4.68094e-06, 0, -1, 9.96477, 9.06476, -9.77409)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_032" parent="SM_Bld_Shop_50" instance=ExtResource("18_3r76w")]
+transform = Transform3D(-1, 0, -4.68094e-06, 0, 1, 0, 4.68094e-06, 0, -1, 9.96477, 12.1295, -9.77409)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_030" parent="SM_Bld_Shop_50" instance=ExtResource("18_3r76w")]
+transform = Transform3D(-1, 0, -4.68094e-06, 0, 1, 0, 4.68094e-06, 0, -1, 9.96477, 2.99561, -9.77409)
+
+[node name="SM_Bld_Shop_55" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(-1, 0, 4.44253e-06, 0, 1, 0, -4.44253e-06, 0, -1, -21, 0, -65)
+
+[node name="SM_Bld_Shop_64" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 90.5, 0, -32)
+
+[node name="SM_Bld_Shop_Corner_25" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(1, 0, 9.23872e-06, 0, 1, 0, -9.23872e-06, 0, 1, 50, 0, -125)
+
+[node name="SM_Bld_Shop_Corner_24" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(7.46647e-06, 0, -1, 0, 1, 0, 1, 0, 7.46647e-06, 50, 0, -135)
+
+[node name="SM_Bld_Shop_60" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 80, 0, -135)
+
+[node name="SM_Bld_Shop_61" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(1, 0, 5.1856e-06, 0, 1, 0, -5.1856e-06, 0, 1, 55, 0, -125)
+
+[node name="SM_Bld_Shop_65" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, 90, 0, -115)
+
+[node name="SM_Bld_Shop_Corner_26" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(1, 0, 5.33462e-06, 0, 1, 0, -5.33462e-06, 0, 1, 80, 0, -110)
+
+[node name="SM_Bld_Shop_66" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.5, 0, 129.5)
+
+[node name="SM_Bld_Shop_67" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(-1, 0, 2.53518e-06, 0, 1, 0, -2.53518e-06, 0, -1, 65, 0, -135)
+
+[node name="SM_Bld_Shop_Corner_27" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(-7.19627e-06, 0, 1, 0, 1, 0, -1, 0, -7.19627e-06, 90, 0, -110)
+
+[node name="SM_Bld_Shop_56" parent="." instance=ExtResource("14_nr43b")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 75, 0, -135)
+
+[node name="SM_Bld_Shop_57" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, 85, 0, -135)
+
+[node name="SM_Bld_Shop_58" parent="." instance=ExtResource("14_nr43b")]
+transform = Transform3D(-4.01339e-07, 0, -1, 0, 1, 0, 1, 0, -4.01339e-07, 80, 0, -125)
+
+[node name="SM_Bld_Shop_52" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(1, 0, 4.38094e-06, 0, 1, 0, -4.38094e-06, 0, 1, 60, 0, -125)
+
+[node name="SM_Bld_Shop_53" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(1, 0, 4.38094e-06, 0, 1, 0, -4.38094e-06, 0, 1, 74.7925, 0, -125)
+
+[node name="SM_Bld_Shop_54" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 89.7581, 0, -125)
+
+[node name="SM_Bld_Shop_59" parent="." instance=ExtResource("13_ny6su")]
+transform = Transform3D(1, 0, 1.78814e-06, 0, 1, 0, -1.78814e-06, 0, 1, 69.4649, 0, -125)
+
+[node name="SM_Bld_Shop_Corner_28" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(-1, 0, -4.91937e-06, 0, 1, 0, 4.91937e-06, 0, -1, -10, 0, 110)
+
+[node name="SM_Bld_Shop_62" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 70, 0, -135)
+
+[node name="SM_Bld_Shop_Corner_21" parent="." instance=ExtResource("16_ywelo")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 90, 0, -135)
+
+[node name="SM_Bld_Shop_Corner_29" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(5.79754e-06, 0, -1, 0, 1, 0, 1, 0, 5.79754e-06, -85, 0, -45)
+
+[node name="SM_Bld_Shop_68" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 0, 60)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_017" parent="." instance=ExtResource("18_3r76w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 3, 60)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_018" parent="." instance=ExtResource("18_3r76w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 6, 60)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_019" parent="." instance=ExtResource("18_3r76w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 9, 60)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_020" parent="." instance=ExtResource("18_3r76w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 12, 60)
+
+[node name="SM_Bld_Shop_69" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 45, 0, 50)
+
+[node name="SM_Bld_Shop_70" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(1, 0, 3.60608e-06, 0, 1, 0, -3.60608e-06, 0, 1, -80, 0, 70)
+
+[node name="SM_Bld_Shop_71" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(3.8902e-06, 0, -1, 0, 1, 0, 1, 0, 3.8902e-06, -85, 0, 50)
+
+[node name="SM_Bld_Shop_72" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(4.12861e-06, 0, -1, 0, 1, 0, 1, 0, 4.12861e-06, -85, 0, 55)
+
+[node name="SM_Bld_Shop_73" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(-4.09683e-06, 0, -1, 0, 1, 0, 1, 0, -4.09683e-06, -85, 0, 40)
+
+[node name="SM_Bld_Shop_74" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-1.11659e-06, 0, 1, 0, 1, 0, -1, 0, -1.11659e-06, -75, 0, 50)
+
+[node name="SM_Bld_Shop_75" parent="." instance=ExtResource("14_nr43b")]
+transform = Transform3D(1.14838e-06, 0, 1, 0, 1, 0, -1, 0, 1.14838e-06, -75, 0, 55)
+
+[node name="SM_Bld_Shop_Corner_30" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(3.41336e-06, 0, -1, 0, 1, 0, 1, 0, 3.41336e-06, -85, 0, 25)
+
+[node name="SM_Bld_Shop_Corner_15" parent="." instance=ExtResource("19_wata3")]
+transform = Transform3D(1, 0, -1.2219e-06, 0, 1, 0, 1.2219e-06, 0, 1, -85, 0, 70)
+
+[node name="SM_Bld_Shop_Corner_31" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(-5.0505e-06, 0, 1, 0, 1, 0, -1, 0, -5.0505e-06, 60, 0, -20)
+
+[node name="SM_Bld_Shop_76" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-1, 0, -1.34309e-06, 0, 1, 0, 1.34309e-06, 0, -1, -55, 0, 60)
+
+[node name="SM_Bld_Shop_Corner_32" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(-1, 0, -3.48886e-06, 0, 1, 0, 3.48886e-06, 0, -1, -75, 0, 25)
+
+[node name="SM_Bld_Shop_77" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -45, 0, 60)
+
+[node name="SM_Bld_Shop_78" parent="." instance=ExtResource("13_ny6su")]
+transform = Transform3D(7.54979e-08, 0, 1, 0, 1, 0, -1, 0, 7.54979e-08, -75, 0, 35)
+
+[node name="SM_Bld_Shop_Corner_33" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -35, 0, 60)
+
+[node name="SM_Bld_Shop_79" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -60, 0, 60)
+
+[node name="SM_Bld_Shop_80" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -65, 0, 60)
+
+[node name="SM_Bld_Shop_Corner_34" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(1, 0, 5.36442e-06, 0, 1, 0, -5.36442e-06, 0, 1, 50, 0, -20)
+
+[node name="SM_Bld_Shop_81" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(1, 0, 6.4373e-06, 0, 1, 0, -6.4373e-06, 0, 1, -50, 0, 70)
+
+[node name="SM_Bld_Shop_82" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(1, 0, 6.4373e-06, 0, 1, 0, -6.4373e-06, 0, 1, -55.0188, 0, 70)
+
+[node name="SM_Bld_Shop_83" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(1, 0, 5.84126e-06, 0, 1, 0, -5.84126e-06, 0, 1, -45, 0, 70)
+
+[node name="SM_Bld_Shop_84" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(1, 0, 5.84126e-06, 0, 1, 0, -5.84126e-06, 0, 1, -59.9744, 0, 70)
+
+[node name="SM_Bld_Shop_Corner_35" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(-6.24259e-06, 0, 1, 0, 1, 0, -1, 0, -6.24259e-06, -35, 0, 70)
+
+[node name="SM_Bld_Shop_85" parent="." instance=ExtResource("13_ny6su")]
+transform = Transform3D(-3.2783e-07, 0, 1, 0, 1, 0, -1, 0, -3.2783e-07, 29.9997, 0, -55.0002)
+
+[node name="SM_Bld_Shop_86" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(1, 0, -1.99676e-06, 0, 1, 0, 1.99676e-06, 0, 1, -70, 0, 70)
+
+[node name="SM_Bld_Shop_87" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(2.10206e-06, 0, 1, 0, 1, 0, -1, 0, 2.10206e-06, 60, 0, -35)
+
+[node name="SM_Bld_Shop_88" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-5.40813e-06, 0, 1, 0, 1, 0, -1, 0, -5.40813e-06, 60, 0, -55)
+
+[node name="SM_Bld_Shop_Corner_36" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(-1, 0, -6.27833e-07, 0, 1, 0, 6.27833e-07, 0, -1, 60, 0, -65)
+
+[node name="SM_Bld_Shop_Corner_37" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(5.43992e-06, 0, -1, 0, 1, 0, 1, 0, 5.43992e-06, 10, 0, -65)
+
+[node name="SM_Bld_Shop_89" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(-6.12338e-06, 0, 1, 0, 1, 0, -1, 0, -6.12338e-06, 60, 0, -50)
+
+[node name="SM_Bld_Shop_90" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-1, 0, -5.15779e-06, 0, 1, 0, 5.15779e-06, 0, -1, 55, 0, -65)
+
+[node name="SM_Bld_Shop_91" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-1, 0, -5.15779e-06, 0, 1, 0, 5.15779e-06, 0, -1, 34.9911, 0, -65)
+
+[node name="SM_Bld_Shop_92" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(-1, 0, 2.53518e-06, 0, 1, 0, -2.53518e-06, 0, -1, 45, 0, -65)
+
+[node name="SM_Bld_Apartment_Corner_97" parent="." instance=ExtResource("23_ah0d5")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, -21, 3, -65)
+
+[node name="SM_Bld_Shop_93" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(1, 0, 1.1921e-07, 0, 1, 0, -1.1921e-07, 0, 1, -31, 0, -55)
+
+[node name="SM_Bld_Apartment_Corner_98" parent="." instance=ExtResource("23_ah0d5")]
+transform = Transform3D(1, 0, -2.3842e-07, 0, 1, 0, 2.3842e-07, 0, 1, -31, 3, -55)
+
+[node name="SM_Bld_Apartment_Roof_Corner_59" parent="." instance=ExtResource("25_tnurx")]
+transform = Transform3D(1, 0, -2.3842e-07, 0, 1, 0, 2.3842e-07, 0, 1, -31, 6, -55)
+
+[node name="SM_Bld_Apartment_Corner_99" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(4.33126e-07, 0, 1, 0, 1, 0, -1, 0, 4.33126e-07, -21, 3, -55)
+
+[node name="SM_Bld_Apartment_Roof_Corner_60" parent="." instance=ExtResource("25_tnurx")]
+transform = Transform3D(4.33126e-07, 0, 1, 0, 1, 0, -1, 0, 4.33126e-07, -21, 6, -55)
+
+[node name="SM_Bld_Shop_Corner_38" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(-7.19627e-06, 0, 1, 0, 1, 0, -1, 0, -7.19627e-06, -21, 0, -55)
+
+[node name="SM_Bld_Shop_Corner_39" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(2.6981e-06, 0, -1, 0, 1, 0, 1, 0, 2.6981e-06, -31, 0, -65)
+
+[node name="SM_Bld_Apartment_Roof_Corner_61" parent="." instance=ExtResource("25_tnurx")]
+transform = Transform3D(-4.93129e-06, 0, -1, 0, 1, 0, 1, 0, -4.93129e-06, -31, 6, -65)
+
+[node name="SM_Bld_Apartment_Corner_100" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(-4.93129e-06, 0, -1, 0, 1, 0, 1, 0, -4.93129e-06, -31, 3, -65)
+
+[node name="SM_Bld_Apartment_Roof_Corner_62" parent="." instance=ExtResource("25_tnurx")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, -21, 6, -65)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_025" parent="." instance=ExtResource("18_3r76w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.5, 3, 129.5)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_026" parent="." instance=ExtResource("18_3r76w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.5, 6, 129.5)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_027" parent="." instance=ExtResource("18_3r76w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.5, 9, 129.5)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_028" parent="." instance=ExtResource("18_3r76w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.5, 12, 129.5)
+
+[node name="SM_Bld_Shop_94" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(2.22127e-06, 0, 1, 0, 1, 0, -1, 0, 2.22127e-06, -10, 0, 120)
+
+[node name="SM_Bld_Apartment_Corner_101" parent="." instance=ExtResource("23_ah0d5")]
+transform = Transform3D(2.22127e-06, 0, 1, 0, 1, 0, -1, 0, 2.22127e-06, -10, 3, 120)
+
+[node name="SM_Bld_Apartment_Roof_Corner_63" parent="." instance=ExtResource("25_tnurx")]
+transform = Transform3D(2.22127e-06, 0, 1, 0, 1, 0, -1, 0, 2.22127e-06, -10, 6, 120)
+
+[node name="SM_Bld_Apartment_Corner_102" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(-1, 0, 2.53518e-06, 0, 1, 0, -2.53518e-06, 0, -1, -10, 3, 110)
+
+[node name="SM_Bld_Apartment_Roof_Corner_64" parent="." instance=ExtResource("25_tnurx")]
+transform = Transform3D(-1, 0, 2.53518e-06, 0, 1, 0, -2.53518e-06, 0, -1, -10, 6, 110)
+
+[node name="SM_Bld_Apartment_Door_28" parent="." instance=ExtResource("28_i0fq2")]
+transform = Transform3D(1, 0, 2.02656e-06, 0, 1, 0, -2.02656e-06, 0, 1, -80, 0, -35)
+
+[node name="SM_Bld_Apartment_Roof_Corner_65" parent="." instance=ExtResource("25_tnurx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85, 12, -35)
+
+[node name="SM_Bld_Shop_Corner_40" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(-1, 0, -9.68774e-06, 0, 1, 0, 9.68774e-06, 0, -1, -70, 0, -45)
+
+[node name="SM_Bld_Apartment_Corner_792" parent="." instance=ExtResource("29_wfsb1")]
+transform = Transform3D(-4.09683e-06, 0, 1, 0, 1, 0, -1, 0, -4.09683e-06, -70, 3, -35)
+
+[node name="SM_Bld_Apartment_Corner_103" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(-5.40813e-06, 0, 1, 0, 1, 0, -1, 0, -5.40813e-06, -70, 9, -35)
+
+[node name="SM_Bld_Apartment_Corner_104" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -70, 3, -45)
+
+[node name="SM_Bld_Apartment_Corner_105" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(-5.40813e-06, 0, 1, 0, 1, 0, -1, 0, -5.40813e-06, -70, 6, -35)
+
+[node name="SM_Bld_Apartment_Corner_106" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -70, 6, -45)
+
+[node name="SM_Bld_Apartment_Corner_793" parent="." instance=ExtResource("29_wfsb1")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -70, 9, -45)
+
+[node name="SM_Bld_Shop_Corner_41" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(-1.05341e-05, 0, 1, 0, 1, 0, -1, 0, -1.05341e-05, -70, 0, -35)
+
+[node name="SM_Bld_Apartment_Corner_107" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85, 3, -35)
+
+[node name="SM_Bld_Apartment_Stack_71" parent="." instance=ExtResource("30_kyspv")]
+transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, -75, 3, -45)
+
+[node name="SM_Bld_Apartment_Stack_72" parent="." instance=ExtResource("30_kyspv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80, 3, -35)
+
+[node name="SM_Bld_Apartment_Corner_794" parent="." instance=ExtResource("29_wfsb1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85, 9, -35)
+
+[node name="SM_Bld_Apartment_Corner_108" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85, 6, -35)
+
+[node name="SM_Bld_Apartment_Roof_58" parent="." instance=ExtResource("31_sjykd")]
+transform = Transform3D(-1, 0, -3.89414e-07, 0, 1, 0, 3.89414e-07, 0, -1, -75, 12, -45)
+
+[node name="SM_Bld_Apartment_Roof_59" parent="." instance=ExtResource("31_sjykd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80, 12, -35)
+
+[node name="SM_Bld_Shop_95" parent="." instance=ExtResource("13_ny6su")]
+transform = Transform3D(-5.0465e-07, 0, -1, 0, 1, 0, 1, 0, -5.0465e-07, -54.9998, 0, 60.0002)
+
+[node name="SM_Bld_Shop_96" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-1, 0, -5.15779e-06, 0, 1, 0, 5.15779e-06, 0, -1, 20, 0, -65)
+
+[node name="SM_Bld_Shop_97" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(-1, 0, -5.63462e-06, 0, 1, 0, 5.63462e-06, 0, -1, 25, 0, -65)
+
+[node name="SM_Bld_Shop_98" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 0, -55)
+
+[node name="SM_Bld_Shop_Corner_03" parent="." instance=ExtResource("20_0lclo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -55)
+
+[node name="SM_Bld_Shop_99" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(1, 0, 4.38094e-06, 0, 1, 0, -4.38094e-06, 0, 1, -40, 0, 15)
+
+[node name="SM_Bld_Shop_100" parent="." instance=ExtResource("14_nr43b")]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, 50, 0, -50)
+
+[node name="SM_Bld_Shop_101" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, -55)
+
+[node name="SM_Bld_Shop_102" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -55)
+
+[node name="SM_Bld_Shop_103" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(-1, 0, 2.53518e-06, 0, 1, 0, -2.53518e-06, 0, -1, -35, 0, 5)
+
+[node name="SM_Bld_Shop_104" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(1, 0, 5.1856e-06, 0, 1, 0, -5.1856e-06, 0, 1, -45, 0, 15)
+
+[node name="SM_Bld_Shop_Corner_42" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(1, 0, 5.33462e-06, 0, 1, 0, -5.33462e-06, 0, 1, -20, 0, 30)
+
+[node name="SM_Bld_Shop_Corner_43" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(1, 0, 5.33462e-06, 0, 1, 0, -5.33462e-06, 0, 1, -55, 0, 15)
+
+[node name="SM_Bld_Shop_Corner_44" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(5.79754e-06, 0, -1, 0, 1, 0, 1, 0, 5.79754e-06, -55, 0, 5)
+
+[node name="SM_Bld_Shop_105" parent="." instance=ExtResource("13_ny6su")]
+transform = Transform3D(-1, 0, -1.81993e-06, 0, 1, 0, 1.81993e-06, 0, -1, -45, 0, 5)
+
+[node name="SM_Bld_Shop_106" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(1, 0, -7.42078e-06, 0, 1, 0, 7.42078e-06, 0, 1, -35, 0, 15)
+
+[node name="SM_Bld_Shop_Corner_45" parent="." instance=ExtResource("10_3jya7")]
+transform = Transform3D(-7.19627e-06, 0, 1, 0, 1, 0, -1, 0, -7.19627e-06, -10, 0, 30)
+
+[node name="SM_Bld_Shop_107" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -30, 0, 5)
+
+[node name="SM_Bld_Shop_108" parent="." instance=ExtResource("8_iopcc")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, -15, 0, 5)
+
+[node name="SM_Bld_Shop_109" parent="." instance=ExtResource("14_nr43b")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -25, 0, 5)
+
+[node name="SM_Bld_Shop_110" parent="." instance=ExtResource("12_yj1gx")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, -20, 0, 5)
+
+[node name="SM_Bld_Shop_111" parent="." instance=ExtResource("13_ny6su")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, 15)
+
+[node name="SM_Bld_Shop_Corner_46" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -10, 0, 5)
+
+[node name="SM_Bld_Shop_112" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(2.57889e-06, 0, -1, 0, 1, 0, 1, 0, 2.57889e-06, 50, 0, -45)
+
+[node name="SM_Bld_Shop_113" parent="." instance=ExtResource("14_nr43b")]
+transform = Transform3D(-4.01339e-07, 0, -1, 0, 1, 0, 1, 0, -4.01339e-07, -20, 0, 15)
+
+[node name="SM_Bld_Shop_114" parent="." instance=ExtResource("9_ln41e")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, 25)
+
+[node name="SM_Bld_Shop_115" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(1, 0, 4.17233e-07, 0, 1, 0, -4.17233e-07, 0, 1, 30, 0, -55)
+
+[node name="SM_Bld_Shop_116" parent="." instance=ExtResource("15_e17dq")]
+transform = Transform3D(-1, 0, -3.89414e-07, 0, 1, 0, 3.89414e-07, 0, -1, 35, 0, -30)
+
+[node name="SM_Bld_Apartment_Corner_109" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(7.90754e-07, 0, -1, 0, 1, 0, 1, 0, 7.90754e-07, -85, 6, -45)
+
+[node name="SM_Bld_Shop_Corner_47" parent="." instance=ExtResource("11_tqkma")]
+transform = Transform3D(1, 0, 5.36442e-06, 0, 1, 0, -5.36442e-06, 0, 1, -85, 0, -35)
+
+[node name="SM_Bld_Shop_117" parent="." instance=ExtResource("13_ny6su")]
+transform = Transform3D(-1, 0, -1.58151e-06, 0, 1, 0, 1.58151e-06, 0, -1, -75, 0, -45)
+
+[node name="SM_Bld_Apartment_Roof_Corner_66" parent="." instance=ExtResource("25_tnurx")]
+transform = Transform3D(-4.01339e-07, 0, -1, 0, 1, 0, 1, 0, -4.01339e-07, -85, 12, -45)
+
+[node name="SM_Bld_Apartment_Corner_110" parent="." instance=ExtResource("26_fodsr")]
+transform = Transform3D(7.90754e-07, 0, -1, 0, 1, 0, 1, 0, 7.90754e-07, -85, 9, -45)
+
+[node name="SM_Bld_Apartment_Corner_795" parent="." instance=ExtResource("29_wfsb1")]
+transform = Transform3D(-5.20549e-07, 0, -1, 0, 1, 0, 1, 0, -5.20549e-07, -85, 3, -45)
+
+[node name="SM_Bld_OfficeOld_Small_Roof_017" parent="." instance=ExtResource("32_nds70")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 15, 60)
+
+[node name="SM_Bld_Shop_Cover_12" parent="." instance=ExtResource("5_e87y8")]
+transform = Transform3D(-5.0505e-06, 0, 1, 0, 1, 0, -1, 0, -5.0505e-06, 60, 3, -20)
+
+[node name="SM_Bld_Shop_Cover_13" parent="." instance=ExtResource("5_e87y8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 2.5, -55)
+
+[node name="SM_Bld_Shop_Cover_14" parent="." instance=ExtResource("5_e87y8")]
+transform = Transform3D(1, 0, 5.33462e-06, 0, 1, 0, -5.33462e-06, 0, 1, -55, 3, 15)
+
+[node name="SM_Bld_OfficeOld_Small_Roof_013" parent="." instance=ExtResource("33_kwuf6")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, 100, 15, -47.5)
+
+[node name="SM_Bld_OfficeOld_Small_Roof_019" parent="." instance=ExtResource("32_nds70")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.5, 15, 129.5)
+
+[node name="AutoBuild_Shop" parent="." instance=ExtResource("28_icf4s")]

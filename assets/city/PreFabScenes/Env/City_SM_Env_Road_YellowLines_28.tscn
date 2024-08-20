@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bti4w0u662se3"]
+
+[ext_resource type="ArrayMesh" uid="uid://bgy034jop22lp" path="res://Assets/Meshes/City_SM_Env_Road_YellowLines_28.res" id="1_tgp6l"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dmf33"]
+points = PackedVector3Array(5.03968, 0.039667, 0.0396824, -0.0396824, -0.039667, -5.03968, -0.0396824, 0.039667, -5.03968, 5.03968, -0.039667, -5.03968, -0.0396824, -0.039667, 0.0396824, -0.0396824, 0.039667, 0.0396824, 5.03968, 0.039667, -5.03968, 5.03968, -0.039667, 0.0396824)
+
+[node name="SM_Env_Road_YellowLines_18" type="MeshInstance3D"]
+mesh = ExtResource("1_tgp6l")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_dmf33")

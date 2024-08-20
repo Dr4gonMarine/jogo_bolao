@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://nsi410dglvd7"]
+
+[ext_resource type="ArrayMesh" uid="uid://ck06l0v81vgw0" path="res://Assets/Meshes/City_SM_Env_Street_Divider_23.res" id="1_qwfmg"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_i0oct"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_lbyrl"]
+points = PackedVector3Array(-0.390025, -0.0223511, -2.75167, 0.59437, 0.0671453, 0.022373, 0.460027, 0.201357, 0.022373, -0.613773, -0.0223511, 0.022373, -0.47943, 0.201357, -2.43855, 0.59437, -0.0223511, -2.57283, 0.460027, 0.201357, -2.43855, -0.47943, 0.201357, 0.022373, 0.59437, -0.0223511, 0.022373, -0.613773, 0.0671453, -2.52798, 0.236397, 0.201357, -2.66225, -0.613773, -0.0223511, -2.52798, 0.281099, -0.0223511, -2.84137, -0.21098, 0.201357, -2.66225, -0.613773, 0.0671453, 0.022373, -0.2558, -0.0223511, -2.84137, -0.390025, 0.201357, -2.52798, 0.549549, -0.0223511, -2.6174)
+
+[node name="SM_Env_Street_Divider_23" type="MeshInstance3D"]
+mesh = ExtResource("1_qwfmg")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_i0oct")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_lbyrl")

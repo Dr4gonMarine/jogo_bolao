@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2r1tl1ea6svf"]
+
+[ext_resource type="ArrayMesh" uid="uid://c654cnx5jyvdq" path="res://Assets/Meshes/City_SM_Prop_ATM_04.res" id="1_0svlt"]
+
+[node name="SM_Prop_ATM_01" type="MeshInstance3D"]
+mesh = ExtResource("1_0svlt")
+skeleton = NodePath("")

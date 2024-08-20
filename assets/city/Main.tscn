@@ -1,0 +1,74 @@
+[gd_scene load_steps=11 format=3 uid="uid://dhygoagade1md"]
+
+[ext_resource type="PackedScene" uid="uid://bky21dcotavfu" path="res://assets/city/Scenes/city.tscn" id="2_c6kft"]
+[ext_resource type="PackedScene" uid="uid://d0a4cnabnxklw" path="res://assets/city/Scenes/holder_sm_veh.tscn" id="3_fkpcv"]
+[ext_resource type="PackedScene" uid="uid://bkvnsyab5eni6" path="res://assets/city/Scenes/holder_sm_env.tscn" id="4_cl7rb"]
+[ext_resource type="PackedScene" uid="uid://c6shbnyst8nrv" path="res://assets/city/Scenes/Holder_SM_Props.tscn" id="5_7fqfh"]
+[ext_resource type="PackedScene" uid="uid://27ev4qfbrww6" path="res://assets/city/PreFabScenes/Env/City_sm_env_skyline_01.tscn" id="7_3v3da"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_hssa8"]
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_aeliq"]
+width = 128
+in_3d_space = true
+seamless = true
+normalize = false
+noise = SubResource("FastNoiseLite_hssa8")
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_nompy"]
+sky_top_color = Color(0.108817, 0.0669642, 0.585938, 1)
+sky_horizon_color = Color(0.32549, 0.329412, 0.341176, 1)
+sky_cover = SubResource("NoiseTexture2D_aeliq")
+
+[sub_resource type="Sky" id="Sky_3b1tl"]
+sky_material = SubResource("ProceduralSkyMaterial_nompy")
+
+[sub_resource type="Environment" id="Environment_jlx15"]
+background_mode = 2
+background_color = Color(0.74902, 0.760784, 0.815686, 1)
+sky = SubResource("Sky_3b1tl")
+ambient_light_source = 3
+ambient_light_sky_contribution = 0.75
+reflected_light_source = 2
+tonemap_mode = 3
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+sdfgi_use_occlusion = true
+glow_enabled = true
+glow_normalized = true
+glow_bloom = 0.2
+volumetric_fog_density = 0.0008
+volumetric_fog_albedo = Color(0.678431, 0.678431, 0.678431, 1)
+
+[node name="Main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_jlx15")
+
+[node name="Areas" type="Node3D" parent="."]
+
+[node name="City" parent="Areas" instance=ExtResource("2_c6kft")]
+
+[node name="Holder_SM_Props" parent="Areas/City" instance=ExtResource("5_7fqfh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.301852, 0.00863552, -0.228852)
+
+[node name="SM_Env_Skyline_01" parent="Areas/City" instance=ExtResource("7_3v3da")]
+
+[node name="Holder_SM_Env" parent="Areas/City" instance=ExtResource("4_cl7rb")]
+
+[node name="Holder_SM_Veh" parent="Areas/City" instance=ExtResource("3_fkpcv")]
+
+[node name="Lighting" type="Node3D" parent="."]
+
+[node name="lightSun" type="DirectionalLight3D" parent="Lighting"]
+transform = Transform3D(0.750797, 0.591628, -0.293734, 0.545678, -0.304961, 0.780535, 0.372209, -0.746307, -0.551802, 0, 4.7468, 1.78108)
+shadow_enabled = true
+
+[node name="lightFill" type="DirectionalLight3D" parent="Lighting"]
+transform = Transform3D(0.845946, 0.408507, -0.342778, 3.72529e-07, 0.642787, 0.766045, 0.533268, -0.648033, 0.543763, 0, 3, 0)
+light_color = Color(1, 0.956863, 0.839216, 1)
+light_energy = 0.2
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(-0.642788, -0.198267, 0.739942, 0, 0.965926, 0.258819, -0.766044, 0.166366, -0.620885, 4.305, 8.045, -7.17)

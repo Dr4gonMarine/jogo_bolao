@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Env_Flower_72.res" id="1_82wak"]
+
+[node name="SM_Env_Flower_01" type="MeshInstance3D"]
+mesh = ExtResource("1_82wak")
+skeleton = NodePath("")

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bsg8utj1p2fel"]
+
+[ext_resource type="ArrayMesh" uid="uid://bv608c72htnaw" path="res://Assets/Meshes/City_SM_Prop_Newspaper_08.res" id="1_42t0k"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ug123"]
+size = Vector3(0.58, 0.74, 0.42)
+
+[node name="SM_Prop_Newspaper_03" type="MeshInstance3D"]
+mesh = ExtResource("1_42t0k")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.459779, 0)
+shape = SubResource("BoxShape3D_ug123")

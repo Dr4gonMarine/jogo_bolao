@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://27ev4qfbrww6"]
+
+[ext_resource type="ArrayMesh" uid="uid://dnakcac11r1ut" path="res://Assets/Meshes/City_SM_Env_Skyline_01.res" id="1_cfumx"]
+[ext_resource type="Material" uid="uid://8ibue6q3then" path="res://Materials/City_Mat_Skyline.tres" id="2_puoq6"]
+[ext_resource type="ArrayMesh" uid="uid://rbpbty0si2b" path="res://Assets/Meshes/City_SM_Env_Skyline_02.res" id="2_q32ye"]
+[ext_resource type="ArrayMesh" uid="uid://defcjryqxgooy" path="res://Assets/Meshes/City_SM_Env_Skyline_03.res" id="3_3rjwu"]
+[ext_resource type="ArrayMesh" uid="uid://c0qqaw3f56pnd" path="res://Assets/Meshes/City_SM_Env_Skyline_04.res" id="4_h3oyk"]
+
+[node name="Holder_SM_Env_Skyline" type="Node3D"]
+
+[node name="SM_Env_Skyline_01" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.10657, 0, 0, 0, 1.10657, 0, 0, 0, 1.10657, -13.5, -5.7, 0)
+mesh = ExtResource("1_cfumx")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_puoq6")
+
+[node name="SM_Env_Skyline_02" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.10657, 0, 0, 0, 1.10657, 0, 0, 0, 1.10657, -13.5, -5.7, 0)
+mesh = ExtResource("2_q32ye")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_puoq6")
+
+[node name="SM_Env_Skyline_03" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.10657, 0, 0, 0, 1.10657, 0, 0, 0, 1.10657, -13.5, -5.7, 0)
+mesh = ExtResource("3_3rjwu")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_puoq6")
+
+[node name="SM_Env_Skyline_04" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.10657, 0, 0, 0, 0.991116, 0, 0, 0, 1.10657, -13.5, -5.7, 0)
+mesh = ExtResource("4_h3oyk")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_puoq6")

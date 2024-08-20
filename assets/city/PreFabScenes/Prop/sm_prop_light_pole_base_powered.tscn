@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3 uid="uid://cwn3wv6fsfiu7"]
+
+[ext_resource type="ArrayMesh" uid="uid://bd1drwwhv3qha" path="res://Assets/Meshes/City_SM_Prop_LightPole_Base_61.res" id="1_h57l4"]
+[ext_resource type="ArrayMesh" uid="uid://wihlxg8i8nik" path="res://Assets/Meshes/City_SM_Prop_Power_Cables_14.res" id="2_1beto"]
+[ext_resource type="ArrayMesh" uid="uid://dwk2wtidjfxgw" path="res://Assets/Meshes/City_SM_Prop_Power_Cables_09.res" id="3_55ub8"]
+
+[node name="SM_Prop_LightPole_Base_23" type="MeshInstance3D"]
+transform = Transform3D(4.17233e-06, 0, 1, 0, 1, 0, -1, 0, 4.17233e-06, 64, 0, -62.5)
+mesh = ExtResource("1_h57l4")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_123" type="MeshInstance3D" parent="."]
+transform = Transform3D(-5.126e-06, 0, 1.48253, 0, 1.36426, 0, -1, 0, -7.59945e-06, -10, 5, -0.0199535)
+mesh = ExtResource("2_1beto")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_113" type="MeshInstance3D" parent="."]
+transform = Transform3D(-5.126e-06, 0, 1.48253, 0, 1.36426, 0, -1, 0, -7.59945e-06, -9.99994, 5, 12.1)
+mesh = ExtResource("2_1beto")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Base_203" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, -4.41074e-06, 0, 1, 0, 4.41074e-06, 0, -1, -19.9999, -0.18, 12.1001)
+mesh = ExtResource("1_h57l4")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Base_193" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, -4.41074e-06, 0, 1, 0, 4.41074e-06, 0, -1, 5.62549e-05, -0.18, 12.1)
+mesh = ExtResource("1_h57l4")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Base_173" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 9.29832e-05)
+mesh = ExtResource("1_h57l4")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_093" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.31282e-06, 0, -1, 0, 1, 0, 0.970065, 0, 2.38419e-06, -19.9999, 5, 12.0001)
+mesh = ExtResource("3_55ub8")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_084" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.31282e-06, 0, -1, 0, 1, 0, 0.970065, 0, 2.38419e-06, 5.57899e-05, 5, 12)
+mesh = ExtResource("3_55ub8")
+skeleton = NodePath("")

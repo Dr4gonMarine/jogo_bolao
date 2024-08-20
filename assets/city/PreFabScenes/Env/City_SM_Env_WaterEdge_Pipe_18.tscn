@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://by8g6dhgxxmu8"]
+
+[ext_resource type="ArrayMesh" uid="uid://cxjjaob3qtnt3" path="res://Assets/Meshes/City_SM_Env_WaterEdge_Pipe_18.res" id="1_p3lua"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_1a4ep"]
+
+[node name="SM_Env_WaterEdge_Pipe_18" type="MeshInstance3D"]
+mesh = ExtResource("1_p3lua")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_1a4ep")

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bfojc3r4idke"]
+
+[ext_resource type="ArrayMesh" uid="uid://ciow230tg58b2" path="res://Assets/Meshes/City_SM_Bld_OfficeOld_Large_Roof_012.res" id="1_s3ly1"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_gefna"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_y7cub"]
+points = PackedVector3Array(0.297627, 4.44089e-16, -14.7486, 15.4341, 0.6967, 0.387061, -0.385347, 4.47872, 0.433135, 15.4802, 4.47872, -15.4315, -0.385347, 4.47872, -15.4315, 15.153, 0.212603, -15.1044, 0.297627, -4.44089e-16, -0.249872, 15.4802, 4.47872, 0.433135, 14.7972, 0, -0.249872, -0.339276, 0.6967, -15.3871, -0.339276, 0.6967, 0.387061, 14.7972, 0, -14.7486, 15.4341, 0.6967, -15.3871, -0.0577351, 0.212711, 0.105507, -0.0587957, 0.212437, -15.105, 15.1526, 0.212711, 0.105507)
+
+[node name="SM_Bld_OfficeOld_Large_Roof_012" type="MeshInstance3D"]
+mesh = ExtResource("1_s3ly1")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_gefna")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_y7cub")

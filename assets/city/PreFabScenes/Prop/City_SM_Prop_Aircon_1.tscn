@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxi7qvaak70c"]
+
+[ext_resource type="ArrayMesh" uid="uid://b77gvraa73p43" path="res://Assets/Meshes/City_SM_Prop_Aircon_1.res" id="1_0q4x6"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_m7lno"]
+
+[node name="SM_Prop_Aircon_01" type="MeshInstance3D"]
+mesh = ExtResource("1_0q4x6")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_m7lno")

@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=3 uid="uid://kko2iw2ynbqb"]
+
+[ext_resource type="PackedScene" uid="uid://bckj2ce8r0mqp" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeSquare_Base_08.tscn" id="1_cxmci"]
+[ext_resource type="Material" uid="uid://deyrwnnsylm40" path="res://Materials/City_Mat_1A_Shiny.tres" id="2_vsjsd"]
+[ext_resource type="PackedScene" uid="uid://c784bky1p7e6s" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeSquare_03.tscn" id="4_6ji83"]
+[ext_resource type="PackedScene" uid="uid://uhsamnl6ciie" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeSquare_Roof_04.tscn" id="5_qn5rv"]
+
+[node name="AutoBuild_SM_Bld_OfficeSquare_Base_08" type="Node3D"]
+
+[node name="SM_Bld_OfficeSquare_Base_08" parent="." instance=ExtResource("1_cxmci")]
+surface_material_override/0 = ExtResource("2_vsjsd")
+
+[node name="SM_Bld_OfficeSquare_035" parent="." instance=ExtResource("4_6ji83")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.47872, 0)
+
+[node name="SM_Bld_OfficeSquare_036" parent="." instance=ExtResource("4_6ji83")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.4787, 0)
+
+[node name="SM_Bld_OfficeSquare_037" parent="." instance=ExtResource("4_6ji83")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 21.4787, 0)
+
+[node name="SM_Bld_OfficeSquare_038" parent="." instance=ExtResource("4_6ji83")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 30.4787, 0)
+
+[node name="SM_Bld_OfficeSquare_039" parent="." instance=ExtResource("4_6ji83")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 39.4787, 0)
+
+[node name="SM_Bld_OfficeSquare_040" parent="." instance=ExtResource("4_6ji83")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 48.4787, 0)
+
+[node name="SM_Bld_OfficeSquare_Roof_04" parent="." instance=ExtResource("5_qn5rv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 57, 0)

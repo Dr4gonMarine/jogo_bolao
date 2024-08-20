@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://dmj4by7h0e6vr"]
+
+[ext_resource type="ArrayMesh" uid="uid://bd1drwwhv3qha" path="res://Assets/Meshes/City_SM_Prop_LightPole_Base_61.res" id="1_edimy"]
+[ext_resource type="ArrayMesh" uid="uid://wihlxg8i8nik" path="res://Assets/Meshes/City_SM_Prop_Power_Cables_14.res" id="2_tv58t"]
+[ext_resource type="ArrayMesh" uid="uid://dwk2wtidjfxgw" path="res://Assets/Meshes/City_SM_Prop_Power_Cables_09.res" id="3_f6jcr"]
+[ext_resource type="PackedScene" uid="uid://chj27dqe2jejg" path="res://PreFabScenes/Prop/City_SM_Prop_LightPole_Base_61.tscn" id="4_o4bcy"]
+
+[node name="SM_Prop_LightPole_Base_196" type="MeshInstance3D"]
+transform = Transform3D(-1, 0, 4.64916e-06, 0, 1, 0, -4.64916e-06, 0, -1, -30, 0, 106)
+mesh = ExtResource("1_edimy")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_126" type="MeshInstance3D" parent="."]
+transform = Transform3D(-5.126e-06, 0, 1.48253, 0, 1.36426, 0, -1, 0, -7.59945e-06, -10, 5, -0.0199535)
+mesh = ExtResource("2_tv58t")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_116" type="MeshInstance3D" parent="."]
+transform = Transform3D(-5.126e-06, 0, 1.48253, 0, 1.36426, 0, -1, 0, -7.59945e-06, -9.99994, 5, 12.1)
+mesh = ExtResource("2_tv58t")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_086" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.31282e-06, 0, -1, 0, 1, 0, 0.970065, 0, 2.38419e-06, 5.57899e-05, 5, 12)
+mesh = ExtResource("3_f6jcr")
+skeleton = NodePath("")
+
+[node name="Lightpole" type="MeshInstance3D" parent="."]
+
+[node name="SM_Prop_LightPole_Base_61" parent="." instance=ExtResource("4_o4bcy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.9759, 0, 7.62939e-05)
+
+[node name="SM_Prop_LightPole_Base_62" parent="." instance=ExtResource("4_o4bcy")]
+transform = Transform3D(-1, 0, -8.74229e-08, 0, 1, 0, 8.74229e-08, 0, -1, 0.00787926, 0, 11.8957)

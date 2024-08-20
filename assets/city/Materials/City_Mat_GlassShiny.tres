@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://ctmhoxl6cvanw"]
+
+[resource]
+resource_name = "PolygonCity_Glass_Veh_Mat"
+transparency = 4
+cull_mode = 2
+diffuse_mode = 3
+albedo_color = Color(0.160784, 0.266667, 0.266667, 0.815686)
+metallic = 1.0
+roughness = 0.01

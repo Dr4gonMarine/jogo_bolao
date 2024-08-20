@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://8has61s8cfam"]
+
+[ext_resource type="ArrayMesh" uid="uid://cf5jfwtj6butp" path="res://Assets/Meshes/City_SM_Prop_Sign_Parking_03.res" id="1_1wykv"]
+
+[node name="SM_Prop_Sign_Parking_01" type="MeshInstance3D"]
+mesh = ExtResource("1_1wykv")
+skeleton = NodePath("")

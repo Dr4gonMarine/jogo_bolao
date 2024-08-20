@@ -1,0 +1,72 @@
+[gd_scene load_steps=2 format=3 uid="uid://kt8c4ckvt4b2"]
+
+[ext_resource type="PackedScene" uid="uid://cg8iqfjcl0q6v" path="res://PreFabScenes/Env/City_SM_Env_Sidewalk_Straight_566.tscn" id="1_xca8t"]
+
+[node name="SideWalk" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -168, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_320" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, 23.1, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_468" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -11.9, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_469" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -16.9, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_470" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -21.9, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_471" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -16.9, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_472" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -21.9, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_473" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -26.9, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_474" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -11.9, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_475" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -6.89999, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_476" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -1.89999, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_477" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -6.89999, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_478" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 3.10001, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_479" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -1.89999, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_619" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, 3.10001, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_620" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 13.1, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_621" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 23.1, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_622" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, 8.10001, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_623" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 8.10001, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_624" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 18.1, 0, 0)
+
+[node name="SM_Env_Sidewalk_Straight_626" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, 13.1, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_627" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, 18.1, 0, -10)
+
+[node name="SM_Env_Sidewalk_Straight_628" parent="." instance=ExtResource("1_xca8t")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 28.1, 0, 0)

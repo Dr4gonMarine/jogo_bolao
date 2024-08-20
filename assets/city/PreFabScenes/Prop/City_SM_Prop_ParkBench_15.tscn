@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cq0fgjabx4hhs"]
+
+[ext_resource type="ArrayMesh" uid="uid://bdp3acux8matq" path="res://Assets/Meshes/City_SM_Prop_ParkBench_15.res" id="1_vtbxr"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0lmuu"]
+points = PackedVector3Array(-1.0055, 0.412634, 0.329824, 1.1069, 1.07271, -0.231245, 1.1069, 1.07271, -0.330303, 1.0749, 0, 0.255785, -0.940213, 0.017162, -0.3099, -1.0055, 1.07271, -0.330303, 1.04161, 0.017162, -0.3099, 1.1069, 0.709565, 0.263785, -0.973497, 0, 0.255785, -1.0055, 0.742617, 0.230766, 1.1069, 0.412634, 0.329824, -1.0055, 1.07271, -0.231245, -1.0055, 0.478631, 0.329824, -1.0055, 0.709565, 0.263785, 1.1069, 0.742617, 0.230766, 1.1069, 0.478631, 0.329824)
+
+[node name="SM_Prop_ParkBench_02" type="MeshInstance3D"]
+mesh = ExtResource("1_vtbxr")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_0lmuu")

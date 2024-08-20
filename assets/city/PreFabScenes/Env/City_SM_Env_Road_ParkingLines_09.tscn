@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c70r5l2fxvghp"]
+
+[ext_resource type="ArrayMesh" uid="uid://bnl50g1dr7qvf" path="res://Assets/Meshes/City_SM_Env_Road_ParkingLines_01.res" id="1_8x7rh"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ka4on"]
+points = PackedVector3Array(10.0794, 0.079334, 0.15873, -0.0793648, -0.079334, -5.07937, -0.0793648, 0.079334, -5.07937, 10.0794, -0.079334, -5.07937, -0.0793648, -0.079334, 0.15873, -0.0793648, 0.079334, 0.15873, 10.0794, 0.079334, -5.07937, 10.0794, -0.079334, 0.15873)
+
+[node name="SM_Env_Road_ParkingLines_01" type="MeshInstance3D"]
+mesh = ExtResource("1_8x7rh")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_ka4on")

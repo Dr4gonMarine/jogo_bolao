@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://8ibue6q3then"]
+
+[ext_resource type="Texture2D" uid="uid://cyfumbogegj5r" path="res://Assets/Imgs/City_PolygonCity_Texture_Skyline.png" id="1_w4546"]
+
+[resource]
+transparency = 4
+albedo_color = Color(0.835294, 0.807843, 1, 1)
+albedo_texture = ExtResource("1_w4546")
+metallic = 1.0
+backlight = Color(0.52549, 0.52549, 0.52549, 1)
+billboard_keep_scale = true

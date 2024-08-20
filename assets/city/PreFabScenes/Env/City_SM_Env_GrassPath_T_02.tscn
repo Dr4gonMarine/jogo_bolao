@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dihdeymlflqtl"]
+
+[ext_resource type="ArrayMesh" uid="uid://c2j1bbiktc3tf" path="res://Assets/Meshes/City_SM_Env_GrassPath_T_02.res" id="1_sttkc"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_516ry"]
+points = PackedVector3Array(-5, -2.32086e-06, -5, -5, -0.0325501, -3.75, -5, 0.138376, -5, 0, -2.32086e-06, -5, -5, -0.0325501, -1.25, 0, -0.0325501, -3.75, -5, 0.138376, 0, -3.75, 0.221636, -1.30677, -3.75, 0.217605, -3.69372, 0, 0.138376, -5, -5, -2.32086e-06, 0, -3.75, -0.0325501, 0, 0, -0.0325501, -1.25, 0, 0.138376, 0, -1.25, 0.201381, -1.31412, -1.25, 0.19735, -3.68637, -2.5, 0.205935, -3.75, -1.25, -0.0325501, 0, 0, -2.32086e-06, 0)
+
+[node name="SM_Env_GrassPath_T_01" type="MeshInstance3D"]
+mesh = ExtResource("1_sttkc")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_516ry")

@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxbsapfmwoivk"]
+
+[ext_resource type="ArrayMesh" uid="uid://6becldo2bf1o" path="res://Assets/Meshes/City_SM_Bld_Roof_Access_23.res" id="1_5f5jk"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_fnqwj"]
+points = PackedVector3Array(-1.31081, -0.0226238, -1.35722, 1.31329, -0.0226238, 1.35722, 1.33633, 2.1119, -1.37816, 1.36269, 2.74151, 1.40537, -1.31081, -0.0226238, 1.35722, 1.31329, -0.0226238, -1.35722, -1.34916, 2.03331, -1.39397, -1.3602, 2.74151, 1.40537, -1.2655, 2.28487, -0.904811, 1.26798, 2.69211, 0.859173, -1.2655, 2.69211, 0.859173, 1.26798, 2.28487, -0.904811, -1.20446, 2.1119, -1.37816, -1.31906, 0.235531, 1.23246, 1.32761, 0.49589, 1.06087, -1.35142, 2.12153, -1.30883)
+
+[node name="SM_Bld_Roof_Access_23" type="MeshInstance3D"]
+mesh = ExtResource("1_5f5jk")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_fnqwj")

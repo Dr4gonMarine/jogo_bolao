@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtjmr6g104too"]
+
+[ext_resource type="ArrayMesh" uid="uid://cbobx3d5kn4vb" path="res://Assets/Meshes/City_SM_Env_GrassPath_Corner_04.res" id="1_sej3i"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_esrta"]
+points = PackedVector3Array(-1.1511, 0.245178, -0.278026, -5.03968, -0.0722825, -5.03968, -5.03968, -0.0722825, 0.0396824, 0.0396824, -0.0722825, -5.03968, -5.03968, 0.165813, -5.03968, 0.0396824, -0.0722825, 0.0396824, 0.0396824, 0.165813, -5.03968, -5.03968, 0.165813, 0.0396824, -3.21397, 0.245178, -3.13492, 0.0396824, 0.165813, 0.0396824, -0.595735, 0.245178, -1.23016, -3.45164, 0.245178, -1.54787, -1.78603, 0.245178, -3.45164, -3.53168, 0.245178, -1.94463, -1.62792, 0.245178, -3.29303, -3.37208, 0.245178, -2.97582, -1.23016, 0.245178, -0.278026, -0.595735, 0.245178, -1.07155, -3.37208, 0.245178, -1.46881, -1.94463, 0.245178, -3.45164, -0.912947, 0.245178, -0.595735)
+
+[node name="SM_Env_GrassPath_Corner_03" type="MeshInstance3D"]
+mesh = ExtResource("1_sej3i")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_esrta")

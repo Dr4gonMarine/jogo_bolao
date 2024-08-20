@@ -1,0 +1,605 @@
+[gd_scene load_steps=10 format=3 uid="uid://crwda31rvycfa"]
+
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_70468"]
+[ext_resource type="PackedScene" path="res://PreFabScenes/Env/City_SM_Env_Flower_72.tscn" id="2_lmunq"]
+[ext_resource type="PackedScene" uid="uid://b7rb4sx3r47wt" path="res://PreFabScenes/Env/City_SM_Env_Grass_18.tscn" id="4_bv40c"]
+[ext_resource type="PackedScene" uid="uid://d0o4m18v4ur53" path="res://PreFabScenes/Env/City_SM_Env_Tree_42.tscn" id="6_amywp"]
+[ext_resource type="PackedScene" uid="uid://3oe26kn7osuo" path="res://PreFabScenes/Env/City_SM_Env_Tree_41.tscn" id="8_ttgv1"]
+[ext_resource type="PackedScene" uid="uid://c6udanabew3iw" path="res://PreFabScenes/Env/City_SM_Env_Tree_39.tscn" id="10_kxh7g"]
+[ext_resource type="PackedScene" uid="uid://c3lc4c4f6ba86" path="res://PreFabScenes/Env/City_SM_Env_GrassPath_Straight_13.tscn" id="12_l2p5w"]
+[ext_resource type="PackedScene" uid="uid://dtjmr6g104too" path="res://PreFabScenes/Env/City_SM_Env_GrassPath_Corner_04.tscn" id="14_dlvpr"]
+[ext_resource type="PackedScene" uid="uid://dihdeymlflqtl" path="res://PreFabScenes/Env/City_SM_Env_GrassPath_T_02.tscn" id="16_pakl7"]
+
+[node name="Holder_SM_Env_Nature" type="Node3D"]
+
+[node name="SM_Env_Flower_01" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.905858, 0, 0, 0, 0.905858, 0, 0, 0, 0.905858, 13.443, 0.101, -90.408)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_02" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 18.06, 0.145, -97.8)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_03" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 25.84, 0.145, -95.47)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_04" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 26.94, 0.145, -100.1)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_05" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 26.81, 0.145, -97.12)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_06" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 27.1, 0.145, -97.28)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_07" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 29.14, 0.145, -96.22)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_08" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 28.18, 0.145, -99.15)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_09" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 22.07, 0.145, -89.69)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_10" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.727321, 0, 0, 0, 0.907283, 0, 0, 0, 0.727321, 23.03, 0.145, -86.76)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_11" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.632076, 0, 0, 0, 0.788472, 0, 0, 0, 0.632076, 20.7, 0.145, -87.66)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_12" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 19.73, 0.145, -86.01)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_13" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 20.99, 0.145, -87.82)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_14" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 20.83, 0.145, -90.64)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_15" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 11.11, 0.145, -86.73)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_16" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.632076, 0, 0, 0, 0.788472, 0, 0, 0, 0.632076, 12.21, 0.145, -91.36)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_17" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.770613, 0, 0, 0, 0.961287, 0, 0, 0, 0.770613, 13.77, 0.145, -93.41)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_18" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.770613, 0, 0, 0, 0.961287, 0, 0, 0, 0.770613, 11.2, 0.145, -93.96)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_19" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.632076, 0, 0, 0, 0.788472, 0, 0, 0, 0.632076, 12.37, 0.145, -88.54)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_20" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.632076, 0, 0, 0, 0.788472, 0, 0, 0, 0.632076, 14.41, 0.145, -87.48)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_21" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 12.08, 0.145, -88.38)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_16" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(-0.535845, 0, 0.844316, 0, 1, 0, -0.844316, 0, -0.535845, 25, 0, -99.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_13" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(-0.949816, 0, 0.312811, 0, 1, 0, -0.312811, 0, -0.949816, 25.5, 0, -101)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_14" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.507252, 0, 0.861798, 0, 1, 0, -0.861798, 0, 0.507252, 23.5, 0, -90.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_17" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(0.697106, 0, -0.716968, 0, 1, 0, 0.716968, 0, 0.697106, 16, 0, -103)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_11" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(-0.996857, 0, -0.0792184, 0, 1, 0, 0.0792184, 0, -0.996857, 13, 0, -94)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_18" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(0.919163, 0, 0.393878, 0, 1, 0, -0.393878, 0, 0.919163, 15, 0, -91.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_15" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(-0.906935, 0, -0.42127, 0, 1, 0, 0.42127, 0, -0.906935, -28.5, -0.5, 46.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_19" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.84101, 0, -0.541019, 0, 1, 0, 0.541019, 0, 0.84101, -11.5, -0.5, 46.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_20" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(-6.95785e-06, 0, -1, 0, 1, 0, 1, 0, -6.95785e-06, -28, 0.5, 55)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_12" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(0.942044, 0, -0.33549, 0, 1, 0, 0.33549, 0, 0.942044, 51, 0, -75)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_21" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.769432, 0, 0.638728, 0, 1, 0, -0.638728, 0, 0.769432, 13, 0, -75)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_22" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(0.61085, 0, 0.791747, 0, 1, 0, -0.791747, 0, 0.61085, 19.5, 0, -75)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_23" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.737273, 0, 0.675595, 0, 1, 0, -0.675595, 0, 0.737273, 57.5, 0, -75)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_24" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.675597, 0, -0.737271, 0, 1, 0, 0.737271, 0, 0.675597, 70, 0, -22.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_25" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(0.791748, 0, -0.610848, 0, 1, 0, 0.610848, 0, 0.791748, 70, 0, -46)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_26" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(-0.335487, 0, -0.942045, 0, 1, 0, 0.942045, 0, -0.335487, 70, 0, -29)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_27" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.63873, 0, -0.769431, 0, 1, 0, 0.769431, 0, 0.63873, 70, 0, -52.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_28" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(-0.535577, 0, -0.844486, 0, 1, 0, 0.844486, 0, -0.535577, 70, 0, -37.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_29" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.507252, 0, 0.861798, 0, 1, 0, -0.861798, 0, 0.507252, -40.5, 0, 49.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_30" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(-0.793212, 0, -0.608946, 0, 1, 0, 0.608946, 0, -0.793212, -60.5, 0, 42)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_31" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(0.697106, 0, -0.716968, 0, 1, 0, 0.716968, 0, 0.697106, -50, 0, 49.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_32" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.5, 0, 41)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_04" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(-1, 0, 8.66252e-07, 0, 1, 0, -8.66252e-07, 0, -1, -55, 0, 40)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)2" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, 45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)3" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, 55)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_05" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(-1, 0, 8.66252e-07, 0, 1, 0, -8.66252e-07, 0, -1, -65, 0, 40)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_06" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(-1, 0, 8.66252e-07, 0, 1, 0, -8.66252e-07, 0, -1, -65, 0, 45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Corner_03" parent="." instance=ExtResource("14_dlvpr")]
+transform = Transform3D(3.13916e-07, 0, 1, 0, 1, 0, -1, 0, 3.13916e-07, -60, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_07" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(3.13916e-07, 0, 1, 0, 1, 0, -1, 0, 3.13916e-07, -55, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_08" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(-1, 0, 8.66252e-07, 0, 1, 0, -8.66252e-07, 0, -1, -55, 0, 45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_09" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(3.13916e-07, 0, 1, 0, 1, 0, -1, 0, 3.13916e-07, -45, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Corner_04" parent="." instance=ExtResource("14_dlvpr")]
+transform = Transform3D(-1, 0, 3.89414e-07, 0, 1, 0, -3.89414e-07, 0, -1, -45, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Corner_05" parent="." instance=ExtResource("14_dlvpr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_10" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(3.13916e-07, 0, 1, 0, 1, 0, -1, 0, 3.13916e-07, -35, 0, 45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_33" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0.5, -17)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_34" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.192983, 0, -0.981202, 0, 1, 0, 0.981202, 0, 0.192983, 30, 0.5, -16.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_35" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(0.324406, 0, 0.945918, 0, 1, 0, -0.945918, 0, 0.324406, 20, 0.5, -16.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_36" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(-0.841013, 0, 0.541015, 0, 1, 0, -0.541015, 0, -0.841013, 11.5, -0.5, -16.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_T_01" parent="." instance=ExtResource("16_pakl7")]
+transform = Transform3D(-1, 0, 1.50996e-07, 0, 1, 0, -1.50996e-07, 0, -1, -55, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_37" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.737273, 0, 0.675595, 0, 1, 0, -0.675595, 0, 0.737273, -22.5, 0, -5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_38" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(0.942044, 0, -0.33549, 0, 1, 0, 0.33549, 0, 0.942044, -29, 0, -5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_39" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(0.61085, 0, 0.791747, 0, 1, 0, -0.791747, 0, 0.61085, -46, 0, -5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_40" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.769432, 0, 0.638729, 0, 1, 0, -0.638729, 0, 0.769432, -52.5, 0, -5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_41" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.844485, 0, -0.535579, 0, 1, 0, 0.535579, 0, 0.844485, -37.5, 0, -5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)4" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -85)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_11" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(1, 0, 1.84774e-06, 0, 1, 0, -1.84774e-06, 0, 1, 20, 0, -85)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)5" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -90)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)6" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -100)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Corner_06" parent="." instance=ExtResource("14_dlvpr")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, -95)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_12" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(4.0094e-06, 0, -1, 0, 1, 0, 1, 0, 4.0094e-06, 10, 0, -95)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_T_02" parent="." instance=ExtResource("16_pakl7")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, 20, 0, -95)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)7" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -100)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)8" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -85)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)9" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0, -85)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)10" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -95)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)11" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -100)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)12" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0, -100)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)13" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0, -95)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_13" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(4.0094e-06, 0, -1, 0, 1, 0, 1, 0, 4.0094e-06, 25, 0, -90)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_GrassPath_Straight_14" parent="." instance=ExtResource("12_l2p5w")]
+transform = Transform3D(4.0094e-06, 0, -1, 0, 1, 0, 1, 0, 4.0094e-06, 20, 0, -90)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_22" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -57.01, 0.1, 43.53)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_23" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -56.53, 0.1, 41.28)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_24" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -43.84, 0.1, 42.41)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_25" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -49.06, 0.1, 45.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_26" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -65.19, 0.1, 52.87)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_27" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -37.34, 0.1, 41.68)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_28" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -40.69, 0.1, 50.43)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_29" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -67.06, 0.1, 41.67)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_30" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -68.54, 0.1, 45.93)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_31" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -45.77, 0.1, 41.33)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_32" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -57.05, 0.1, 49.15)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_33" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -57.21, 0.1, 48.76)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_34" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -38.25, 0.1, 43.35)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_35" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -37.29, 0.1, 53.22)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_36" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -37.15, 0.1, 50.41)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_37" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -39.3, 0.1, 52.21)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_38" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -60.74, 0.1, 49.54)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_39" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -49.76, 0.1, 46.84)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_40" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -63.76, 0.1, 53.82)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_41" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -66.76, 0.1, 48.71)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_42" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -68.16, 0.1, 41.91)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_43" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -64.74, 0.1, 46.17)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_44" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -65.33, 0.1, 41.74)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_45" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -60.04, 0.1, 42.54)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_46" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -54.94, 0.1, 41.72)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_47" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -55.45, 0.1, 50.24)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_48" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -49.27, 0.1, 41.52)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_49" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -48.52, 0.1, 41.24)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_50" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -50.05, 0.1, 41.49)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_51" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -49.19, 0.1, 40.83)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_52" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -38.08, 0.1, 42.97)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_53" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -42.39, 0.1, 45.64)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_54" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 28.21, 0.14, -86.77)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_55" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -42.61, 0.1, 44.01)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_56" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, -48.09, 0.0977, 43.82)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_57" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 24.34, 0.14, -86.81)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_58" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 27.16, 0.14, -89.02)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_59" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 11.75, 0.145, -99.67)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_60" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 26.88, 0.14, -87.49)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_61" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 22.93, 0.14, -87.75)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_62" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 24.75, 0.14, -89.75)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_63" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 12.85, 0.145, -104.3)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_64" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 13.01, 0.145, -101.48)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_65" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 12.72, 0.145, -101.32)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_66" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 15.05, 0.145, -100.42)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_67" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 14.09, 0.145, -103.35)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_68" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 20.4, 0.145, -101.48)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_69" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 21.36, 0.145, -98.55)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_70" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 19.03, 0.145, -99.45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_71" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 19.32, 0.145, -99.61)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Flower_72" parent="." instance=ExtResource("2_lmunq")]
+transform = Transform3D(0.865858, 0, 0, 0, 1.0801, 0, 0, 0, 0.865858, 19.16, 0.145, -102.43)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)14" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, 45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)15" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55, 0, 45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)16" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)17" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65, 0, 45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)18" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65, 0, 50)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)19" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65, 0, 55)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Grass_03 (1)20" parent="." instance=ExtResource("4_bv40c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, 45)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_42" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(-0.739598, 0, 0.673049, 0, 1, 0, -0.673049, 0, -0.739598, -67, 0, 51.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_43" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(0.919163, 0, 0.393878, 0, 1, 0, -0.393878, 0, 0.919163, -46, 0, 50.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_44" parent="." instance=ExtResource("6_amywp")]
+transform = Transform3D(-0.535845, 0, 0.844316, 0, 1, 0, -0.844316, 0, -0.535845, -42, 0, 42.5)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_45" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(-0.949816, 0, 0.312811, 0, 1, 0, -0.312811, 0, -0.949816, -44, 0, 42)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_46" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.231975, 0, 0.972722, 0, 1, 0, -0.972722, 0, 0.231975, -59, 0, 42)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_47" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(-0.996857, 0, -0.0792184, 0, 1, 0, 0.0792184, 0, -0.996857, -49, 0, 49)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_48" parent="." instance=ExtResource("10_kxh7g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51, 0, 41)
+surface_material_override/0 = ExtResource("2_70468")
+
+[node name="SM_Env_Tree_49" parent="." instance=ExtResource("8_ttgv1")]
+transform = Transform3D(0.884391, 0, -0.466746, 0, 1, 0, 0.466746, 0, 0.884391, -65, 0, 50.5)
+surface_material_override/0 = ExtResource("2_70468")

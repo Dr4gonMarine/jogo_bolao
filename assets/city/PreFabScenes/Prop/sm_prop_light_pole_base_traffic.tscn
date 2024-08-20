@@ -1,0 +1,39 @@
+[gd_scene load_steps=8 format=3 uid="uid://cwetk1qrqq074"]
+
+[ext_resource type="ArrayMesh" uid="uid://bd1drwwhv3qha" path="res://Assets/Meshes/City_SM_Prop_LightPole_Base_61.res" id="1_vigc0"]
+[ext_resource type="ArrayMesh" uid="uid://c5own5a0hv4by" path="res://Assets/Meshes/City_SM_Prop_LightPole_Lights_02.res" id="2_474j4"]
+[ext_resource type="ArrayMesh" uid="uid://b4o1g4br32di5" path="res://Assets/Meshes/City_SM_Prop_LightPole_Lights_01.res" id="3_ekbrh"]
+[ext_resource type="ArrayMesh" uid="uid://c33ikwa1ybb61" path="res://Assets/Meshes/City_SM_Prop_LightPole_CrossLights_01.res" id="4_2m4x6"]
+[ext_resource type="ArrayMesh" uid="uid://b72gk81e716ip" path="res://Assets/Meshes/City_SM_Prop_LightPole_CrossButton_01.res" id="5_hnjs2"]
+[ext_resource type="ArrayMesh" uid="uid://cjnmtc2hk4jak" path="res://Assets/Meshes/City_SM_Prop_LightPole_Box_01.res" id="6_jc36g"]
+[ext_resource type="ArrayMesh" uid="uid://c6yumj6al04ns" path="res://Assets/Meshes/City_SM_Prop_LightPole_Arm_01.res" id="7_tswjr"]
+
+[node name="SM_Prop_LightPole_Base_25" type="MeshInstance3D"]
+transform = Transform3D(4.64916e-06, 0, 1, 0, 1, 0, -1, 0, 4.64916e-06, -106, 0, 115)
+mesh = ExtResource("1_vigc0")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Lights_0216" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_474j4")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Lights_0116" type="MeshInstance3D" parent="."]
+mesh = ExtResource("3_ekbrh")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_CrossLights_0116" type="MeshInstance3D" parent="."]
+mesh = ExtResource("4_2m4x6")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_CrossButton_0116" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, 3.25841e-07, 0, 1, 0, -3.25841e-07, 0, -1, 0, 0, 0)
+mesh = ExtResource("5_hnjs2")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Box_0116" type="MeshInstance3D" parent="."]
+mesh = ExtResource("6_jc36g")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Arm_0116" type="MeshInstance3D" parent="."]
+mesh = ExtResource("7_tswjr")
+skeleton = NodePath("")

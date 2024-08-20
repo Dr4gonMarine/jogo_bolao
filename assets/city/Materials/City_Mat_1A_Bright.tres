@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://b50chfymas4p6"]
+
+[ext_resource type="Texture2D" uid="uid://dy0ipotoowwhl" path="res://Assets/Imgs/City_PolygonCity_Texture_01_A.png" id="1_kabhp"]
+[ext_resource type="Texture2D" uid="uid://e7sfiuy5vbqi" path="res://Assets/Imgs/City_Emissive_01.png" id="2_3idmk"]
+
+[resource]
+albedo_texture = ExtResource("1_kabhp")
+metallic = 1.0
+roughness = 0.1
+emission_enabled = true
+emission_energy_multiplier = 12.0
+emission_texture = ExtResource("2_3idmk")
+disable_receive_shadows = true

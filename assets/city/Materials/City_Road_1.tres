@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://bl1so36tx2xna"]
+
+[ext_resource type="Texture2D" uid="uid://0no7xg3oxefr" path="res://Assets/Imgs/City_PolygonCity_Road_01.png" id="1_usew0"]
+[ext_resource type="Texture2D" uid="uid://c5b40p3xflyhj" path="res://Assets/Imgs/City_PolygonCity_Road_Normal.png" id="2_imyy3"]
+
+[resource]
+albedo_texture = ExtResource("1_usew0")
+normal_enabled = true
+normal_texture = ExtResource("2_imyy3")

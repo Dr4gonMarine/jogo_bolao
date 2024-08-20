@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1fad8h3ci6yd"]
+
+[ext_resource type="ArrayMesh" uid="uid://kq7w7o0qtnp1" path="res://Assets/Meshes/City_SM_Env_Ocean_Tile_01.res" id="1_f21io"]
+[ext_resource type="Material" uid="uid://depr02vsieb8a" path="res://Materials/City_Mat_Water.tres" id="2_a5kqv"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_c42w4"]
+points = PackedVector3Array(4.0466, 0.691486, 0.842622, 30.2334, 0.215295, 30.3642, 30.2334, -0.260895, 30.3642, -0.239815, 0.215295, 30.3642, -0.239815, -0.260895, -0.111996, 30.2334, -0.260895, -0.111996, 30.2334, 0.691486, 27.029, 28.8016, 0.691486, 0.365314, -0.239815, 0.691486, 27.029, -0.239815, -0.260895, 30.3642, -0.239815, 0.691486, 2.27157, 28.3243, 0.691486, 29.8839, 2.61779, 0.691486, 29.8839, 30.2334, 0.691486, 2.27157, -0.239815, 0.215295, -0.111996, 5.95267, 0.691486, 0.365314)
+
+[node name="SM_Env_Ocean_Tile_01" type="MeshInstance3D"]
+mesh = ExtResource("1_f21io")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_a5kqv")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_c42w4")

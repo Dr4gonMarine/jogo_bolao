@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Prop_Poster_Frame_09.res" id="1_gtx3c"]
+
+[node name="SM_Prop_Poster_Frame_01" type="MeshInstance3D"]
+mesh = ExtResource("1_gtx3c")
+skeleton = NodePath("")

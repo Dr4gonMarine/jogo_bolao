@@ -1,0 +1,473 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvgai4drdn2kq"]
+
+[ext_resource type="PackedScene" uid="uid://b1fad8h3ci6yd" path="res://PreFabScenes/Env/City_SM_Env_Ocean_Tile_01.tscn" id="3_g3e3f"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vahji"]
+size = Vector3(450, 100, 10)
+
+[node name="SM_Env_Ocean_Tile_01" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.5, 0, 0, 0, 1, -217, -4, -181)
+
+[node name="SM_Env_Ocean_Tile_04" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_05" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_06" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_152" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_153" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_07" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_08" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_09" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_10" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_11" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_12" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_13" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_14" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_15" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 120)
+
+[node name="SM_Env_Ocean_Tile_16" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 120)
+
+[node name="SM_Env_Ocean_Tile_17" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 120)
+
+[node name="SM_Env_Ocean_Tile_18" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 150)
+
+[node name="SM_Env_Ocean_Tile_19" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 150)
+
+[node name="SM_Env_Ocean_Tile_20" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 150)
+
+[node name="SM_Env_Ocean_Tile_21" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, 120)
+
+[node name="SM_Env_Ocean_Tile_22" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_23" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_24" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_25" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_26" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_27" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_28" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_29" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_30" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_31" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_32" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_33" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_34" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 180, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_35" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 180, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_36" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 180, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_37" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 180, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_38" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_39" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 180)
+
+[node name="SM_Env_Ocean_Tile_40" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 180)
+
+[node name="SM_Env_Ocean_Tile_41" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 180)
+
+[node name="SM_Env_Ocean_Tile_42" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 210)
+
+[node name="SM_Env_Ocean_Tile_43" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 210)
+
+[node name="SM_Env_Ocean_Tile_44" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 210)
+
+[node name="SM_Env_Ocean_Tile_45" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_46" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_47" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_48" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_49" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_50" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_51" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_52" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_53" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_54" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_55" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 240, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_56" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 240, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_57" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_58" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_59" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 210)
+
+[node name="SM_Env_Ocean_Tile_60" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, 210)
+
+[node name="SM_Env_Ocean_Tile_61" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, 180)
+
+[node name="SM_Env_Ocean_Tile_62" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 180)
+
+[node name="SM_Env_Ocean_Tile_63" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_64" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_65" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_66" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_67" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 120)
+
+[node name="SM_Env_Ocean_Tile_68" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 150)
+
+[node name="SM_Env_Ocean_Tile_69" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_70" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 240, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_71" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 150)
+
+[node name="SM_Env_Ocean_Tile_72" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 120)
+
+[node name="SM_Env_Ocean_Tile_73" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_74" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_75" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_76" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_77" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_78" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_79" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_80" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_81" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 120)
+
+[node name="SM_Env_Ocean_Tile_82" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 150)
+
+[node name="SM_Env_Ocean_Tile_83" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 180)
+
+[node name="SM_Env_Ocean_Tile_84" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 180)
+
+[node name="SM_Env_Ocean_Tile_85" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 210)
+
+[node name="SM_Env_Ocean_Tile_86" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 210)
+
+[node name="SM_Env_Ocean_Tile_87" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_88" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_89" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_90" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_91" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_92" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_93" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_94" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_95" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_96" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_97" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 240, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_98" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_99" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_100" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_101" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_102" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 240, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_103" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 240, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_104" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_105" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_106" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_107" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 180, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_108" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_109" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_110" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_111" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_112" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_113" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_114" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_115" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_116" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_117" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_118" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_119" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_120" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 180, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_121" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_122" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_123" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_124" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_125" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.155, 0, 0, 0, 1, 0, 0, 0, 1, -4.578, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_126" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 180)
+
+[node name="SM_Env_Ocean_Tile_127" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 360)
+
+[node name="SM_Env_Ocean_Tile_128" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 0)
+
+[node name="SM_Env_Ocean_Tile_129" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 270)
+
+[node name="SM_Env_Ocean_Tile_130" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 150)
+
+[node name="SM_Env_Ocean_Tile_131" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 240)
+
+[node name="SM_Env_Ocean_Tile_132" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 90)
+
+[node name="SM_Env_Ocean_Tile_133" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 60)
+
+[node name="SM_Env_Ocean_Tile_134" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 300)
+
+[node name="SM_Env_Ocean_Tile_135" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 210)
+
+[node name="SM_Env_Ocean_Tile_136" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 30)
+
+[node name="SM_Env_Ocean_Tile_137" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 120)
+
+[node name="SM_Env_Ocean_Tile_138" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, 330)
+
+[node name="SM_Env_Ocean_Tile_139" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1.014, 0, 0, 0, 1, 0, 0, 0, 1, 390, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_140" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 330, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_141" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 180, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_142" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 210, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_143" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 360, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_144" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_145" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 240, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_146" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_147" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_148" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_149" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_150" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, -30)
+
+[node name="SM_Env_Ocean_Tile_151" parent="." instance=ExtResource("3_g3e3f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120, 0, -30)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 209.5, 0, -47)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 14)
+shape = SubResource("BoxShape3D_vahji")
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 209.5, 0, 376)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 14)
+shape = SubResource("BoxShape3D_vahji")

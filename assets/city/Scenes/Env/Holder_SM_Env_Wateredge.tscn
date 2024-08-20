@@ -1,0 +1,884 @@
+[gd_scene load_steps=8 format=3 uid="uid://dap87mprxyal8"]
+
+[ext_resource type="PackedScene" uid="uid://csb7oc2laqfrj" path="res://PreFabScenes/Env/City_SM_Env_WaterEdge_Rock_58.tscn" id="2_hqq4e"]
+[ext_resource type="PackedScene" uid="uid://m5v5yxq4gomr" path="res://PreFabScenes/Env/City_SM_Env_WaterEdge_Straight_217.tscn" id="4_5ve88"]
+[ext_resource type="PackedScene" uid="uid://bd43axjgsdlec" path="res://PreFabScenes/Env/City_SM_Env_WaterEdge_Straight_214.tscn" id="6_5hq6i"]
+[ext_resource type="PackedScene" uid="uid://c3nw8ql2nw0a5" path="res://PreFabScenes/Env/City_SM_Env_WaterEdge_Straight_193.tscn" id="8_xuu1c"]
+[ext_resource type="PackedScene" uid="uid://i4cqqn0c1xh4" path="res://PreFabScenes/Env/City_SM_Env_WaterEdge_Corner_17.tscn" id="10_e7b8b"]
+[ext_resource type="PackedScene" uid="uid://msr45ahyi87a" path="res://PreFabScenes/Env/City_SM_Env_WaterEdge_Corner_18.tscn" id="12_72ce0"]
+[ext_resource type="PackedScene" path="res://PreFabScenes/Env/City_SM_Env_WaterEdge_Pipe_18.tscn" id="14_gj3c0"]
+
+[node name="Holder_SM_Env_Wateredge" type="Node3D"]
+
+[node name="SM_Env_WaterEdge_Straight_68" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 105)
+
+[node name="SM_Env_WaterEdge_Straight_69" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -130)
+
+[node name="SM_Env_WaterEdge_Straight_70" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -135)
+
+[node name="SM_Env_WaterEdge_Straight_66" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 115)
+
+[node name="SM_Env_WaterEdge_Rock_01" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.0568326, 0, 1.43584, 0, 1.32157, 0, -1.43584, 0, 0.0568326, -149.5, -5, 104.5)
+
+[node name="SM_Env_WaterEdge_Straight_67" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 110)
+
+[node name="SM_Env_WaterEdge_Straight_71" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 100)
+
+[node name="SM_Env_WaterEdge_Straight_72" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 95)
+
+[node name="SM_Env_WaterEdge_Rock_02" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.975982, 0, 0.217851, 0, 0.839955, 0, -0.217851, 0, -0.975982, -134.5, -5, 29.5)
+
+[node name="SM_Env_WaterEdge_Straight_73" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_74" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -120)
+
+[node name="SM_Env_WaterEdge_Rock_03" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(1, 0, 0, 0, 1.84555, 0, 0, 0, 1, -143.5, -5, 50)
+
+[node name="SM_Env_WaterEdge_Straight_75" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -125)
+
+[node name="SM_Env_WaterEdge_Rock_04" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.975982, 0, 0.217851, 0, 0.839955, 0, -0.217851, 0, -0.975982, -14.5, -5, -110.5)
+
+[node name="SM_Env_WaterEdge_Rock_05" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(3.91746e-06, 0, 1.67379, 0, 1.43891, 0, -1.67379, 0, 3.91746e-06, -15, -5, -125.5)
+
+[node name="SM_Env_WaterEdge_Straight_76" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -100)
+
+[node name="SM_Env_WaterEdge_Straight_77" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -135, 0, 55)
+
+[node name="SM_Env_WaterEdge_Rock_06" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.468965, 0, 0.883217, 0, 1.84555, 0, -0.883217, 0, 0.468965, -133.5, -5, 49.5)
+
+[node name="SM_Env_WaterEdge_Straight_78" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 90)
+
+[node name="SM_Env_WaterEdge_Straight_79" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -115)
+
+[node name="SM_Env_WaterEdge_Straight_80" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -105)
+
+[node name="SM_Env_WaterEdge_Straight_81" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -95)
+
+[node name="SM_Env_WaterEdge_Straight_82" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -110)
+
+[node name="SM_Env_WaterEdge_Straight_83" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 55)
+
+[node name="SM_Env_WaterEdge_Straight_84" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 10)
+
+[node name="SM_Env_WaterEdge_Straight_85" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 60)
+
+[node name="SM_Env_WaterEdge_Straight_86" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 70)
+
+[node name="SM_Env_WaterEdge_Straight_87" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 65)
+
+[node name="SM_Env_WaterEdge_Straight_88" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 80)
+
+[node name="SM_Env_WaterEdge_Straight_89" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 85)
+
+[node name="SM_Env_WaterEdge_Rock_07" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.963846, 0, 0.266461, 0, 1.84555, 0, -0.266461, 0, -0.963846, -147, -5, 79.5)
+
+[node name="SM_Env_WaterEdge_Rock_08" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.362336, 0, 0.932048, 0, 1.84555, 0, -0.932048, 0, 0.362336, -147, -5, 60.5)
+
+[node name="SM_Env_WaterEdge_Rock_09" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.468008, 0, 0.883724, 0, 0.839955, 0, -0.883724, 0, 0.468008, -152, -5, 74.5)
+
+[node name="SM_Env_WaterEdge_Straight_90" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 30)
+
+[node name="SM_Env_WaterEdge_Straight_91" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 40)
+
+[node name="SM_Env_WaterEdge_Straight_92" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 45)
+
+[node name="SM_Env_WaterEdge_Straight_93" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 35)
+
+[node name="SM_Env_WaterEdge_Straight_94" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 25)
+
+[node name="SM_Env_WaterEdge_Corner_06" parent="." instance=ExtResource("10_e7b8b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130, 0, 55)
+
+[node name="SM_Env_WaterEdge_Corner_05" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -145, 0, 55)
+
+[node name="SM_Env_WaterEdge_Straight_95" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -140, 0, 55)
+
+[node name="SM_Env_WaterEdge_Rock_10" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(3.91746e-06, 0, 1.67379, 0, 1.43891, 0, -1.67379, 0, 3.91746e-06, -135, -5, 14.5)
+
+[node name="SM_Env_WaterEdge_Straight_96" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 5)
+
+[node name="SM_Env_WaterEdge_Straight_97" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 15)
+
+[node name="SM_Env_WaterEdge_Straight_98" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, 20)
+
+[node name="SM_Env_WaterEdge_Rock_11" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1.84555, 0, -1, 0, 2.34047e-06, -133, -5, -26.5)
+
+[node name="SM_Env_WaterEdge_Straight_99" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, -30)
+
+[node name="SM_Env_WaterEdge_Straight_100" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, -20)
+
+[node name="SM_Env_WaterEdge_Straight_101" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, -25)
+
+[node name="SM_Env_WaterEdge_Straight_102" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -130, 0, -35)
+
+[node name="SM_Env_WaterEdge_Corner_07" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130, 0, -35)
+
+[node name="SM_Env_WaterEdge_Straight_103" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_104" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -125, 0, -35)
+
+[node name="SM_Env_WaterEdge_Straight_105" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -60)
+
+[node name="SM_Env_WaterEdge_Straight_106" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110, 0, -35)
+
+[node name="SM_Env_WaterEdge_Straight_107" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -120, 0, -35)
+
+[node name="SM_Env_WaterEdge_Straight_108" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115, 0, -35)
+
+[node name="SM_Env_WaterEdge_Rock_12" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(1, 0, 0, 0, 1.84555, 0, 0, 0, 1, -118.5, -5, -38)
+
+[node name="SM_Env_WaterEdge_Corner_08" parent="." instance=ExtResource("10_e7b8b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105, 0, -35)
+
+[node name="SM_Env_WaterEdge_Straight_109" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -80)
+
+[node name="SM_Env_WaterEdge_Straight_110" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_111" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -75)
+
+[node name="SM_Env_WaterEdge_Straight_112" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -70)
+
+[node name="SM_Env_WaterEdge_Straight_113" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -45)
+
+[node name="SM_Env_WaterEdge_Straight_114" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -50)
+
+[node name="SM_Env_WaterEdge_Straight_115" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -55)
+
+[node name="SM_Env_WaterEdge_Straight_116" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -105, 0, -65)
+
+[node name="SM_Env_WaterEdge_Rock_13" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1.84555, 0, -1, 0, 2.34047e-06, -108, -5, -61.5)
+
+[node name="SM_Env_WaterEdge_Rock_14" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.975982, 0, 0.217851, 0, 0.839955, 0, -0.217851, 0, -0.975982, -109.5, -5, -74.5)
+
+[node name="SM_Env_WaterEdge_Rock_15" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.468965, 0, 0.883217, 0, 1.84555, 0, -0.883217, 0, 0.468965, -108, -5, -44.5)
+
+[node name="SM_Env_WaterEdge_Rock_16" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.883726, 0, -0.468005, 0, 0.839955, 0, 0.468005, 0, 0.883726, -34.5, -5, -92)
+
+[node name="SM_Env_WaterEdge_Rock_17" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.883218, 0, -0.468963, 0, 1.84555, 0, 0.468963, 0, 0.883218, -95.5, -5, -88)
+
+[node name="SM_Env_WaterEdge_Rock_18" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.217849, 0, 0.975983, 0, 0.839955, 0, -0.975983, 0, 0.217849, -65.5, -5, -89.5)
+
+[node name="SM_Env_WaterEdge_Rock_19" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.932048, 0, -0.362334, 0, 1.84555, 0, 0.362334, 0, 0.932048, -20.4997, -5, -87.001)
+
+[node name="SM_Env_WaterEdge_Rock_20" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.266459, 0, 0.963846, 0, 1.84555, 0, -0.963846, 0, 0.266459, -39.5, -5, -87)
+
+[node name="SM_Env_WaterEdge_Rock_21" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(1, 0, 0, 0, 1.84555, 0, 0, 0, 1, -78.5, -5, -88)
+
+[node name="SM_Env_WaterEdge_Straight_117" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -75, 0, -85)
+
+[node name="SM_Env_WaterEdge_Corner_09" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_118" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_119" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_120" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -95, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_121" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_122" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_123" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_124" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_125" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_126" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_127" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_128" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -60, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_129" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_130" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_131" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_132" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_133" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -85)
+
+[node name="SM_Env_WaterEdge_Corner_10" parent="." instance=ExtResource("10_e7b8b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_134" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 110)
+
+[node name="SM_Env_WaterEdge_Corner_11" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, 90, 0, 35)
+
+[node name="SM_Env_WaterEdge_Rock_22" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.975983, 0, -0.217847, 0, 0.839955, 0, 0.217847, 0, 0.975983, 19.5, -5, 104.5)
+
+[node name="SM_Env_WaterEdge_Straight_135" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 85, 0, 35)
+
+[node name="SM_Env_WaterEdge_Corner_12" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 150)
+
+[node name="SM_Env_WaterEdge_Corner_13" parent="." instance=ExtResource("10_e7b8b")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, 80, 0, 35)
+
+[node name="SM_Env_WaterEdge_Straight_136" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 80, 0, 55)
+
+[node name="SM_Env_WaterEdge_Straight_137" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 80, 0, 50)
+
+[node name="SM_Env_WaterEdge_Straight_138" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 80, 0, 45)
+
+[node name="SM_Env_WaterEdge_Straight_139" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 50, 0, 75)
+
+[node name="SM_Env_WaterEdge_Rock_23" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.963847, 0, -0.266457, 0, 1.84555, 0, 0.266457, 0, 0.963847, 82, -5, 60.5)
+
+[node name="SM_Env_WaterEdge_Straight_140" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -35, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_141" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 80, 0, 60)
+
+[node name="SM_Env_WaterEdge_Straight_142" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 80, 0, 70)
+
+[node name="SM_Env_WaterEdge_Straight_143" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 80, 0, 65)
+
+[node name="SM_Env_WaterEdge_Straight_144" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 80, 0, 75)
+
+[node name="SM_Env_WaterEdge_Corner_14" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, 80, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_145" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 65, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_146" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 100)
+
+[node name="SM_Env_WaterEdge_Straight_147" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 70, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_148" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 55, 0, 75)
+
+[node name="SM_Env_WaterEdge_Rock_24" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.217845, 0, -0.975983, 0, 0.839955, 0, 0.975983, 0, -0.217845, 65.5, -5, 79.5)
+
+[node name="SM_Env_WaterEdge_Straight_149" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -30, 0, 155)
+
+[node name="SM_Env_WaterEdge_Rock_25" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1.84555, 0, 4.20411e-06, 0, -1, 78.5, -5, 78)
+
+[node name="SM_Env_WaterEdge_Straight_150" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 75, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_151" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 40, 0, 75)
+
+[node name="SM_Env_WaterEdge_Rock_26" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1.84555, 0, 4.20411e-06, 0, -1, 43.5, -5, 78)
+
+[node name="SM_Env_WaterEdge_Rock_27" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.217845, 0, -0.975983, 0, 0.839955, 0, 0.975983, 0, -0.217845, 30.5, -5, 79.5)
+
+[node name="SM_Env_WaterEdge_Straight_152" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 20, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_153" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 35, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_154" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 45, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_155" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 25, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_156" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 30, 0, 75)
+
+[node name="SM_Env_WaterEdge_Corner_15" parent="." instance=ExtResource("10_e7b8b")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, 15, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_157" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_158" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 105)
+
+[node name="SM_Env_WaterEdge_Rock_28" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.468003, 0, -0.883727, 0, 0.839955, 0, 0.883727, 0, -0.468003, 22, -5, 135.5)
+
+[node name="SM_Env_WaterEdge_Straight_159" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 145)
+
+[node name="SM_Env_WaterEdge_Straight_160" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 135)
+
+[node name="SM_Env_WaterEdge_Rock_29" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.362332, 0, -0.932049, 0, 1.84555, 0, 0.932049, 0, -0.362332, 17, -5, 149.5)
+
+[node name="SM_Env_WaterEdge_Straight_161" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 140)
+
+[node name="SM_Env_WaterEdge_Straight_162" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 90)
+
+[node name="SM_Env_WaterEdge_Rock_30" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.963847, 0, -0.266457, 0, 1.84555, 0, 0.266457, 0, 0.963847, 17, -5, 130.5)
+
+[node name="SM_Env_WaterEdge_Straight_163" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_164" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 115)
+
+[node name="SM_Env_WaterEdge_Straight_165" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 120)
+
+[node name="SM_Env_WaterEdge_Rock_31" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1.84555, 0, 1, 0, 2.34047e-06, 18, -5, 91.5)
+
+[node name="SM_Env_WaterEdge_Straight_166" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 85)
+
+[node name="SM_Env_WaterEdge_Straight_167" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 95)
+
+[node name="SM_Env_WaterEdge_Straight_168" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 125)
+
+[node name="SM_Env_WaterEdge_Corner_16" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, 15, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_169" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 5, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_170" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 10, 0, 155)
+
+[node name="SM_Env_WaterEdge_Rock_32" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.266454, 0, -0.963848, 0, 1.84555, 0, 0.963848, 0, -0.266454, -55.5, -5, 157)
+
+[node name="SM_Env_WaterEdge_Straight_171" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 0, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_172" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -5, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_173" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -65, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_174" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -60, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_175" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -15, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_176" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -50, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_177" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -20, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_178" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -10, 0, 155)
+
+[node name="SM_Env_WaterEdge_Rock_33" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1.84555, 0, 4.68095e-06, 0, -1, -16.5, -5, 158)
+
+[node name="SM_Env_WaterEdge_Rock_34" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.217844, 0, -0.975984, 0, 0.839955, 0, 0.975984, 0, -0.217844, -29.5, -5, 159.5)
+
+[node name="SM_Env_WaterEdge_Straight_179" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -45, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_180" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -40, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_181" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -25, 0, 155)
+
+[node name="SM_Env_WaterEdge_Straight_182" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -55, 0, 155)
+
+[node name="SM_Env_WaterEdge_Corner_17" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -65, 0, 155)
+
+[node name="SM_Env_WaterEdge_Corner_18" parent="." instance=ExtResource("10_e7b8b")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -65, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_183" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -130, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_184" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -145, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_185" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -95, 0, 150)
+
+[node name="SM_Env_WaterEdge_Rock_35" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.883728, 0, 0.468001, 0, 0.839955, 0, -0.468001, 0, -0.883728, -125.5, -5, 157)
+
+[node name="SM_Env_WaterEdge_Straight_186" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -135, 0, 150)
+
+[node name="SM_Env_WaterEdge_Rock_36" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.93205, 0, 0.36233, 0, 1.84555, 0, -0.36233, 0, -0.93205, -139.5, -5, 152)
+
+[node name="SM_Env_WaterEdge_Straight_187" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -125, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_188" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -100, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_189" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -80, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_190" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -120, 0, 150)
+
+[node name="SM_Env_WaterEdge_Rock_37" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.266454, 0, -0.963848, 0, 1.84555, 0, 0.963848, 0, -0.266454, -120.5, -5, 152)
+
+[node name="SM_Env_WaterEdge_Straight_191" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -90, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_192" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -140, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_193" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -105, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_194" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -110, 0, 150)
+
+[node name="SM_Env_WaterEdge_Rock_38" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.217844, 0, -0.975984, 0, 0.839955, 0, 0.975984, 0, -0.217844, -94.5, -5, 154.5)
+
+[node name="SM_Env_WaterEdge_Rock_39" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1.84555, 0, 4.68095e-06, 0, -1, -81.5, -5, 153)
+
+[node name="SM_Env_WaterEdge_Straight_195" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -75, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_196" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -85, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_197" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -115, 0, 150)
+
+[node name="SM_Env_WaterEdge_Straight_198" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -80)
+
+[node name="SM_Env_WaterEdge_Straight_199" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -130)
+
+[node name="SM_Env_WaterEdge_Rock_40" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.468003, 0, -0.883727, 0, 0.839955, 0, 0.883727, 0, -0.468003, 112, -5, -99.5)
+
+[node name="SM_Env_WaterEdge_Straight_200" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -90)
+
+[node name="SM_Env_WaterEdge_Straight_201" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -100)
+
+[node name="SM_Env_WaterEdge_Rock_41" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.362332, 0, -0.932049, 0, 1.84555, 0, 0.932049, 0, -0.362332, 107, -5, -85.5)
+
+[node name="SM_Env_WaterEdge_Straight_202" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -95)
+
+[node name="SM_Env_WaterEdge_Straight_203" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -125)
+
+[node name="SM_Env_WaterEdge_Straight_204" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 75, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_205" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -145)
+
+[node name="SM_Env_WaterEdge_Straight_206" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -105)
+
+[node name="SM_Env_WaterEdge_Rock_42" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.963847, 0, -0.266457, 0, 1.84555, 0, 0.266457, 0, 0.963847, 107, -5, -104.5)
+
+[node name="SM_Env_WaterEdge_Straight_207" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -135)
+
+[node name="SM_Env_WaterEdge_Straight_208" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -85)
+
+[node name="SM_Env_WaterEdge_Straight_209" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -120)
+
+[node name="SM_Env_WaterEdge_Straight_210" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -115)
+
+[node name="SM_Env_WaterEdge_Rock_43" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.975983, 0, -0.217847, 0, 0.839955, 0, 0.217847, 0, 0.975983, 109.5, -5, -130.5)
+
+[node name="SM_Env_WaterEdge_Rock_44" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1.84555, 0, 1, 0, 2.34047e-06, 108, -5, -143.5)
+
+[node name="SM_Env_WaterEdge_Straight_211" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -150)
+
+[node name="SM_Env_WaterEdge_Straight_212" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -140)
+
+[node name="SM_Env_WaterEdge_Straight_213" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -110)
+
+[node name="SM_Env_WaterEdge_Straight_214" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 25, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_215" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_216" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 80, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_217" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 95, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_218" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 85, 0, -155)
+
+[node name="SM_Env_WaterEdge_Rock_45" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1.84555, 0, 5.96046e-08, 0, 1, 81.5, -5, -158)
+
+[node name="SM_Env_WaterEdge_Straight_219" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 105, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_220" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 100, 0, -155)
+
+[node name="SM_Env_WaterEdge_Corner_19" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_221" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 90, 0, -155)
+
+[node name="SM_Env_WaterEdge_Rock_46" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.217849, 0, 0.975982, 0, 0.839955, 0, -0.975982, 0, 0.217849, 94.5, -5, -159.5)
+
+[node name="SM_Env_WaterEdge_Straight_222" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_223" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_224" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_225" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_226" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_227" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_228" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_229" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_230" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_231" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_232" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_233" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_234" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_235" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_236" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 120)
+
+[node name="SM_Env_WaterEdge_Corner_20" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_237" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -150)
+
+[node name="SM_Env_WaterEdge_Straight_238" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -155)
+
+[node name="SM_Env_WaterEdge_Straight_239" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -140)
+
+[node name="SM_Env_WaterEdge_Straight_240" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -10, 0, -145)
+
+[node name="SM_Env_WaterEdge_Straight_241" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 145)
+
+[node name="SM_Env_WaterEdge_Straight_242" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 140)
+
+[node name="SM_Env_WaterEdge_Straight_243" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 130)
+
+[node name="SM_Env_WaterEdge_Straight_244" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 135)
+
+[node name="SM_Env_WaterEdge_Straight_245" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, -145, 0, 125)
+
+[node name="SM_Env_WaterEdge_Straight_246" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -25)
+
+[node name="SM_Env_WaterEdge_Straight_247" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -70)
+
+[node name="SM_Env_WaterEdge_Straight_248" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -60)
+
+[node name="SM_Env_WaterEdge_Straight_249" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 90, 0, 15)
+
+[node name="SM_Env_WaterEdge_Straight_250" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 95, 0, 5)
+
+[node name="SM_Env_WaterEdge_Straight_251" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 90, 0, 35)
+
+[node name="SM_Env_WaterEdge_Straight_252" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 90, 0, 30)
+
+[node name="SM_Env_WaterEdge_Straight_253" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 90, 0, 25)
+
+[node name="SM_Env_WaterEdge_Straight_254" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 90, 0, 20)
+
+[node name="SM_Env_WaterEdge_Corner_21" parent="." instance=ExtResource("10_e7b8b")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, 90, 0, 5)
+
+[node name="SM_Env_WaterEdge_Corner_22" parent="." instance=ExtResource("12_72ce0")]
+transform = Transform3D(-1, 0, 4.68095e-06, 0, 1, 0, -4.68095e-06, 0, -1, 105, 0, 5)
+
+[node name="SM_Env_WaterEdge_Rock_47" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.266454, 0, -0.963848, 0, 1.84555, 0, 0.963848, 0, -0.266454, 94.5, -5, 7)
+
+[node name="SM_Env_WaterEdge_Straight_255" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 100, 0, 5)
+
+[node name="SM_Env_WaterEdge_Straight_256" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -55)
+
+[node name="SM_Env_WaterEdge_Straight_257" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -30)
+
+[node name="SM_Env_WaterEdge_Rock_48" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(-0.468003, 0, -0.883727, 0, 0.839955, 0, 0.883727, 0, -0.468003, 112, -5, -24.5)
+
+[node name="SM_Env_WaterEdge_Straight_258" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -15)
+
+[node name="SM_Env_WaterEdge_Straight_259" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -20)
+
+[node name="SM_Env_WaterEdge_Straight_260" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -50)
+
+[node name="SM_Env_WaterEdge_Rock_49" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.963847, 0, -0.266457, 0, 1.84555, 0, 0.266457, 0, 0.963847, 107, -5, -29.5)
+
+[node name="SM_Env_WaterEdge_Straight_261" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -45)
+
+[node name="SM_Env_WaterEdge_Straight_262" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -40)
+
+[node name="SM_Env_WaterEdge_Rock_50" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(0.975983, 0, -0.217847, 0, 0.839955, 0, 0.217847, 0, 0.975983, 109.5, -5, -55.5)
+
+[node name="SM_Env_WaterEdge_Rock_51" parent="." instance=ExtResource("2_hqq4e")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1.84555, 0, 1, 0, 2.34047e-06, 108, -5, -68.5)
+
+[node name="SM_Env_WaterEdge_Straight_263" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -75)
+
+[node name="SM_Env_WaterEdge_Straight_264" parent="." instance=ExtResource("4_5ve88")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -65)
+
+[node name="SM_Env_WaterEdge_Straight_265" parent="." instance=ExtResource("8_xuu1c")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 105, 0, -35)
+
+[node name="SM_Env_WaterEdge_Straight_266" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(-1, 0, -4.20411e-06, 0, 1, 0, 4.20411e-06, 0, -1, 60, 0, 75)
+
+[node name="SM_Env_WaterEdge_Straight_267" parent="." instance=ExtResource("6_5hq6i")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, 130)
+
+[node name="SM_Env_WaterEdge_Pipe_18" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1.12812e-05, 0, -1, 0, 1, 0, 1, 0, 1.12812e-05, 81.444, -1.5, 65.64)
+
+[node name="SM_Env_WaterEdge_Pipe_19" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1.1162e-05, 0, -1, 0, 1, 0, 1, 0, 1.1162e-05, 16.39, -1.5, 118.4)
+
+[node name="SM_Env_WaterEdge_Pipe_20" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-6.71943e-06, 0, 1, 0, 1, 0, -1, 0, -6.71943e-06, -11.44, -1.5, -137.37)
+
+[node name="SM_Env_WaterEdge_Pipe_21" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-1, 0, -1.35024e-05, 0, 1, 0, 1.35024e-05, 0, -1, 55.2, -1.5, 76.463)
+
+[node name="SM_Env_WaterEdge_Pipe_22" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1.12812e-05, 0, -1, 0, 1, 0, 1, 0, 1.12812e-05, 91.31, -1.5, 28.7)
+
+[node name="SM_Env_WaterEdge_Pipe_23" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1.12812e-05, 0, -1, 0, 1, 0, 1, 0, 1.12812e-05, 106.3, -1.5, -19.6)
+
+[node name="SM_Env_WaterEdge_Pipe_24" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -104.5, -1.5, 151.449)
+
+[node name="SM_Env_WaterEdge_Pipe_25" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1, 0, 8.9407e-06, 0, 1, 0, -8.9407e-06, 0, 1, 46, -1.5, -156.4)
+
+[node name="SM_Env_WaterEdge_Pipe_26" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1.12812e-05, 0, -1, 0, 1, 0, 1, 0, 1.12812e-05, 106.3, -1.5, -61.6)
+
+[node name="SM_Env_WaterEdge_Pipe_27" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1.12812e-05, 0, -1, 0, 1, 0, 1, 0, 1.12812e-05, 106.34, -1.5, -135.82)
+
+[node name="SM_Env_WaterEdge_Pipe_28" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1, 0, 8.9407e-06, 0, 1, 0, -8.9407e-06, 0, 1, 94.3, -1.5, -156.4)
+
+[node name="SM_Env_WaterEdge_Pipe_29" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1, 0, 8.9407e-06, 0, 1, 0, -8.9407e-06, 0, 1, 2.8, -1.5, -156.4)
+
+[node name="SM_Env_WaterEdge_Pipe_30" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1, 0, 9.17911e-06, 0, 1, 0, -9.17911e-06, 0, 1, -30.15, -1.5, -86.34)
+
+[node name="SM_Env_WaterEdge_Pipe_31" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(1, 0, 9.17911e-06, 0, 1, 0, -9.17911e-06, 0, 1, -89.61, -1.5, -86.34)
+
+[node name="SM_Env_WaterEdge_Pipe_32" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -106.31, -1.5, -71.74)
+
+[node name="SM_Env_WaterEdge_Pipe_33" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -131.2, -1.5, -28.9)
+
+[node name="SM_Env_WaterEdge_Pipe_34" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -131.23, -1.5, 22.59)
+
+[node name="SM_Env_WaterEdge_Pipe_35" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -146.34, -1.5, 69.65)
+
+[node name="SM_Env_WaterEdge_Pipe_36" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -146.34, -1.5, 133.8)
+
+[node name="SM_Env_WaterEdge_Pipe_37" parent="." instance=ExtResource("14_gj3c0")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -37, -1.5, 156.402)

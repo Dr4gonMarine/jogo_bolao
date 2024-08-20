@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Prop_Power_Cables_14.res" id="1_vuip3"]
+
+[node name="SM_Prop_Power_Cables_14" type="MeshInstance3D"]
+mesh = ExtResource("1_vuip3")
+skeleton = NodePath("")

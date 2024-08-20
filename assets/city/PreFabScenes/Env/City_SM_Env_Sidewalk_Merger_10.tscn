@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkv2uded1w0n1"]
+
+[ext_resource type="ArrayMesh" uid="uid://w8a231lf0b5y" path="res://Assets/Meshes/City_SM_Env_Sidewalk_Merger_10.res" id="1_ldjst"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_u4ipa"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ebcqd"]
+points = PackedVector3Array(0, -1.56462e-05, -5.00001, 0, -1.56462e-05, -0.000489235, 0.0254503, 0.019189, -5.00001, 4.41171, -0.230295, -5.00001, 1.77565, 0.0341944, -2.45938, 4.41758, -0.230295, -4.94813, 9.41171, -0.230295, -0.000489235, 8.97612, 0.0696965, -0.000489235, 3.98199, 0.0696965, -4.93345, 3.97612, 0.0696965, -5.00001, 10, -1.56462e-05, -5.00001, 6.80403, -0.230295, -2.7457, 9.41171, -0.230295, -0.0337706, 9.91875, -0.0541938, -0.000489235, 9.32557, 0.0696965, -0.000489235, 4.32557, 0.0696965, -5.00001, 6.71789, 0.0696965, -2.7457, 9.32557, 0.0696965, -0.0337706, 10, -1.56462e-05, -0.000489235)
+
+[node name="SM_Env_Sidewalk_Merger_03" type="MeshInstance3D"]
+mesh = ExtResource("1_ldjst")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_u4ipa")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_ebcqd")

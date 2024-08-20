@@ -1,0 +1,99 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci8xpijyaidre"]
+
+[ext_resource type="PackedScene" uid="uid://chxf77spusul5" path="res://PreFabScenes/Env/City_SM_Env_Road_410.tscn" id="1_6u8sk"]
+[ext_resource type="Material" uid="uid://bl1so36tx2xna" path="res://Materials/City_Road_1.tres" id="2_50663"]
+
+[node name="Road_Section" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -192, 0, 0)
+
+[node name="SM_Env_Road_245" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 7, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_246" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 12, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_248" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 12, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_250" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 22, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_251" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 27, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_252" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 22, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_335" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -13, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_336" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -23, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_337" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -18, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_338" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -23, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_340" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -28, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_341" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -8, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_342" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -13, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_344" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -13, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_343" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -18, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_345" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, -3, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_346" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -8, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_380" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 17, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_382" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 17, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_383" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 2, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_384" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 7, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_385" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(-6.95785e-06, 0, 1, 0, 1, 0, -1, 0, -6.95785e-06, 2, 0, 0)
+surface_material_override/0 = ExtResource("2_50663")
+
+[node name="SM_Env_Road_386" parent="." instance=ExtResource("1_6u8sk")]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, -3, 0, -10)
+surface_material_override/0 = ExtResource("2_50663")

@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://spcslijbouuo"]
+
+[ext_resource type="ArrayMesh" uid="uid://cuj758tqx03vv" path="res://Assets/Meshes/City_SM_Env_Sidewalk_Gutter_16.res" id="1_iovir"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_oatgr"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_b14ne"]
+points = PackedVector3Array(5.03968, 0.039667, 0.0396824, -0.0396824, -0.039667, -5.03968, -0.0396824, 0.039667, -5.03968, 5.03968, -0.039667, -5.03968, -0.0396824, -0.039667, 0.0396824, -0.0396824, 0.039667, 0.0396824, 5.03968, 0.039667, -5.03968, 5.03968, -0.039667, 0.0396824)
+
+[node name="SM_Env_Sidewalk_Gutter_03" type="MeshInstance3D"]
+mesh = ExtResource("1_iovir")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_oatgr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_b14ne")

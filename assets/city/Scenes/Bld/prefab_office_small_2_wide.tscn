@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://ocofij8ptilp"]
+
+[ext_resource type="PackedScene" uid="uid://cxysvdcktj6bx" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOld_Small_Base_03.tscn" id="1_mc1jj"]
+[ext_resource type="PackedScene" uid="uid://bmkgvbn5i5v2q" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOld_Small_Floor_01.tscn" id="3_6nfo1"]
+[ext_resource type="PackedScene" uid="uid://b7hjsj8suc2hs" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOld_Small_Roof_01.tscn" id="4_6dy03"]
+
+[node name="Prefab_OfficeSmall2Wide" type="Node3D"]
+
+[node name="SM_Bld_OfficeOld_Small_Base_04" parent="." instance=ExtResource("1_mc1jj")]
+
+[node name="SM_Bld_OfficeOld_Small_Floor_017" parent="." instance=ExtResource("3_6nfo1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.95112, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_018" parent="." instance=ExtResource("3_6nfo1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.95112, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Floor_019" parent="." instance=ExtResource("3_6nfo1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.9511, 0)
+
+[node name="SM_Bld_OfficeOld_Small_Roof_017" parent="." instance=ExtResource("4_6dy03")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 14.8618, 0)

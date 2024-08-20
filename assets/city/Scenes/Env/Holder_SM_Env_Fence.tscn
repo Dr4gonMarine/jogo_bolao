@@ -1,0 +1,336 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmti07rei3sm3"]
+
+[ext_resource type="PackedScene" uid="uid://c3ulrwc8lf3m8" path="res://PreFabScenes/Env/City_SM_Env_Fence_End_24.tscn" id="2_rlhf1"]
+[ext_resource type="PackedScene" uid="uid://dnb4kyrdjmum5" path="res://PreFabScenes/Env/City_SM_Env_Fence_30.tscn" id="4_x7jud"]
+
+[node name="Holder_SM_Env_Fence" type="Node3D"]
+
+[node name="City_SM_Env_Fence_End_24 0" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, 40)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 0" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 1" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, 40)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 1" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 2" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, 45)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 2" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 3" type="Node3D" parent="."]
+transform = Transform3D(-1.47422e-06, 0, 1, 0, 1, 0, -1, 0, -1.47422e-06, -35, 0, 40)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 3" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 4" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, 50)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 4" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 5" type="Node3D" parent="."]
+transform = Transform3D(-1.47422e-06, 0, 1, 0, 1, 0, -1, 0, -1.47422e-06, -35, 0, 50)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 5" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 6" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -40, 0, 55)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 6" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 7" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, 55)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 7" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 8" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, 55)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 8" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 9" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -45, 0, 55)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 9" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 10" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -50, 0, 55)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 10" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 11" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, 55)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 11" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 12" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50, 0, 55)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 12" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 13" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -55, 0, 55)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 13" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 14" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -60, 0, 55)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 14" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 15" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55, 0, 55)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 15" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 16" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -60, 0, 55)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 16" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 17" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -65, 0, 55)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 17" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 18" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -60, 0, 40)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 18" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 19" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65, 0, 55)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 19" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 20" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -8.66252e-07, 0, 1, 0, 8.66252e-07, 0, -1, -70, 0, 55)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 20" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 21" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70, 0, 55)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 21" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 22" type="Node3D" parent="."]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, -70, 0, 55)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 22" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 23" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70, 0, 45)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 23" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 24" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55, 0, 40)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 24" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 25" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55, 0, 40)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 25" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 26" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65, 0, 40)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 26" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 27" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70, 0, 50)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 27" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 28" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65, 0, 40)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 28" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 29" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70, 0, 40)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 29" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 30" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50, 0, 40)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 30" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 31" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, 40)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 31" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 32" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, 40)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 32" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 33" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, 40)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 33" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 34" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, 40)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 34" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 35" type="Node3D" parent="."]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, -70, 0, 50)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 35" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 36" type="Node3D" parent="."]
+transform = Transform3D(3.13916e-07, 0, -1, 0, 1, 0, 1, 0, 3.13916e-07, -70, 0, 45)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 36" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 37" type="Node3D" parent="."]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, 10, 0, -95)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 37" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 38" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -95)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 38" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 39" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -90)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 39" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 40" type="Node3D" parent="."]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, 10, 0, -90)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 40" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 41" type="Node3D" parent="."]
+transform = Transform3D(2.22127e-06, 0, -1, 0, 1, 0, 1, 0, 2.22127e-06, 30, 0, -100)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 41" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 42" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -85)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 42" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 43" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30, 0, -85)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 43" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 44" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0, -85)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 44" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 45" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -85)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 45" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 46" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -85)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 46" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 47" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -85)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 47" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 48" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15, 0, -85)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 48" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 49" type="Node3D" parent="."]
+transform = Transform3D(2.22127e-06, 0, -1, 0, 1, 0, 1, 0, 2.22127e-06, 30, 0, -85)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 49" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 50" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 0, -85)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 50" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 51" type="Node3D" parent="."]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 20, 0, -105)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 51" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 52" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 30, 0, -90)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 52" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 53" type="Node3D" parent="."]
+transform = Transform3D(2.22127e-06, 0, -1, 0, 1, 0, 1, 0, 2.22127e-06, 30, 0, -95)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 53" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 54" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 30, 0, -95)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 54" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 55" type="Node3D" parent="."]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, 30, 0, -100)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 55" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 56" type="Node3D" parent="."]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 30, 0, -105)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 56" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 57" type="Node3D" parent="."]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 30, 0, -105)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 57" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 58" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -105)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 58" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 59" type="Node3D" parent="."]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 25, 0, -105)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 59" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 60" type="Node3D" parent="."]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 25, 0, -105)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 60" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_30 61" type="Node3D" parent="."]
+transform = Transform3D(1, 0, -5.96046e-08, 0, 1, 0, 5.96046e-08, 0, 1, 15, 0, -105)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 61" instance=ExtResource("4_x7jud")]
+
+[node name="City_SM_Env_Fence_End_24 62" type="Node3D" parent="."]
+transform = Transform3D(2.34047e-06, 0, -1, 0, 1, 0, 1, 0, 2.34047e-06, 15, 0, -105)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 62" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 63" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -100)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 63" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_End_24 64" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, -105)
+
+[node name="SM_Env_Fence_End_01" parent="City_SM_Env_Fence_End_24 64" instance=ExtResource("2_rlhf1")]
+
+[node name="City_SM_Env_Fence_30 65" type="Node3D" parent="."]
+transform = Transform3D(2.34047e-06, 0, 1, 0, 1, 0, -1, 0, 2.34047e-06, 10, 0, -105)
+
+[node name="SM_Env_Fence_02" parent="City_SM_Env_Fence_30 65" instance=ExtResource("4_x7jud")]

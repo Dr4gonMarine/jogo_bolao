@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cdanck4phvwsy"]
+
+[ext_resource type="ArrayMesh" uid="uid://dak0rb7ys7006" path="res://Assets/Meshes/City_SM_Env_Bridge_Underside_35.res" id="1_by75i"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_kvlxo"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_gpe78"]
+points = PackedVector3Array(-5.03968, -1.56778, -5.03968, -0.133694, -0.8778, -0.13314, 0.039108, -1.56778, 0.0396824, -5.03968, -1.56778, 0.0396824, 0.039108, -1.56778, -5.03968, -4.86688, -0.8778, -4.86686, -4.86688, -0.8778, -0.13314, -0.133694, -0.8778, -4.86686)
+
+[node name="SM_Env_Bridge_Underside_14" type="MeshInstance3D"]
+mesh = ExtResource("1_by75i")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_kvlxo")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_gpe78")

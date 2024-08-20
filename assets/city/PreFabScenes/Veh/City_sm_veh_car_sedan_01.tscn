@@ -1,0 +1,56 @@
+[gd_scene load_steps=10 format=3 uid="uid://qg8qflypkqn8"]
+
+[ext_resource type="ArrayMesh" uid="uid://okh1pbcedmkj" path="res://Assets/Meshes/City_SM_Veh_Car_Sedan_01.res" id="1_uxs6g"]
+[ext_resource type="ArrayMesh" uid="uid://bta3lduobdkjs" path="res://Assets/Meshes/City_SM_Veh_Car_Sedan_Glass.res" id="2_bm5sb"]
+[ext_resource type="ArrayMesh" uid="uid://di7dpeel1qvga" path="res://Assets/Meshes/City_SM_Veh_Car_Sedan_Plates.res" id="3_eoyac"]
+[ext_resource type="ArrayMesh" uid="uid://c06fnyyqojwli" path="res://Assets/Meshes/City_SM_Veh_Car_Sedan_SteeringW.res" id="4_skbsv"]
+[ext_resource type="ArrayMesh" uid="uid://dixybhp1golb7" path="res://Assets/Meshes/City_SM_Veh_Car_Sedan_Wheel_fl.res" id="5_xibvw"]
+[ext_resource type="ArrayMesh" uid="uid://datkihy7cr5cj" path="res://Assets/Meshes/City_SM_Veh_Car_Sedan_Wheel_fr.res" id="6_v6445"]
+[ext_resource type="ArrayMesh" uid="uid://bc4hpl60vuxfp" path="res://Assets/Meshes/City_SM_Veh_Car_Sedan_Wheel_rl.res" id="7_lp23d"]
+[ext_resource type="ArrayMesh" uid="uid://58fkkun1gdwr" path="res://Assets/Meshes/City_SM_Veh_Car_Sedan_Wheel_rr.res" id="8_b3gus"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_x0v0p"]
+data = PackedVector3Array(-0.802, -1, 1.0494, -0.893, -0.3361, -0.5766, -0.6697, -0.3963, 0.8179, -0.802, -1, 1.0494, -0.893, -1, -0.5766, -0.893, -0.3361, -0.5766, -0.893, -0.3361, -0.5766, 0.6994, 0.1313, -1.2034, 0.893, -0.3361, -0.5766, -0.893, -0.3361, -0.5766, -0.6994, 0.1313, -1.2034, 0.6994, 0.1313, -1.2034, 0.893, -1, -0.5766, 0.6697, -0.3963, 0.8179, 0.893, -0.3361, -0.5766, 0.893, -1, -0.5766, 0.802, -1, 1.0494, 0.6697, -0.3963, 0.8179, 0.802, -1, 1.0494, -0.6697, -0.3963, 0.8179, 0.6697, -0.3963, 0.8179, 0.802, -1, 1.0494, -0.802, -1, 1.0494, -0.6697, -0.3963, 0.8179, -0.893, -1, -0.5766, 0.802, -1, 1.0494, 0.893, -1, -0.5766, -0.893, -1, -0.5766, -0.802, -1, 1.0494, 0.802, -1, 1.0494, 0.893, -0.3361, -0.5766, -0.6697, -0.3963, 0.8179, -0.893, -0.3361, -0.5766, 0.893, -0.3361, -0.5766, 0.6697, -0.3963, 0.8179, -0.6697, -0.3963, 0.8179, -0.6994, 0.1313, -1.2034, 0.7444, 0.1313, -2.7594, 0.6994, 0.1313, -1.2034, -0.6994, 0.1313, -1.2034, -0.7444, 0.1313, -2.7594, 0.7444, 0.1313, -2.7594, -0.893, -1, -0.5766, -0.6994, 0.1313, -1.2034, -0.893, -0.3361, -0.5766, -0.893, -1, -0.5766, -0.893, -1, -1.2034, -0.6994, 0.1313, -1.2034, 0.893, -0.3361, -0.5766, 0.893, -1, -1.2034, 0.893, -1, -0.5766, 0.893, -0.3361, -0.5766, 0.6994, 0.1313, -1.2034, 0.893, -1, -1.2034, 0.893, -1, -0.5766, -0.893, -1, -1.2034, -0.893, -1, -0.5766, 0.893, -1, -0.5766, 0.893, -1, -1.2034, -0.893, -1, -1.2034, 0.7444, 0.1313, -2.7594, 0.893, -1, -3.1608, 0.893, -1, -2.7594, 0.7444, 0.1313, -2.7594, 0.8058, -0.1986, -3.1608, 0.893, -1, -3.1608, -0.893, -1, -1.2034, -0.7444, 0.1313, -2.7594, -0.6994, 0.1313, -1.2034, -0.893, -1, -1.2034, -0.893, -1, -2.7594, -0.7444, 0.1313, -2.7594, 0.6994, 0.1313, -1.2034, 0.893, -1, -2.7594, 0.893, -1, -1.2034, 0.6994, 0.1313, -1.2034, 0.7444, 0.1313, -2.7594, 0.893, -1, -2.7594, 0.893, -1, -1.2034, -0.893, -1, -2.7594, -0.893, -1, -1.2034, 0.893, -1, -1.2034, 0.893, -1, -2.7594, -0.893, -1, -2.7594, -0.8058, -0.1986, -3.1608, 0.7816, -0.2536, -3.892, 0.8058, -0.1986, -3.1608, -0.8058, -0.1986, -3.1608, -0.7816, -0.2536, -3.892, 0.7816, -0.2536, -3.892, 0.893, -1, -2.7594, -0.893, -1, -3.1608, -0.893, -1, -2.7594, 0.893, -1, -2.7594, 0.893, -1, -3.1608, -0.893, -1, -3.1608, -0.7444, 0.1313, -2.7594, 0.8058, -0.1986, -3.1608, 0.7444, 0.1313, -2.7594, -0.7444, 0.1313, -2.7594, -0.8058, -0.1986, -3.1608, 0.8058, -0.1986, -3.1608, -0.893, -1, -2.7594, -0.8058, -0.1986, -3.1608, -0.7444, 0.1313, -2.7594, -0.893, -1, -2.7594, -0.893, -1, -3.1608, -0.8058, -0.1986, -3.1608, -0.7719, -1, -4.0228, 0.7816, -0.2536, -3.892, -0.7816, -0.2536, -3.892, -0.7719, -1, -4.0228, 0.7719, -1, -4.0228, 0.7816, -0.2536, -3.892, -0.893, -1, -3.1608, -0.7816, -0.2536, -3.892, -0.8058, -0.1986, -3.1608, -0.893, -1, -3.1608, -0.7719, -1, -4.0228, -0.7816, -0.2536, -3.892, 0.8058, -0.1986, -3.1608, 0.7719, -1, -4.0228, 0.893, -1, -3.1608, 0.8058, -0.1986, -3.1608, 0.7816, -0.2536, -3.892, 0.7719, -1, -4.0228, 0.893, -1, -3.1608, -0.7719, -1, -4.0228, -0.893, -1, -3.1608, 0.893, -1, -3.1608, 0.7719, -1, -4.0228, -0.7719, -1, -4.0228)
+
+[node name="SM_Veh_Car_Sedan_01" type="MeshInstance3D"]
+mesh = ExtResource("1_uxs6g")
+skeleton = NodePath("")
+
+[node name="SM_Veh_Car_Sedan_Glass" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_bm5sb")
+skeleton = NodePath("")
+
+[node name="SM_Veh_Car_Sedan_Plates" type="MeshInstance3D" parent="."]
+mesh = ExtResource("3_eoyac")
+skeleton = NodePath("")
+
+[node name="SM_Veh_Car_Sedan_SteeringW" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.339983, 0.940432, 0, -0.940432, 0.339983, 0.379295, 0.9672, 0.514934)
+mesh = ExtResource("4_skbsv")
+skeleton = NodePath("")
+
+[node name="SM_Veh_Car_Sedan_Wheel_fl" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.744977, 0.361439, 1.63227)
+mesh = ExtResource("5_xibvw")
+skeleton = NodePath("")
+
+[node name="SM_Veh_Car_Sedan_Wheel_fr" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.744977, 0.361439, 1.63227)
+mesh = ExtResource("6_v6445")
+skeleton = NodePath("")
+
+[node name="SM_Veh_Car_Sedan_Wheel_rl" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.744977, 0.361439, -1.24979)
+mesh = ExtResource("7_lp23d")
+skeleton = NodePath("")
+
+[node name="SM_Veh_Car_Sedan_Wheel_rr" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.744977, 0.361439, -1.24979)
+mesh = ExtResource("8_b3gus")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0101542, 1.31732, 1.57327)
+shape = SubResource("ConcavePolygonShape3D_x0v0p")

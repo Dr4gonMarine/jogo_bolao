@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cr35i557k8ebd"]
+
+[ext_resource type="ArrayMesh" uid="uid://d1fwv27cc8tnj" path="res://Assets/Meshes/City_SM_Env_Road_Bare_80.res" id="1_n2c2b"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_qb75v"]
+points = PackedVector3Array(5.03968, 0.039667, 0.0396824, -0.0396824, -0.039667, -5.03968, -0.0396824, 0.039667, -5.03968, 5.03968, -0.039667, -5.03968, -0.0396824, -0.039667, 0.0396824, -0.0396824, 0.039667, 0.0396824, 5.03968, 0.039667, -5.03968, 5.03968, -0.039667, 0.0396824)
+
+[node name="SM_Env_Road_Bare_44" type="MeshInstance3D"]
+mesh = ExtResource("1_n2c2b")
+skeleton = NodePath("")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_qb75v")

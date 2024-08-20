@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bd3pue3muu4g8"]
+
+[ext_resource type="ArrayMesh" uid="uid://ky0872oevvcq" path="res://Assets/Meshes/City_SM_Prop_Sign_Street_04.res" id="1_xegtv"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_r5cuj"]
+
+[node name="SM_Prop_Sign_Street_04" type="MeshInstance3D"]
+mesh = ExtResource("1_xegtv")
+skeleton = NodePath("")
+surface_material_override/0 = ExtResource("2_r5cuj")

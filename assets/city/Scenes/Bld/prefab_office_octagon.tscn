@@ -1,0 +1,59 @@
+[gd_scene load_steps=6 format=3 uid="uid://b30hucygumpwh"]
+
+[ext_resource type="PackedScene" uid="uid://cwfif48g016ba" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOctagon_Base_03.tscn" id="1_7n6d7"]
+[ext_resource type="Material" uid="uid://c3kkbu500qeyf" path="res://Materials/City_Mat_1A.tres" id="2_soe6v"]
+[ext_resource type="PackedScene" uid="uid://66qvd3i8fm50" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOctagon_Floor_01.tscn" id="3_he2s0"]
+[ext_resource type="PackedScene" uid="uid://bgf0xcddq80xd" path="res://PreFabScenes/Bld/City_SM_Bld_OfficeOctagon_Roof_01.tscn" id="4_pevbm"]
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_dn1vs"]
+data = PackedVector3Array(-0.103, 0.0499, 0, -0.103, -0.0499, 0, -0.0499, -0.103, 0, -0.103, 0.0499, 0, -0.0499, -0.103, 0, 0.0499, -0.103, 0, -0.0499, 0.103, 0, -0.103, 0.0499, 0, 0.0499, -0.103, 0, 0.0499, -0.103, 0, 0.103, -0.0499, 0, 0.103, 0.0499, 0, 0.0499, -0.103, 0, 0.103, 0.0499, 0, 0.0499, 0.103, 0, 0.0499, -0.103, 0, 0.0499, 0.103, 0, -0.0499, 0.103, 0, 0.0499, -0.103, 0.0398, 0.103, -0.0499, 0, 0.0499, -0.103, 0, 0.103, -0.0499, 0.0398, 0.103, -0.0499, 0, 0.0499, -0.103, 0.0398, 0.103, 0.0499, 0.0398, 0.0499, 0.103, 0, 0.103, 0.0499, 0, 0.0499, 0.103, 0.0398, 0.0499, 0.103, 0, 0.103, 0.0499, 0.0398, -0.0499, 0.103, 0.0398, -0.103, 0.0499, 0, -0.0499, 0.103, 0, -0.103, 0.0499, 0.0398, -0.103, 0.0499, 0, -0.0499, 0.103, 0.0398, -0.0499, -0.103, 0, -0.103, -0.0499, 0, -0.103, -0.0499, 0.0398, -0.103, -0.0499, 0.0398, -0.0499, -0.103, 0.0398, -0.0499, -0.103, 0, -0.0499, 0.103, 0, 0.0499, 0.103, 0, 0.0499, 0.103, 0.0398, 0.0499, 0.103, 0.0398, -0.0499, 0.103, 0.0398, -0.0499, 0.103, 0, -0.103, -0.0499, 0, -0.103, 0.0499, 0, -0.103, 0.0499, 0.0398, -0.103, 0.0499, 0.0398, -0.103, -0.0499, 0.0398, -0.103, -0.0499, 0, 0.103, 0.0499, 0.0398, 0.103, -0.0499, 0.0398, 0.0499, -0.103, 0.0398, 0.103, 0.0499, 0.0398, 0.0499, -0.103, 0.0398, -0.0499, -0.103, 0.0398, -0.0499, 0.103, 0.0398, 0.0499, 0.103, 0.0398, -0.0499, -0.103, 0.0398, -0.0499, -0.103, 0.0398, -0.103, 0.0499, 0.0398, -0.0499, 0.103, 0.0398, -0.0499, -0.103, 0.0398, 0.0499, 0.103, 0.0398, 0.103, 0.0499, 0.0398, -0.0499, -0.103, 0.0398, -0.103, -0.0499, 0.0398, -0.103, 0.0499, 0.0398, 0.103, 0.0499, 0, 0.103, -0.0499, 0, 0.103, -0.0499, 0.0398, 0.103, -0.0499, 0.0398, 0.103, 0.0499, 0.0398, 0.103, 0.0499, 0, 0.0499, -0.103, 0, -0.0499, -0.103, 0, -0.0499, -0.103, 0.0398, -0.0499, -0.103, 0.0398, 0.0499, -0.103, 0.0398, 0.0499, -0.103, 0)
+
+[node name="Prefab_OfficeOctagon" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.565, 0, 14.6832)
+
+[node name="SM_Bld_OfficeOctagon_Base_04" parent="." instance=ExtResource("1_7n6d7")]
+surface_material_override/0 = ExtResource("2_soe6v")
+
+[node name="SM_Bld_OfficeOctagon_Floor_06" parent="." instance=ExtResource("3_he2s0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.75, 0)
+
+[node name="SM_Bld_OfficeOctagon_Floor_07" parent="." instance=ExtResource("3_he2s0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.75, 0)
+
+[node name="SM_Bld_OfficeOctagon_Floor_08" parent="." instance=ExtResource("3_he2s0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.75, 0)
+
+[node name="SM_Bld_OfficeOctagon_Floor_09" parent="." instance=ExtResource("3_he2s0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.75, 0)
+
+[node name="SM_Bld_OfficeOctagon_Floor_10" parent="." instance=ExtResource("3_he2s0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15.75, 0)
+
+[node name="SM_Bld_OfficeOctagon_Roof_02" parent="." instance=ExtResource("4_pevbm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 18.75, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(100, 0, 0, 0, -4.37114e-06, -100, 0, 100, -4.37114e-06, 0, 4.10616, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_dn1vs")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.0399099)
+shape = SubResource("ConcavePolygonShape3D_dn1vs")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.079206)
+shape = SubResource("ConcavePolygonShape3D_dn1vs")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.49012e-08, -0.119152)
+shape = SubResource("ConcavePolygonShape3D_dn1vs")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.49012e-08, -0.159422)
+shape = SubResource("ConcavePolygonShape3D_dn1vs")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.49012e-08, -0.200017)
+shape = SubResource("ConcavePolygonShape3D_dn1vs")

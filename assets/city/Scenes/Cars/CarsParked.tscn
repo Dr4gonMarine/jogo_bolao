@@ -1,0 +1,57 @@
+[gd_scene load_steps=12 format=3 uid="uid://bcpd0wsrdin4w"]
+
+[ext_resource type="PackedScene" uid="uid://cpn6xy5vb2gof" path="res://PreFabScenes/Veh/City_SM_Veh_Car_Ambo_01.tscn" id="1_5bleg"]
+[ext_resource type="Material" uid="uid://0qx7v364d88f" path="res://Materials/City_Mat_1B.tres" id="3_38kc1"]
+[ext_resource type="Material" uid="uid://dwcrab3ef23al" path="res://Materials/City_Mat_4A.tres" id="5_1yly8"]
+[ext_resource type="Material" uid="uid://d1g2wcy3k6d6m" path="res://Materials/City_Mat_2C.tres" id="6_ubsbd"]
+[ext_resource type="Material" uid="uid://dw116wfgfihc6" path="res://Materials/City_Mat_3A.tres" id="7_px72d"]
+[ext_resource type="Material" uid="uid://cf0gq1c8cbgbt" path="res://Materials/City_Mat_2B.tres" id="11_k0h2g"]
+[ext_resource type="PackedScene" uid="uid://dm3w3ogfu46du" path="res://PreFabScenes/Veh/City_sm_veh_car_muscle_01.tscn" id="12_4n17p"]
+[ext_resource type="PackedScene" uid="uid://qg8qflypkqn8" path="res://PreFabScenes/Veh/City_sm_veh_car_sedan_01.tscn" id="14_qk2s0"]
+[ext_resource type="PackedScene" uid="uid://c26vfvu3tt4e2" path="res://PreFabScenes/Veh/City_SM_Veh_Car_Medium_01.tscn" id="16_08uik"]
+[ext_resource type="PackedScene" uid="uid://1tqq2xlmtehm" path="res://PreFabScenes/Veh/City_SM_veh_car_van_01.tscn" id="20_j32bn"]
+[ext_resource type="PackedScene" uid="uid://l7jbyocwf6p0" path="res://PreFabScenes/Veh/City_sm_veh_car_small_01.tscn" id="22_y01q2"]
+
+[node name="CarsParked" type="Node3D"]
+
+[node name="SM_Veh_Car_Ambo_02" parent="." instance=ExtResource("1_5bleg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.5, 0, 82.5)
+
+[node name="SM_Veh_Car_Small_01" parent="." instance=ExtResource("22_y01q2")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -53.5, 0, 32.75)
+surface_material_override/0 = ExtResource("3_38kc1")
+
+[node name="SM_Veh_Car_Medium_04" parent="." instance=ExtResource("16_08uik")]
+transform = Transform3D(-1, 0, -1.27872e-05, 0, 1, 0, 1.27872e-05, 0, -1, -46.5, 0, 33)
+
+[node name="SM_Veh_Car_Medium_08" parent="." instance=ExtResource("16_08uik")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -36.75, 0, 22.5)
+
+[node name="SM_Veh_Car_Small_03" parent="." instance=ExtResource("22_y01q2")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -46.75, 0, 22.25)
+surface_material_override/0 = ExtResource("5_1yly8")
+
+[node name="SM_Veh_Car_Muscle_09" parent="." instance=ExtResource("12_4n17p")]
+transform = Transform3D(1, 0, 2.38419e-07, 0, 1, 0, -2.38419e-07, 0, 1, -43.5, 0, 22.75)
+
+[node name="SM_Veh_Car_Sedan_16" parent="." instance=ExtResource("14_qk2s0")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -43.25, 0, 32.75)
+surface_material_override/0 = ExtResource("6_ubsbd")
+
+[node name="SM_Veh_Car_Small_04" parent="." instance=ExtResource("22_y01q2")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -39.75, 0, 32.75)
+surface_material_override/0 = ExtResource("6_ubsbd")
+
+[node name="SM_Veh_Car_Medium_27" parent="." instance=ExtResource("16_08uik")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -63.25, 0, 33)
+
+[node name="SM_Veh_Car_Sedan_17" parent="." instance=ExtResource("14_qk2s0")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -60, 0, 33)
+surface_material_override/0 = ExtResource("7_px72d")
+
+[node name="SM_Veh_Car_Van_02" parent="." instance=ExtResource("20_j32bn")]
+transform = Transform3D(-1, 0, -4.68095e-06, 0, 1, 0, 4.68095e-06, 0, -1, -40, 0, 22.5)
+
+[node name="SM_Veh_Car_Small_05" parent="." instance=ExtResource("22_y01q2")]
+transform = Transform3D(1, 0, 9.11951e-06, 0, 1, 0, -9.11951e-06, 0, 1, -30, 0, 22.25)
+surface_material_override/0 = ExtResource("11_k0h2g")

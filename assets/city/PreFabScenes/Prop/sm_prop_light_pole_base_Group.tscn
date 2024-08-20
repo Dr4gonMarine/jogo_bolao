@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://b8tcb7r4r8t0y"]
+
+[ext_resource type="ArrayMesh" uid="uid://bd1drwwhv3qha" path="res://Assets/Meshes/City_SM_Prop_LightPole_Base_61.res" id="1_kadr2"]
+[ext_resource type="ArrayMesh" uid="uid://wihlxg8i8nik" path="res://Assets/Meshes/City_SM_Prop_Power_Cables_14.res" id="2_5rmvq"]
+[ext_resource type="ArrayMesh" uid="uid://dwk2wtidjfxgw" path="res://Assets/Meshes/City_SM_Prop_Power_Cables_09.res" id="3_tdxdk"]
+
+[node name="SM_Prop_LightPole_Base_18" type="MeshInstance3D"]
+mesh = ExtResource("1_kadr2")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_127" type="MeshInstance3D" parent="."]
+transform = Transform3D(-5.126e-06, 0, 1.48253, 0, 1.36426, 0, -1, 0, -7.59945e-06, -10, 5, -0.0199535)
+mesh = ExtResource("2_5rmvq")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_117" type="MeshInstance3D" parent="."]
+transform = Transform3D(-5.126e-06, 0, 1.48253, 0, 1.36426, 0, -1, 0, -7.59945e-06, -9.99994, 5, 12.1)
+mesh = ExtResource("2_5rmvq")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Base_207" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, -4.41074e-06, 0, 1, 0, 4.41074e-06, 0, -1, -19.9999, -0.18, 12.1001)
+mesh = ExtResource("1_kadr2")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Base_198" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, -4.41074e-06, 0, 1, 0, 4.41074e-06, 0, -1, 5.62549e-05, -0.18, 12.1)
+mesh = ExtResource("1_kadr2")
+skeleton = NodePath("")
+
+[node name="SM_Prop_LightPole_Base_177" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, 9.29832e-05)
+mesh = ExtResource("1_kadr2")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_096" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.31282e-06, 0, -1, 0, 1, 0, 0.970065, 0, 2.38419e-06, -19.9999, 5, 12.0001)
+mesh = ExtResource("3_tdxdk")
+skeleton = NodePath("")
+
+[node name="SM_Prop_Power_Cables_087" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.31282e-06, 0, -1, 0, 1, 0, 0.970065, 0, 2.38419e-06, 5.57899e-05, 5, 12)
+mesh = ExtResource("3_tdxdk")
+skeleton = NodePath("")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.00783646, 0.999969, 0, -0.999969, 0.00783646, 0, 6.2718, 1.99749)
+light_color = Color(0.996078, 0.921569, 0.835294, 1)
+light_energy = 22.0
+light_volumetric_fog_energy = 1.155
+shadow_enabled = true
+spot_range = 7.389
+spot_angle = 25.24

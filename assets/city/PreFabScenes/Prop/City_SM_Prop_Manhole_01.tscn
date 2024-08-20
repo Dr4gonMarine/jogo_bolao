@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="ArrayMesh" path="res://Assets/Meshes/City_SM_Prop_Manhole_01.res" id="1_ru65v"]
+
+[node name="SM_Prop_Manhole_01" type="MeshInstance3D"]
+mesh = ExtResource("1_ru65v")
+skeleton = NodePath("")
