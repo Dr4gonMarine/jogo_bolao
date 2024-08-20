@@ -12,6 +12,7 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	hud.speedValue = bola.velocidade_atual
+	hud.sizeValue = bola.sphere_shape.radius
 
 func _finish_collision(body: Node3D) -> void:
 	if(body.is_in_group("ball")):

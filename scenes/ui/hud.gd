@@ -1,7 +1,10 @@
 extends CanvasLayer
 
 var speedValue : float
-@onready var speed: Label = $Control/ColorRect/Speed
+var sizeValue : float
+@onready var speed: Label = $Control/Speed
+@onready var size: Label = $Control/Size
 
 func _process(delta: float) -> void:
-	speed.text = str(snapped(speedValue,1)) + " Km/h"
+	speed.text = "Speed: " + str(snapped(speedValue,0.1)) + " Km/h"
+	size.text = "Size: " + str(snapped(sizeValue,0.001)) + " m"
